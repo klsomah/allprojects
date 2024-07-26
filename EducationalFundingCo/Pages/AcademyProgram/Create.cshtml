@@ -1,0 +1,185 @@
+﻿@page
+@model EducationalFundingCo.Pages.AcademyProgram.CreateModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<style>
+
+    .form-control:disabled{
+        color: #000000;
+        border-color: #e6e8ec;
+        background: #e6e8ec;
+        opacity: 1.3;
+    }
+</style>
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <h4 class="text-primary">Program Form</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item breadcrumb-item-first"><a asp-page="/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Form</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small"><span class="material-icons">settings_applications</span></button>
+    </nav>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="rg-card-simple equal-height">
+                <header>
+                    <h5>Add Program Form</h5>
+                </header>
+                <section>
+                    <form method="post" class="was-validated">
+                     @*   @{
+                            int SchoolId = Convert.ToInt32(HttpContext.Session.GetString("SchoolId"));
+
+                            <input type="hidden" asp-for=@SchoolId class="form-control" placeholder="School Name" >
+                        }*@
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">School Name</label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    @{
+                                        //string schoolName = HttpContext.Session.GetString("SchoolName").ToString();
+                                        string schoolName = (HttpContext.Session.GetString("SchoolName") ?? "").ToString();
+                                    }
+                                    <input asp-for=@schoolName class="form-control" placeholder="School Name" required disabled="disabled">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="AcademyProgram.ProgramName" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    @{
+                                        int SchoolId = Convert.ToInt32(HttpContext.Session.GetString("SchoolId"));
+                                    }
+                                    <input asp-for="AcademyProgram.ProgramName" class="form-control school" placeholder="Program Title" required id="@SchoolId" itemid="@SchoolId">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="AcademyProgram.IncomePercentage" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="AcademyProgram.IncomePercentage" class="form-control wholeNum" placeholder="Income Percentage" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">Duration (Months)</label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="AcademyProgram.Duration" class="form-control wholeNum" placeholder="Duration" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="AcademyProgram.Cap" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="AcademyProgram.Cap" class="form-control currencymask" placeholder="Cap" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="AcademyProgram.MinIncome" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="AcademyProgram.MinIncome" class="form-control currencymask" placeholder="Minimum Income" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">MaxDefermentPeriod (Months)</label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="AcademyProgram.MaxDefermentPeriod" class="form-control wholeNum" placeholder="Maximum Deferment Period" required>
+                                </div>
+                            </div>
+                        </div>
+                        @*<div class="form-group row">
+                            <label asp-for="AcademyProgram.StartCollecting" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="AcademyProgram.StartCollecting" class="form-control" placeholder="Start Collecting Date" type="date" required>
+                                </div>
+                            </div>
+                        </div>*@
+
+                        <div class="offset-lg-4 col-lg-8">
+                            <button class="btn btn-primary" type="submit" id="btnSubmit">Submit</button>
+                            <button class="btn btn-secondary" type="submit">Cancel</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+<script src="~/assets/js/jquery.inputmask.js"></script>
+<script type="text/javascript">
+        console.log(navigator.userAgent);
+    $(".datemask").inputmask('99/99/9999', { placeholder: "mm/dd/yyyy" });
+
+    $(".currencymask").inputmask('currency', {
+        rightAlign: false
+    });
+    $(".phonemask").inputmask("1(999) 999-9999", {
+        inputFormat: "1(999) 999-9999",
+        outputFormat: "1(999) 999-9999",
+        inputEventOnly: true
+    });
+    $(".wholeNum").inputmask('99', { regex: "^[1-9][0-9]?$|^100$" });
+
+ 
+ 
+    //debugger;
+    //var SchoolId = $(".school").first().attr("id");
+    //$('#btnSubmit').click(function(){
+
+    //    $.ajax({
+    //        url: "@Url.Page("Create", "CreateProgram")",
+    //        typr: "GET",
+    //        data: { "SchoolId": "" + SchoolId + "" },
+    //        contentType: "application/json;charset=UTF-8",
+    //        dataType: "json",
+    //        success: function (response) {
+
+    //            console.log(response);
+
+
+    //        },
+    //        error: function (response) {
+    //            console.log(response);
+
+    //        }
+    //    });
+
+
+    //});
+
+ 
+     
+
+    
+</script>

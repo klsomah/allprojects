@@ -1,0 +1,64 @@
+﻿@page
+@model EducationalFundingCo.Pages.Configurations.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="rg-card-simple equal-height">
+            <header>
+                <div class="heading">
+                    <h5>Configuration Values</h5>
+                </div>
+                <div>
+                    <a asp-page="Create">Create New</a>
+                </div>
+            </header>
+
+            <section>
+                <table id="manageProgram" class="table rg-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Key</th>
+                            <th scope="col">Values</th>
+                            <th scope="col">School Name</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ConfigValue)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.KeyPair)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ValuePair)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.School.Name)
+                                </td>
+                               
+                                <td>
+                                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,1119 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="modinatheme">
+    <meta name="description" content="SolarGlow & Solar Renewable Energy Html Template">
+    <!-- ======== Page title ============ -->
+    <title>SunPower Solutions LLC</title>
+    <!--<< Favicon >>-->
+    <link rel="shortcut icon" href="~/assets/img/favicon.svg">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <!--<< Font Awesome.css >>-->
+    <link rel="stylesheet" href="~/assets/css/font-awesome.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="~/assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="~/assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="~/assets/css/nice-select.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="~/assets/css/main.css">
+    <!--<< Style.css >>-->
+    <link rel="stylesheet" href="~/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
+            </div>
+            <div class="txt-loading">
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="U" class="letters-loading">
+                    U
+                </span>
+                <span data-text-preloader="N" class="letters-loading">
+                    N
+                </span>
+                <span data-text-preloader="P" class="letters-loading">
+                    P
+                </span>
+                <span data-text-preloader="O" class="letters-loading">
+                    O
+                </span>
+                <span data-text-preloader="W" class="letters-loading">
+                    W
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+                <span data-text-preloader="R" class="letters-loading">
+                   R
+                </span>
+                
+            </div>
+            <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<< Mouse Cursor Start >>-->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- Back To Top Start -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a asp-page="/">
+                                <img src="~/assets/img/logo/sunpower-logo.svg" alt="logo-img">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Regular inspection and maintenance services to prevent buildup of debris. This can include applying hydrophobic coatings to reduce the frequency of cleaning.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">298 Baywood Way Hiram, GA 30141</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:Rmcfarland@sunpwrsolutions.com"><span class="mailto:Rmcfarland@sunpwrsolutions.com">rmcfarland@sunpwrsolutions.com</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+6786443853">+678-644-3853</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="#contactus" class="theme-btn text-center">
+                                <span>get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="https://www.facebook.com/profile.php?id=61561710900161" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/Sunpowerhq"><i class="fab fa-twitter" target="_blank"></i></a>
+                            <a href="https://www.linkedin.com/in/richard-mcfarland-35a93051" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Top Section Start -->
+    <div class="header-top">
+        <div class="container-fluid">
+            <div class="header-top-wrapper">
+                <ul class="contact-list">
+                    <li>
+                        <i class="far fa-phone-alt"></i>
+                        <a href="tel:6786443853">+678-644-3853</a>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:Rmcfarland@sunpwrsolutions.com" class="link">rmcfarland@sunpwrsolutions.com</a>
+                    </li>
+                    <li>
+                        <i class="far fa-map-marker-alt"></i>
+                        298 Baywood Way Hiram, GA 30141
+                    </li>
+                </ul>
+                <div class="top-right">
+                    <div class="social-icon d-flex align-items-center">
+                        <span>Follow Us:</span>
+                        <a href="https://www.facebook.com/profile.php?id=61561710900161" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Sunpowerhq"><i class="fab fa-twitter" target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/richard-mcfarland-35a93051" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section Start -->
+    <header id="header-sticky" class="header-1">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="logo">
+                        <a asp-page="/" class="header-logo">
+                            <img src="assets/img/logo/sunpower-logo.svg" alt="logo-img">
+                        </a>
+                    </div>
+                    <div class="header-left">
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="active menu-thumb">
+                                            <a asp-page="/">
+                                                Home
+                                            </a>
+                                           
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="#about">about us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#service">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contactus">contact us</a>
+                                        </li>
+                                      @*   <li>
+                                            <a href="#team">Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="#blog">Blog</a>
+                                        </li> *@
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
+                        <div class="header-button">
+                            <a href="#contactus" class="theme-btn">
+                                Get a quote <i class="far fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="header__hamburger d-xl-none my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Area Start -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section Start -->
+    <section class="hero-section hero-1">
+        <div class="array-button">
+            <button class="array-prev"><i class="far fa-chevron-right"></i></button>
+            <button class="array-next"><i class="far fa-chevron-left"></i></button>
+        </div>
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/background1.jpg');"></div>
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-lg-8">
+                                <div class="hero-content">
+                                    <h6 data-animation="slideInRight" data-duration="2s" data-delay=".3s">Crucial maintenance task</h6>
+                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+                                        Inspection of panels for damage
+                                    </h1>
+                                    <div class="hero-button">
+                                        <a href="#about" class="theme-btn theme-color-2" data-animation="slideInRight" data-duration="2s" data-delay=".7s">Learn More</a>
+                                        <a href="#service" class="theme-btn bg-color" data-animation="slideInRight" data-duration="2s" data-delay=".7s">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/background2.jpg');"></div>
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-lg-8">
+                                <div class="hero-content">
+                                    <h6 data-animation="slideInRight" data-duration="2s" data-delay=".3s">Solar farm cleaning</h6>
+                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+                                        Ensure optimal performance
+                                    </h1>
+                                    <div class="hero-button">
+                                        <a href="#about" class="theme-btn theme-color-2" data-animation="slideInRight" data-duration="2s" data-delay=".7s">Learn More</a>
+                                        <a href="#service" class="theme-btn bg-color" data-animation="slideInRight" data-duration="2s" data-delay=".7s">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/background3.jpg');"></div>
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-lg-8">
+                                <div class="hero-content">
+                                    <h6 data-animation="slideInRight" data-duration="2s" data-delay=".3s">Clean Dust and other debris</h6>
+                                    <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+                                        Ensure efficiency of solar panels
+                                    </h1>
+                                    <div class="hero-button">
+                                        <a href="#about" class="theme-btn theme-color-2" data-animation="slideInRight" data-duration="2s" data-delay=".7s">Learn More</a>
+                                        <a href="#service" class="theme-btn bg-color" data-animation="slideInRight" data-duration="2s" data-delay=".7s">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about-section fix section-padding" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="about-image">
+                            <img src="assets/img/about/about1.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">About Us</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">SunPower Solutions LLC.</h2>
+                            </div>
+                            <ul class="nav mt-4 mt-md-0" role="tablist">
+                                <li class="nav-item wow fadeInUp" data-wow-delay=".3s" role="presentation">
+                                    <a href="#technical" data-bs-toggle="tab" class="nav-link active" aria-selected="true" role="tab">
+                                        Technical
+                                    </a>
+                                </li>
+                                <li class="nav-item wow fadeInUp" data-wow-delay=".5s" role="presentation">
+                                    <a href="#work" data-bs-toggle="tab" class="nav-link" aria-selected="false" role="tab" tabindex="-1">
+                                        Our Work
+                                    </a>
+                                </li>
+                                <li class="nav-item wow fadeInUp" data-wow-delay=".7s" role="presentation">
+                                    <a href="#ambition" data-bs-toggle="tab" class="nav-link" aria-selected="false" role="tab" tabindex="-1">
+                                        Ambition
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="technical" class="tab-pane fade show active" role="tabpanel">
+                                    <div class="row g-4">
+                                        <div class="col-md-6">
+                                            <div class="technical-site-item">
+                                                <div class="content">
+                                                    <h3 class="wow fadeInUp" data-wow-delay=".3s">Technical</h3>
+                                                    <p class="wow fadeInUp" data-wow-delay=".5s">Welcome to Sunpower solutions LLC where we are dedicated to keeping your solar energy system operating at its peak performance. By employing different cleaning methods and best practices.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                                            <div class="thumb">
+                                                <img src="assets/img/about/aboutsmall.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-area">
+                                        <div class="icon-items wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="icon">
+                                                <img src="assets/img/about/icon/01.svg" alt="img">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Automated Cleaning!</h5>
+                                                Reduces costs and can clean <br />large areas efficiently 
+                                            </div>
+                                        </div>
+                                        <div class="icon-items wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="icon">
+                                                <img src="assets/img/about/icon/02.svg" alt="img">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Electrostatic Cleaning!</h5>
+                                                No water or physical contact <br> reducing the risk of damage
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="work" class="tab-pane fade" role="tabpanel">
+                                    <div class="row g-4">
+                                        <div class="col-md-6">
+                                            <div class="technical-site-item">
+                                                <div class="content">
+                                                    <h3>Work</h3>
+                                                    <p>Our team of experienced technicians provides comprehensive maintenance services to ensure your solar panels are clean, efficient, and problem-free.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="thumb">
+                                                <img src="assets/img/about/aboutsmall.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-area">
+                                        <div class="icon-items">
+                                            <div class="icon">
+                                                <img src="assets/img/about/icon/01.svg" alt="img">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Automated Cleaning!</h5>
+                                                Reduces costs and can clean <br />large areas efficiently
+                                            </div>
+                                        </div>
+                                        <div class="icon-items">
+                                            <div class="icon">
+                                                <img src="assets/img/about/icon/02.svg" alt="img">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Electrostatic Cleaning!</h5>
+                                                No water or physical contact <br> reducing the risk of damage
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="ambition" class="tab-pane fade" role="tabpanel">
+                                    <div class="row g-4">
+                                        <div class="col-md-6">
+                                            <div class="technical-site-item">
+                                                <div class="content">
+                                                    <h3>Our Goals</h3>
+                                                    <p> Trust Sunpower Solutions to keep your solar investment running smoothly. We offer routine inspections, cleaning, repairs, and upgrades to maximize the lifespan and energy output of your solar system.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="thumb">
+                                                <img src="assets/img/about/aboutsmall.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-area">
+                                        <div class="icon-items">
+                                            <div class="icon">
+                                                <img src="assets/img/about/icon/01.svg" alt="img">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Automated Cleaning!</h5>
+                                                Reduces costs and can clean <br />large areas efficiently
+                                            </div>
+                                        </div>
+                                        <div class="icon-items">
+                                            <div class="icon">
+                                                <img src="assets/img/about/icon/02.svg" alt="img">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Electrostatic Cleaning!</h5>
+                                                No water or physical contact <br> reducing the risk of damage
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section Start -->
+    <section class="service-section section-padding section-bg fix" id="service">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="wow fadeInUp">Our Services</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">We provide professional cleaning and maintenance of solar panels.</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="service-card-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/service1.jpg" alt="img">
+                        </div>
+                        <div class="service-content">
+                            <h3><a href="service-details.html">Manual Cleaning Services</a></h3>
+                            <p>Teams of trained technicians use brushes, squeegees, and cleaning solutions to manually clean each solar panel.
+                                This approach is thorough and allows for visual inspections.
+                            </p>
+                            @* <a href="service-details.html" class="theme-btn">Learn More <i class="far fa-long-arrow-right"></i></a> *@
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="service-card-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/service2.jpg" alt="img">
+                        </div>
+                        <div class="service-content">
+                            <h3><a href="service-details.html">Automated Cleaning Systems</a></h3>
+                            <p>automated robotic cleaners that move across the panels, using brushes, air blowers, or water jets to clean the surfaces. These systems can be programmed for regular cleaning intervals.</p>
+                            @* <a href="service-details.html" class="theme-btn">Learn More <i class="far fa-long-arrow-right"></i></a> *@
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="service-card-items">
+                        <div class="service-image">
+                            <img src="assets/img/service/service3.jpg" alt="img">
+                        </div>
+                        <div class="service-content">
+                            <h3><a href="service-details.html">Preventative Maintenance Services</a></h3>
+                            <p>Regular inspection and maintenance services to prevent buildup of debris. This can include applying hydrophobic coatings to reduce the frequency of cleaning. </p>
+                            @* <a href="service-details.html" class="theme-btn">Learn More <i class="far fa-long-arrow-right"></i></a> *@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section Start -->
+    @* <section class="team-section fix section-padding" id="team">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <span class="wow fadeInUp">Team members</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Adorn your Home with <br> Green Energy</h2>
+                </div>
+                <div class="array-button wow fadeInUp" data-wow-delay=".5s">
+                    <button class="array-prev"><i class="far fa-chevron-left"></i></button>
+                    <button class="array-next"><i class="far fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper team-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="team-box-items">
+                            <div class="team-image">
+                                <img src="assets/img/team/01.jpg" alt="img">
+                                <div class="team-content">
+                                    <p>Omitted</p>
+                                    <h3><a href="team-details.html">Hub of tech</a></h3>
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                        <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-box-items">
+                            <div class="team-image">
+                                <img src="assets/img/team/02.jpg" alt="img">
+                                <div class="team-content">
+                                    <p>Omitted</p>
+                                    <h3><a href="team-details.html">Sustainable Peace</a></h3>
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                        <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-box-items">
+                            <div class="team-image">
+                                <img src="assets/img/team/03.jpg" alt="img">
+                                <div class="team-content">
+                                    <p>Omitted</p>
+                                    <h3><a href="team-details.html">Use solar</a></h3>
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                        <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> *@
+
+    <!-- Contact Section Start -->
+    <section class="contact-section-2 fix section-padding pt-0" id="contactus">
+        <div class="container">
+            <div class="main-contact-form-items">
+                <div class="section-title text-center">
+                    <span class="sub-title color-2 wow fadeInUp">Write Here</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Get In Touch
+                    </h2>
+                </div>
+                <form action="contact.php" id="contact-form" method="POST" class="mt-4 mt-md-0">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="form-clt">
+                                <input type="text" name="name" id="name" placeholder="Your Name*">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-clt">
+                                <input type="text" name="email" id="email" placeholder="Your Email*">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-clt">
+                                <input type="text" name="text" id="phone" placeholder="Phone*">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-clt">
+                                <input type="text" name="text" id="subject" placeholder="Subject*">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-clt">
+                                <textarea name="message" id="message" placeholder="Write Message*"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="submit" class="theme-btn center d-block">
+                                Send Your Meassage
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+   @*  <!-- Project Section Start -->
+    <section class="project-section section-padding pt-0" id="project">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="wow fadeInUp">Our case studies</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Experience The Power of <br> The Sun at its Finest</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="project-card-items">
+                        <div class="project-image">
+                            <img src="assets/img/project/01.jpg" alt="img">
+                            <div class="project-content">
+                                <p>Delivery</p>
+                                <h3><a href="project-details.html">Modern Vehicles Fleet</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="project-card-items">
+                        <div class="project-image">
+                            <img src="assets/img/project/02.jpg" alt="img">
+                            <div class="project-content">
+                                <p>Delivery</p>
+                                <h3><a href="project-details.html">Modern Vehicles Fleet</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="project-card-items">
+                        <div class="project-image">
+                            <img src="assets/img/project/03.jpg" alt="img">
+                            <div class="project-content">
+                                <p>Delivery</p>
+                                <h3><a href="project-details.html">Modern Vehicles Fleet</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faq Section Start -->
+    <section class="faq-section fix section-padding">
+        <div class="faq-image">
+            <img src="assets/img/faq.jpg" alt="img">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-8">
+                    <div class="faq-content">
+                        <div class="section-title">
+                            <span class="wow fadeInUp">ask something</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                Do You Have Any
+                                Question Please?
+                            </h2>
+                        </div>
+                        <div class="faq-accordion pt-3">
+                            <div class="accordion" id="accordion">
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="true" aria-controls="faq2">
+                                            Contrary to popular belief, Lorem Ipsum ?
+                                        </button>
+                                    </h4>
+                                    <div id="faq2" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            It is a long established fact that a reader will be distr acted bioiiy the readable content of a page when looking at its layout  Thoiie point of using.It is a long established fact
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                            Many desktop publishing packages page ?
+                                        </button>
+                                    </h4>
+                                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            It is a long established fact that a reader will be distr acted bioiiy the readable content of a page when looking at its layout  Thoiie point of using.It is a long established fact
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                    <h4 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                            Lorem Ipsum is simply dumm iandtype ?
+                                        </button>
+                                    </h4>
+                                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            It is a long established fact that a reader will be distr acted bioiiy the readable content of a page when looking at its layout  Thoiie point of using.It is a long established fact
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section Start -->
+    <section class="testimonial-section fix section-padding">
+        <div class="map-shape">
+            <img src="assets/img/testimonial/map-shape.png" alt="shape-img">
+        </div>
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="wow fadeInUp">Clients review</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Begin with an idea and <br> end with success</h2>
+            </div>
+            <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card-items">
+                            <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-1.png');">
+                                <div class="icon">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                            </div>
+                            <p>
+                                It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done
+                            </p>
+                            <div class="client-info">
+                                <span>Founder</span>
+                                <h3>Leslie Alexander</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card-items">
+                            <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-2.png');">
+                                <div class="icon">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                            </div>
+                            <p>
+                                It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done
+                            </p>
+                            <div class="client-info">
+                                <span>Founder</span>
+                                <h3>Albert Flores</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card-items">
+                            <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-3.png');">
+                                <div class="icon">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                            </div>
+                            <p>
+                                It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done
+                            </p>
+                            <div class="client-info">
+                                <span>Founder</span>
+                                <h3>Guy Hawkins</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section Start -->
+    <section class="work-process fix section-bg section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="work-process-left">
+                        <span class="wow fadeInUp">Work process</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">How we work</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".5s">
+                            Lorem ipsum amonsectetur. Nisla libero arcu adipiscing lectus ab biscuit Lorem ipsum amonsectetur. Nisla
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="work-process-card-items">
+                        <h2>01</h2>
+                        <h5>Adding Green Energy to your Life</h5>
+                        <p>Lorem ipsum amonsectetur. Nisla libero arcu adipiscing lectus ab biscuit</p>
+                        <a href="about.html" class="link-btn">Read More <i class="far fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="work-process-card-items">
+                        <h2>02</h2>
+                        <h5>Developing future with solar solutions</h5>
+                        <p>Lorem ipsum amonsectetur. Nisla libero arcu adipiscing lectus ab biscuit</p>
+                        <a href="about.html" class="link-btn">Read More <i class="far fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="work-process-card-items">
+                        <h2>03</h2>
+                        <h5>Adorn your Home with Green Energy</h5>
+                        <p>Lorem ipsum amonsectetur. Nisla libero arcu adipiscing lectus ab biscuit</p>
+                        <a href="about.html" class="link-btn">Read More <i class="far fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section Start -->
+    <section class="news-section fix section-padding" id="blog">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <span class="wow fadeInUp">our Blogs</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Start with a plan and <br> finish with results</h2>
+                </div>
+                <div class="array-button wow fadeInUp" data-wow-delay=".5s">
+                    <button class="array-prev"><i class="far fa-chevron-left"></i></button>
+                    <button class="array-next"><i class="far fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper news-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="news-card-items">
+                            <div class="news-image">
+                                <img src="assets/img/news/01.jpg" alt="img">
+                                <img src="assets/img/news/01.jpg" alt="img">
+                            </div>
+                            <div class="news-content">
+                                <div class="post-cat">
+                                    Design
+                                </div>
+                                <ul class="post-date">
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        October 19, 2024
+                                    </li>
+                                    <li>
+                                        <i class="far fa-user"></i>
+                                        By admin
+                                    </li>
+                                </ul>
+                                <h3><a href="news-details.html">Affordable, targeted media for everyone targeted</a></h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type Lorem Ipsum is simply dummy text</p>
+                                <a href="news-details.html" class="link-btn">
+                                    read more <i class="far fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card-items">
+                            <div class="news-image">
+                                <img src="assets/img/news/02.jpg" alt="img">
+                                <img src="assets/img/news/03.jpg" alt="img">
+                            </div>
+                            <div class="news-content">
+                                <div class="post-cat">
+                                    Design
+                                </div>
+                                <ul class="post-date">
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        October 19, 2024
+                                    </li>
+                                    <li>
+                                        <i class="far fa-user"></i>
+                                        By admin
+                                    </li>
+                                </ul>
+                                <h3><a href="news-details.html">Affordable, targeted media for everyone targeted</a></h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type Lorem Ipsum is simply dummy text</p>
+                                <a href="news-details.html" class="link-btn">
+                                    read more <i class="far fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-card-items">
+                            <div class="news-image">
+                                <img src="assets/img/news/03.jpg" alt="img">
+                                <img src="assets/img/news/03.jpg" alt="img">
+                            </div>
+                            <div class="news-content">
+                                <div class="post-cat">
+                                    Design
+                                </div>
+                                <ul class="post-date">
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        October 19, 2024
+                                    </li>
+                                    <li>
+                                        <i class="far fa-user"></i>
+                                        By admin
+                                    </li>
+                                </ul>
+                                <h3><a href="news-details.html">Affordable, targeted media for everyone targeted</a></h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type Lorem Ipsum is simply dummy text</p>
+                                <a href="news-details.html" class="link-btn">
+                                    read more <i class="far fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> *@
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section footer-bg">
+        <div class="container">
+            <div class="footer-widgets-wrapper">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6  wow fadeInUp" data-wow-delay=".2s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/sunpower-footer-logo.svg" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="footer-content">
+                                <p>
+                                    Regularly inspect the panels to determine the level of dirt accumulation and schedule cleanings accordingly.
+                                </p>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="https://www.facebook.com/profile.php?id=61561710900161" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://x.com/Sunpowerhq"><i class="fab fa-twitter" target="_blank"></i></a>
+                                    <a href="https://www.linkedin.com/in/richard-mcfarland-35a93051" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5  wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h4 class="text-white">Our Company</h4>
+                            </div>
+                            <ul class="list-area">
+                                <li><a href="#">Manual Cleaning</a></li>
+                                <li><a href="#">Automated Cleaning</a></li>
+                                <li><a href="#">Water-Based Cleaning</a></li>
+                                <li><a href="#">Dry Cleaning </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5  wow fadeInUp" data-wow-delay=".6s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h4 class="text-white">Essential Links</h4>
+                            </div>
+                            <ul class="list-area">
+                                <li><a asp-page="/">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a hhref="#contactus">contact us</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5  wow fadeInUp" data-wow-delay=".8s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h4 class="text-white">Services</h4>
+                            </div>
+                            <div class="footer-content">
+                                <p>
+                                    Dust, dirt, bird droppings, and other debris can accumulate on the surface of solar panels, reducing their ability to capture sunlight and generate electricity.
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-wrapper d-flex align-items-center justify-content-between">
+                    <p class="wow fadeInLeft" data-wow-delay=".3s">
+                        © <a href="/">SunPower Solutions LLC.</a>  2024 | <span>All Rights</span> Reserved.
+                    </p>
+                    <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
+                        <li>
+                            <a href="#">Terms</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy & Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Join Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Need Help ?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<< All JS Plugins >>-->
+    <script src="~/assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="~/assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="~/assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="~/assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="~/assets/js/jquery.counterup.min.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="~/assets/js/swiper-bundle.min.js"></script>
+    <!--<< Circle Progress Js >>-->
+    <script src="~/assets/js/circle-progress.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="~/assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="~/assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="~/assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="~/assets/js/main.js"></script>
+</body>
+</html>

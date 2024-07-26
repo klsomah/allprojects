@@ -1,0 +1,284 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.PreviewContractModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+    ViewData["Title"] = "PreviewContract";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <h4 class="text-primary">Update Contract</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item breadcrumb-item-first"><a asp-page="/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Update Contract</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small"><span class="material-icons">settings_applications</span></button>
+    </nav>
+    <div>
+        @{
+            if (Model.PreviewMessage != null)
+            {
+                if (Model.PreviewMessage.StartsWith("Success"))
+                {
+                    <div class="alert rg-alert alert-success" role="alert">
+                        @Model.PreviewMessage
+                    </div>
+                }
+                if (Model.PreviewMessage.StartsWith("Error"))
+                {
+                    <div class="alert rg-alert alert-danger" role="alert">
+                        @Model.PreviewMessage
+                    </div>
+                }
+            }
+        }
+        <div class="row">
+
+            <div class="col-lg-6">
+                <div class="rg-card-simple equal-height">
+                    <header>
+                        <h5>@Model.Contract.FirstName @Model.Contract.LastName</h5>
+                    </header>
+                    <section>
+                        <div id="accordion_with_icon" class="accordion">
+                            <div class="card">
+                                <div class="card-header" id="accordion_with_icon_headingOne">
+                                    <h5 class="mb-0">
+                                        <button data-toggle="collapse" data-target="#accordion_with_icon_collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span _ngcontent-ldo-c19="" class="icon material-icons text-success">person</span>
+                                            <span> Update Contract</span>
+                                            <i class="material-icons icon-collapse">chevron_right</i>
+                                            <i class="material-icons icon-expand">expand_more</i>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="accordion_with_icon_collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_with_icon">
+                                    <div class="card-body">
+                                        <form method="post" class="was-validated" asp-page-handler="UpdateContract">
+                                            <div class="form-group row">
+                                                <label asp-for="Contract.AcceptedDate" class="col-lg-4 col-form-label"></label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Contract.AcceptedDate" class="form-control" placeholder="Accepted Date" type="date">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label asp-for="Contract.EstCompletedDate" class="col-lg-4 col-form-label"></label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Contract.EstCompletedDate" class="form-control" placeholder="Est Completed Date" type="date">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group row">
+                                                <label asp-for="Contract.CompletedDate" class="col-lg-4 col-form-label"></label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Contract.CompletedDate" class="form-control" placeholder="Completed Date" type="date">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group row">
+                                                <label asp-for="Contract.PaymentStatus" class="col-lg-4 col-form-label"></label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <select asp-for="Contract.PaymentStatus" class="form-control" id="ddlStates">
+                                                            <option value="">Select a status</option>
+                                                            <option value="Active">Active</option>
+                                                            <option value="Suspended">Suspended</option>
+                                                            <option value="Completed">Completed</option>
+                                                            
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="offset-lg-4 col-lg-8">
+                                                <button class="btn btn-brand btn-gradient mb-1" type="submit">Update Contract</button>
+                                                <input asp-for="Contract.Id" class="form-control" hidden>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion_with_icon_headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="collapsed" data-toggle="collapse" data-target="#accordion_with_icon_collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <span _ngcontent-ldo-c19="" class="icon material-icons text-success">calendar_today</span>
+                                            <span> Update Payments </span>
+                                            <i class="material-icons icon-collapse">chevron_right</i>
+                                            <i class="material-icons icon-expand">expand_more</i>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="accordion_with_icon_collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_with_icon">
+                                    <div class="card-body">
+                                        <form method="post" class="was-validated" asp-page-handler="AddPayment">
+                                         
+                                            <div class="form-group row">
+                                                <label asp-for="Payment.ScheduledDate" class="col-lg-4 col-form-label"></label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Payment.ScheduledDate" class="form-control" placeholder="Scheduled Date" value="@Model.PaymentStart" >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Amount (Bi-Monthly)</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Payment.Amount" class="form-control currencymask" placeholder="Duration" value="@Model.PaymentAmount" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            @if (Model.Contract.PaymentStatus == "Active" && Model.EmploymentQuestionnaire != null)
+                                            {
+                                                <div class="offset-lg-4 col-lg-8">
+                                                    <button class="btn btn-brand btn-gradient mb-1" type="submit">Update Payment</button>
+                                                    <input asp-for="Contract.Id" class="form-control" hidden>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="offset-lg-4 col-lg-8">
+                                                    <button class="btn btn-brand btn-gradient mb-1 disabled" type="submit">Update Payment</button>
+                                                    <input asp-for="Contract.Id" class="form-control" hidden>
+                                                </div>
+                                            }
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion_with_icon_headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="collapsed" data-toggle="collapse" data-target="#accordion_with_icon_collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <span class="icon material-icons text-success">email</span>
+                                            <span> Communications </span>
+                                            <i class="material-icons icon-collapse">chevron_right</i>
+                                            <i class="material-icons icon-expand">expand_more</i>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="accordion_with_icon_collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_with_icon">
+                                    <div class="card-body">
+                                        Communications goes here!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="rg-card-simple equal-height">
+                    <header>
+                        <h5>Contract Info</h5>
+                    </header>
+                    <section>
+                        <div class="rg-blog-list">
+                            <div class="user-account-information mb-4">
+                                <h6 class="text-highlight-secondary">Program Information</h6>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Program:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.AcademyProgram.ProgramName</p>
+                                </div>
+                                <div class="row info">
+                                    @{
+                                        //string schoolName = HttpContext.Session.GetString("SchoolName").ToString() ?? "";
+                                        string schoolName = (HttpContext.Session.GetString("SchoolName") ?? "").ToString();
+                                    }
+                                    <label class="col-lg-4 text-weight-500">School Name:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@schoolName</p>
+                                </div>
+                                @*<div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Duration:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.AcademyProgram.Duration</p>
+                                </div>*@
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Income Percentage:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.AcademyProgram.IncomePercentage %</p>
+                                </div>
+                                <div class="social-media-account mb-4">
+                                    <h6 class="text-highlight-secondary">Employment Information</h6>
+                                    @{ 
+                                        if (Model.EmploymentQuestionnaire != null)
+                                        {
+                                       
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">Employer Name:</label>
+                                            <p class="col-lg-8 text-highlight-secondary">@Model.EmploymentQuestionnaire.EmployerName</p>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">Annual Income:</label>
+                                            <p class="col-lg-8 text-highlight-secondary">@string.Format("{0:c}", Model.EmploymentQuestionnaire.Income)</p>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">Start Date:</label>
+                                            <p class="col-lg-8 text-highlight-secondary">@Convert.ToString(string.Format("{0:MMM dd, yyyy}", Model.EmploymentQuestionnaire.EmploymentStartDate))</p>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">HR Contact Person:</label>
+                                            <p class="col-lg-8 text-highlight-secondary">@Model.EmploymentQuestionnaire.HRContactPerson</p>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">HR Contact Number:</label>
+                                            <p class="col-lg-8 text-highlight-secondary">@Model.EmploymentQuestionnaire.HRContactNumber</p>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">Employer Address:</label>
+                                            <p class="col-lg-8 text-highlight-secondary">@Model.EmploymentQuestionnaire.Address, @Model.EmploymentQuestionnaire.City,  @Model.EmploymentQuestionnaire.State  @Model.EmploymentQuestionnaire.Zipcode</p>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500">Offer Letter:</label>
+                                            <a class="btn btn-warning btn-icon-text mb-1" style="color:white" href="@Model.EmploymentQuestionnaire.OfferLetterLink" target="_blank"><span class="text">Download</span><span class="material-icons">send</span></a>
+                                        </div>
+                                        <div class="row info">
+                                            <label class="col-lg-4 text-weight-500"></label>
+                                            <a class="btn btn-brand btn-gradient mb-1" style="color:white" asp-page="/contract/equestionnaire" asp-route-id="@Model.EmploymentQuestionnaire.ContractId">Edit Employment</a>
+                                        </div>
+                                            }
+                                        }
+                                </div>
+                                </div>
+
+                            </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="~/js/ui-element-accordion.js"></script>
+<script src="~/assets/js/jquery.inputmask.js"></script>
+<script type="text/javascript">
+        console.log(navigator.userAgent);
+    $(".datemask").inputmask('99/99/9999', { placeholder: "mm/dd/yyyy" });
+
+    $(".currencymask").inputmask('currency', {
+        rightAlign: false
+    });
+    $(".decimalmask").inputmask("999,999", {
+        inputFormat: "1(999) 999-9999",
+        outputFormat: "1(999) 999-9999",
+        inputEventOnly: true
+    });
+
+</script>

@@ -1,0 +1,23 @@
+Exception Message: The Field Service product type must be Inventory or Non-Inventory.
+
+ErrorCode: -2147220891
+HexErrorCode: 0x80040265
+
+ErrorDetails: 
+	ApiExceptionSourceKey: Plugin/Microsoft.Dynamics.FieldService.FieldServicePlugin
+	ApiStepKey: 31e6cade-dfdc-416e-aae3-ae83c28433eb
+	ApiDepthKey: 1
+	ApiActivityIdKey: a6174748-c09a-46a1-b03a-6eb54f31556a
+	ApiPluginSolutionNameKey: msdyn_FieldService_patch_update
+	ApiStepSolutionNameKey: msdyn_FieldService_patch_update
+	ApiExceptionCategory: ClientError
+	ApiExceptionMesageName: IsvAborted
+	ApiExceptionHttpStatusCode: 400
+	OperationStatus: 0
+	SubErrorCode: -2146233088
+
+TraceText: 
+	[Microsoft.Dynamics.FieldService: Microsoft.Dynamics.FieldService.FieldServicePlugin]
+	[31e6cade-dfdc-416e-aae3-ae83c28433eb: Field Service: Create (pre-validate) for msdyn_incidenttypeproduct]
+
+Activity Id: df1bf947-17dd-4771-a221-3c2991a50502

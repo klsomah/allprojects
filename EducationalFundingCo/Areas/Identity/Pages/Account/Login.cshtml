@@ -1,0 +1,38 @@
+﻿@page
+@model LoginModel
+
+@{
+    Layout = "_PublicLayout"; 
+}
+
+<form method="post">
+    <h1> Welcome back, please login to your account</h1>
+    <hr />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Input.Email"></label>
+        <input type="email" class="form-control" asp-for="Input.Email" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.Password">Password</label>
+        <input type="password" class="form-control" asp-for="Input.Password" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+        <a href="forgotPassword" class="float-right"><strong>Forgot Password?</strong></a>
+    </div>
+    <button type="submit" class="btn btn-brand btn-gradient">Log in</button>
+    @*<a href="dashboard" class="btn btn-brand btn-gradient">Login</a>*@
+    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="btn btn-light">Register as a new user</a>
+
+  @*  @Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+
+  @*  @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }*@
+ 
+</form>
+
+ 

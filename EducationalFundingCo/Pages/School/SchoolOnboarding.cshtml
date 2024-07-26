@@ -1,0 +1,1110 @@
+﻿   @page
+@model SchoolOnboardingModel
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+<style>
+
+
+    .form-control {
+        height: calc(1.5em + .75rem + 4px);
+        color: #000;
+        border: 1px solid #000;
+        border-color: #080809;
+        background: #fff;
+    }
+
+    .btn.btn-primary {
+        background: #59388b;
+        border: none;
+        color: #ffffff;
+        margin: 30px;
+        margin-right: -20px;
+    }
+
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+        margin-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: -5px;
+    }
+
+    .btn.btn-secondary:hover {
+        color: #ffffff;
+        background: #422967;
+    }
+    #okbtn{
+        margin-right: -2px;
+    }
+
+    .btn.btn-secondary {
+        border: none;
+        margin: 16px;
+        background: #422967;
+    }
+
+    secondary.dropdown-toggle {
+        border-color: #422967;
+    }
+
+    #dropdownMenuButton {
+        width: 503px;
+    }
+
+    .dropdown-menu {
+        width: 503px;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    #sol {
+        font-size: 21px;
+        margin-top: 25px;
+    }
+
+    #sol1, #sol2, #sol3 {
+        font-size: 17px;
+    }
+</style>
+
+
+<div>
+
+    @*<form method="post" class="was-validated">*@
+    <form method="post">
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblFirstName" id="lblfirstname" asp-for="School.FirstName"></label>
+                <input asp-for="School.FirstName" id="firstName" class="form-control" placeholder="First Name" required>
+            </div>
+            <div class="col">
+                <label for="lblLastName" id="lbllastname" asp-for="School.LastName">Last Name</label>
+                <input asp-for="School.LastName" id="lastName" class="form-control" placeholder="Last Name" required>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-sm-4 col-md-4">
+                <label for="lblEmail" id="lblemail">Email</label>
+                <input asp-for="School.Email" id="Email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="col-sm-2 col-md-2">
+                <button type="button" id="btnsendCode11" class="btn btn-primary">Send Code</button>
+            </div>
+
+            <div class="col-sm-4 col-md-4">
+                <label for="lblOtp" id="lblotp">Enter OTP Code</label>
+                <input class="form-control" id="txtOtp" placeholder="OTP">
+            </div>
+            <div class="col-sm-2 col-md-2">
+                <button type="button" id="btnVerify" class="btn btn-primary">Verify</button>
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+
+
+            <div class="col">
+                <label for="lblschoolName" id="lblschoolName">What is the name of your school or organization?*</label>
+                <input asp-for="School.Name" class="form-control" id="txtSchoolName" placeholder="School Name" required>
+            </div>
+
+            <div class="col">
+                <label for="lblAccredition" id="lblaccreditation">Is your school based in the United States.?</label>
+                <select asp-for="isBasedUSA" class="form-control" id="IsBasedInUS" required>
+
+                    <option value="">Is your school based in the United States.?</option>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+
+                </select>
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblStreetAddress1" id="lblstreet1">Street Address</label>
+                <input asp-for="School.Address1" id="txtAddress1" class="form-control" placeholder="Street Address" required>
+            </div>
+
+            <div class="col">
+                <label for="lblStreetAddress2" id="lblstreet2">Street Address2</label>
+                <input asp-for="School.Address2" id="txtAddress2" class="form-control" placeholder="Street Address2">
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblCity" id="lblcity">City</label>
+                <input asp-for="School.City" id="txtCity" class="form-control" placeholder="City" required>
+            </div>
+
+            <div class="col">
+                <label for="lblZipCode" id="lblzip">Zip</label>
+                <input asp-for="School.ZipCode" id="txtZip" class="form-control" placeholder="Zip Code" required>
+            </div>
+
+
+        </div>
+        <br />
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblprogramlist" id="lblProgramList">Please list the program that your school offers</label>
+                <input asp-for="School.Program" id="txtprogramList" class="form-control" placeholder="List a minimum 3 Programs">
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblState" id="lblstate">Select State</label>
+                <select asp-for="School.USStateId" class="form-control" id="USStateId" asp-items="ViewBag.USAState">
+                    <option value="0">Select State</option>
+
+                </select>
+
+            </div>
+
+        </div>
+        <div class="row">
+
+
+            <div class="col">
+                <label for="lblState2" id="lblstate2">Select State</label>
+                <input asp-for="School.State" id="txtState" class="form-control" placeholder="Select State">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="lblProspective" id="lblprospective">Are you a current or prospective student.?</label>
+                <select asp-for="isProspectiveStudent" class="form-control" id="StudentDropdown">
+
+                    <option value="">Are you a current or prospective student.?</option>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col" >
+                <label for="lblsolution" id="sol">Which EdFundCo solution would you like to learn more about?</label><br />
+
+                @{
+                    foreach (var item in ViewBag.Choices)
+                    {
+                        <label id="Soldb" class="solutionChecks">
+                            <input checked="@Model.choices" type="checkbox" value="@item.Value" id="Soldb" name="choices" />
+                            @item.Text
+                        </label>
+                        <br />
+                    }
+
+                }
+
+                @* <input asp-for="sol1" type="checkbox" id="sol1" value="1">
+                <label id="lbltution"> Tution Products</label>
+
+                <br />
+                <input asp-for="sol2" type="checkbox" id="sol2" value="2">
+                <label id="lblcareer"> Career Service</label>
+
+                <br>
+                <input asp-for="sol3" type="checkbox" id="sol3" value="3">
+                <label id="lblpartnership"> Partnership</label>
+
+                <br>*@
+
+
+            </div>
+        </div>
+
+        @*CPS*@
+
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblFirstNamecps" id="lblfirstnameCps">First Name (Cps)</label>
+                <input asp-for="School.CPSFirstName" class="form-control" id="txtfirstNameCps" placeholder="First Name">
+            </div>
+            <div class="col">
+                <label for="lblLastNamecps" id="lbllastnameCps">Last Name (Cps)</label>
+                <input asp-for="School.CPSLastName" class="form-control" id="txtlastNameCps" placeholder="Last Name">
+            </div>
+
+
+        </div>
+        <div class="row">
+
+            <div class="col-sm-4 col-md-4">
+
+                <label for="lblEmailcps" id="lblemailCps"> Email (Cps)</label>
+                <input asp-for="School.CPSEmail" class="form-control" placeholder="Email" id="txtEmailCps">
+                @*<span asp-validation-for="School.Email" class="text-danger"></span>*@
+            </div>
+            <div class="col-sm-2 col-md-2">
+                <button type="button" id="btnsendCodeCps" class="btn btn-primary">Send Code</button>
+            </div>
+
+            <div class="col-sm-4 col-md-4">
+                <label for="lblOtpcps" id="lblotpCps">Enter OTP Code</label>
+                <input class="form-control" id="txtOtpCps" placeholder="OTP">
+            </div>
+            <div class="col-sm-2 col-md-2">
+                <button type="button" id="btnVerifyCps" class="btn btn-primary">Verify</button>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblAccreditioncps" id="lblaccreditationCps">Is your school based in the United States.? (Cps)</label>
+                <select asp-for="isCPSBasedInUS" class="form-control" id="AccreditationDropdownCps">
+
+                    <option value="">Is your school based in the United States.?</option>
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+
+            </div>
+
+            <div class="col">
+                <label for="lblschoolNamecps" id="lblschoolNameCps">What is the name of your school.? (Cps)</label>
+                <input asp-for="School.CPSName" class="form-control" id="txtSchoolNameCps" placeholder="School Name">
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col">
+                <label for="lblprogramlistcps" id="lblProgramListCps">Program(Cps) </label>
+                <input asp-for="School.CPSProgram" id="txtprogramListCps" class="form-control" placeholder="List the name of the program that you would like to enroll in.">
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="lblsolutioncps" id="solCps">Which EdFundCo solution would you like to learn more about?</label><br />
+
+                @{
+                    foreach (var item in ViewBag.Choices)
+                    {
+                        <label id="Soldbcps">
+                            <input checked="@Model.choicesCPS" type="checkbox" value="@item.Value" id="Soldbcps" name="choicesCPS" />
+                            @item.Text
+                        </label>
+                        <br />
+                    }
+
+                }
+
+                @*<input asp-for="sol1Cps" type="checkbox" id="sol1Cps" value="1">
+                <label id="lbltutionCps"> Tution Products</label>
+
+                <br />
+                <input asp-for="sol2Cps" type="checkbox" id="sol2Cps" value="2">
+                <label id="lblcareerCps"> Career Service</label>
+
+                <br>
+                <input asp-for="sol3Cps" type="checkbox" id="sol3Cps" value="3">
+                <label id="lblpartnershipCps"> Partnership</label>
+
+                <br>*@
+
+
+            </div>
+        </div>
+
+
+        <div class="col text-center">
+
+            <button type="submit" id="btnSubmit" class="submitButton btn btn-primary">Submit</button>
+            <button type="submit" id="btnCancel" class="cancelButton btn btn-primary">Cancel</button>
+        </div>
+
+
+    </form>
+
+    <div class="modal" tabindex="-1" role="dialog" id="submitModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Thankyou For Registration</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p1>Your Request has been Successfully Submitted.</p1><br />
+                    <p1>Administrator will contact you soon</p1>
+                </div>
+               <div class="modal-footer">
+                    <button type="button" id="okbtn" class="btn btn-primary">Ok</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+
+
+
+    $(document).ready(function () {
+
+        var url = window.location.origin + '/Identity/Account/login';
+
+        $('#btnSubmit').click(function () {
+            debugger;
+
+            $('#submitModal').show();
+
+            $('#okbtn').click(function () {
+                $(location).prop('href', url);
+         
+
+        });
+        });
+ 
+ 
+
+        $('#lblaccreditation').hide()
+        $('#IsBasedInUS').hide()
+        $('#submitModal').hide()
+
+
+        $('#lblotp').hide()
+        $('#txtOtp').hide()
+
+        $('#btnVerify').hide()
+
+
+        $('#lblstreet1').hide()
+        $('#txtAddress1 ').hide()
+
+        $('#lblstreet2').hide()
+        $('#txtAddress2').hide()
+
+
+        $('#lblcity').hide()
+        $('#txtCity ').hide()
+
+
+        $('#lblzip').hide()
+        $('#txtZip ').hide()
+
+
+
+
+        $('#lblprospective').hide()
+        $('#StudentDropdown ').hide()
+
+        $('#sol').hide()
+        //$('#sol1 ').hide()
+        $('#Soldb ').hide()
+        $('#Soldbcps ').hide()
+        //$('#lbltution').hide()
+        $('#lblSol').hide()
+
+ 
+
+        $('#lblschoolName').hide()
+        $('#txtSchoolName').hide()
+
+        $('#lblProgramList').hide()
+        $('#txtprogramList').hide()
+
+
+        $('#lblstate2').hide()
+        $('#txtState').hide()
+
+        $('#lblstate').hide()
+        $('#USStateId').hide()
+
+
+        $('#lblfirstnameCps').hide()
+        $('#txtfirstNameCps').hide()
+        $('#lbllastnameCps').hide()
+        $('#txtlastNameCps').hide()
+        $('#lblemailCps').hide()
+        $('#txtEmailCps').hide()
+
+        $('#btnsendCodeCps').hide()
+
+        $('#lblotpCps').hide()
+        $('#txtOtpCps').hide()
+        $('#btnVerifyCps').hide()
+        $('#lblaccreditationCps').hide()
+        $('#AccreditationDropdownCps').hide()
+
+        $('#lblschoolNameCps').hide()
+        $('#txtSchoolNameCps').hide()
+        $('#lblProgramListCps').hide()
+        $('#txtprogramListCps').hide()
+
+        $('#solCps').hide()
+        //$('#Soldbcps ').hide()
+        //$('#sol1Cps').hide()
+        //$('#lbltutionCps').hide()
+        //$('#sol2Cps').hide()
+        //$('#lblcareerCps').hide()
+        //$('#sol3Cps').hide()
+        //$('#lblpartnershipCps').hide()
+
+
+
+        $('#btnSubmit').hide()
+        $('#btnCancel').hide()
+
+
+
+    });
+
+    $('#btnsendCode11').click(function () {
+        debugger;
+
+
+        var email = $('#Email').val();
+        var firstName = $('#firstName').val();
+        var lastName = $('#lastName').val();
+        console.log(email);
+        $.ajax({
+            type: "GET",
+            url: "@Url.Page("SchoolOnboarding", "SendingEmail")",
+            data: { "email": email, "firstName": firstName, "lastName": lastName },
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (msg) {
+                if(msg == "Email already registered"){
+                    alert(msg);
+                    location.reload();
+                }
+                else{
+                $('#btnsendCode11').prop('disabled', true);
+                console.log(msg);
+                $('#lblotp').show();
+                $('#btnVerify').show();
+                $('#txtOtp').show();
+
+                }
+                
+                // window.location = "/contract/details";
+            },
+            error: function (req, status, error) {
+                alert(msg);
+            }
+        });
+
+
+
+    });
+
+
+ 
+
+    $('#btnVerifyCps').click(function () {
+        var email = $('#txtEmailCps').val();
+        var verifyOTP = $('#txtOtpCps').val();
+        $.ajax({
+            type: "GET",
+            url: "@Url.Page("SchoolOnboarding", "VerifyOTP")",
+            data: { "email": email, "verifyOTP": verifyOTP },
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                if (msg == "Successfull") {
+                    $('#btnVerifyCps').prop('disabled', true);
+                    $('#lblaccreditationCps').show()
+                    $('#AccreditationDropdownCps').show()
+                    $('#lblschoolNameCps').show()
+                    $('#txtSchoolNameCps').show()
+                    $('#lblProgramListCps').show()
+                    $('#txtprogramListCps').show()
+                    $('#solCps ').show()
+                    $('#Soldbcps ').show()
+                }
+                else {
+                    alert(msg);
+                }
+                // window.location = "/contract/details";
+            },
+            error: function (req, status, error) {
+                alert(msg);
+            }
+        });
+    });
+    $('#btnVerify').click(function () {
+        var email = $('#Email').val();
+        var verifyOTP = $('#txtOtp').val();
+        $.ajax({
+            type: "GET",
+            url: "@Url.Page("SchoolOnboarding", "VerifyOTP")",
+            data: { "email": email, "verifyOTP": verifyOTP },
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                if (msg == "Successfull") {
+                    $('#btnVerify').prop('disabled', true);
+                    $('#lblaccreditation').show()
+                    $('#IsBasedInUS').show()
+                    $('#lblschoolName').show()
+                    $('#txtSchoolName').show()
+                }
+                else {
+                    alert(msg);
+                }
+                // window.location = "/contract/details";
+            },
+            error: function (req, status, error) {
+                alert(msg);
+            }
+        });
+
+
+
+    });
+
+    $('#IsBasedInUS').change(function () {
+
+        if ($('#IsBasedInUS option:selected').text() == "No" ) {
+            $('#lblProgramList').show()
+            $('#txtprogramList').show()
+
+
+            $('#lblstate2').show()
+            $('#txtState').show()
+
+            $('#lblstate').hide()
+            $('#USStateId').hide()
+
+
+            $('#lblstreet1').show()
+            $('#txtAddress1 ').show()
+
+            $('#lblstreet2').show()
+            $('#txtAddress2').show()
+
+            $('#lblcity').show()
+            $('#txtCity ').show()
+
+
+            $('#lblzip').show()
+            $('#txtZip ').show()
+
+
+            $('#btnSubmit').hide()
+            $('#btnCancel').hide()
+
+            $('#StudentDropdown').show()
+            $('#lblprospective').show()
+            //$('#StudentDropdown').val('');
+
+
+        }
+        else if ($('#IsBasedInUS option:selected').text() == "Yes") {
+            $('#lblProgramList').hide()
+            $('#txtprogramList').hide()
+
+
+            $('#lblstate2').hide()
+            $('#txtState').hide()   
+
+            $('#lblstate').show()
+            $('#USStateId').show()
+
+
+            $('#lblstreet1').show()
+            $('#txtAddress1 ').show()
+
+            $('#lblstreet2').show()
+            $('#txtAddress2').show()
+
+            $('#lblcity').show()
+            $('#txtCity ').show()
+
+
+            $('#lblzip').show()
+            $('#txtZip ').show()
+
+
+            $('#btnSubmit').hide()
+            $('#btnCancel').hide()
+
+            $('#StudentDropdown').show()
+            $('#lblprospective').show()
+            //$('#StudentDropdown').val('');
+
+
+        }
+        else if ($('#IsBasedInUS option:selected').text() == 'Yes' && $('#StudentDropdown option:selected').text() == 'Are you a current or prospective student.?') {
+            $('#lblstate').show()
+            $('#USStateId').show()
+
+            $('#btnSubmit').hide()
+            $('#btnCancel').hide()
+
+            $('#lblProgramList').hide()
+            $('#txtprogramList').hide()
+
+            $('#lblstate2').hide()
+            $('#txtState').hide()
+
+                $('#Soldb').hide()
+                $('#sol').hide()
+ 
+
+
+            $('#lblstreet1').show()
+            $('#txtAddress1 ').show()
+
+            $('#lblstreet2').show()
+            $('#txtAddress2').show()
+
+            $('#lblcity').show()
+            $('#txtCity ').show()
+
+
+            $('#lblzip').show()
+            $('#txtZip ').show()
+
+        
+
+            $('#lblprospective').show()
+            $('#StudentDropdown ').show()
+
+
+
+        }
+        else if ($('#IsBasedInUS option:selected').val() == 1 && $('#StudentDropdown option:selected').val() == 0) {
+
+            
+            //$('#btnSubmit').show()
+            //$('#btnCancel').show()
+              $('.submitButton').show()
+            $('.cancelButton').show()
+
+            $('#lblstreet1').hide()
+            $('#txtAddress1').hide()
+            $('#lblstreet2').hide()
+            $('#txtAddress2').hide()
+            
+            $('#lblcity').hide()
+            $('#txtCity').hide()
+
+            $('#lblzip').hide()
+            $('#txtZip').hide()
+            $('#lblProgramList').hide()
+
+            $('#txtprogramList').hide()
+
+            $('#lblprospective').hide()
+            $('#StudentDropdown').hide()
+            $('#txtState').hide()
+            $('#lblProgramList').hide()
+            
+            // $('#sol').hide()
+            //$('#Soldb').hide()
+
+
+            
+           
+
+        }
+        else if ($('#IsBasedInUS option:selected').text() == 'Is your school based in the United States.?') {
+            $('#lblProgramList').hide()
+            $('#txtprogramList').hide()
+            
+
+            $('#lblstate2').hide()
+            $('#txtState').hide()
+
+
+            $('#lblstate').hide()
+            $('#USStateId').hide()
+            
+ 
+
+            $('#lblstreet1').hide()
+            $('#txtAddress1 ').hide()
+
+            $('#lblstreet2').hide()
+            $('#txtAddress2').hide()
+
+            $('#lblcity').hide()
+            $('#txtCity ').hide()
+
+
+            $('#lblzip').hide()
+            $('#txtZip ').hide()
+
+            $('#sol').hide()
+            //$('#Soldb').hide()
+           
+            $('#lblSol').hide()
+             $('.solutionChecks').hide()
+
+            $('#StudentDropdown').hide()
+            $('#lblprospective').hide()
+
+            $('#lblfirstnameCps').hide()
+            $('#txtfirstNameCps').hide()
+            $('#txtlastNameCps').hide()
+            $('#lbllastnameCps').hide()
+            $('#lblemailCps').hide()
+            $('#txtEmailCps').hide()
+            $('#btnsendCodeCps').hide()
+            
+
+
+
+            //$('#sol2').hide()
+            //$('#lblcareer').hide()
+
+            //$('#sol3').hide()
+            //$('#lblpartnership').hide()
+
+            $('#btnSubmit').hide()
+            $('#btnCancel').hide()
+
+        }
+        else if ($('#IsBasedInUS option:selected').text() == "No" && $('#StudentDropdown option:selected').text() == "No") {
+            $('#btnSubmit').show()
+            $('#btnCancel').show()
+
+            $('#sol').show()
+            //$('#sol1 ').show()
+            $('#Soldb ').show()
+            //$('#lbltution').show()
+            $('#lblSol').show()
+
+
+            $('#lblfirstnameCps').hide()
+            $('#txtfirstNameCps').hide()
+            $('#lbllastnameCps').hide()
+            $('#txtlastNameCps').hide()
+
+            $('#lblemailCps').hide()
+            $('#txtEmailCps').hide()
+
+            $('#btnsendCodeCps').hide()
+
+            $('#lblotpCps').hide()
+            $('#txtOtpCps').hide()
+            $('#solCps').hide()
+            $('#Soldbcps').hide()
+            $('#cps1').hide()
+            $('#cps2').hide()
+            $('#cps3').hide()
+
+           
+
+
+        }
+        else if ($('#IsBasedInUS option:selected').text() == "No" && $('#StudentDropdown option:selected').text() == "Are you a current or prospective student.?") {
+
+            //$('#lblSol').show()
+            //$('#sol').show()
+            ////$('#sol1 ').show()
+            //$('#Soldb ').show()
+            //$('#lbltution').show()
+
+            $('#btnSubmit').show()
+            $('#btnCancel').show()
+
+ 
+        }
+        else if ($('#IsBasedInUS option:selected').text() == "Yes" && $('#StudentDropdown option:selected').text() == "Are you a current or prospective student.?") {
+
+            //$('#lblSol').show()
+            //$('#sol').show()
+            ////$('#sol1 ').show()
+            //$('#Soldb ').show()
+            //$('#lbltution').show()
+
+
+
+            $('#btnSubmit').show()
+            $('#btnCancel').show()
+
+
+
+        }
+ 
+ 
+    });
+    $('#btnsendCodeCps').click(function () {
+
+        var email = $('#txtEmailCps').val();
+        var firstName = $('#txtfirstNameCps').val();
+        var lastName = $('#txtlastNameCps').val();
+        console.log(email);
+        $.ajax({
+            type: "GET",
+            url: "@Url.Page("SchoolOnboarding", "SendingEmail")",
+            data: { "email": email, "firstName": firstName, "lastName": lastName },
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (msg) {
+                if (msg == true) {
+                    $('#btnVerify').prop('disabled', true);
+                    console.log(msg);
+                    $('#lblotpCps').show()
+                    $('#txtOtpCps').show()
+                    $('#btnVerifyCps').show()
+                    $('#btnSubmit').show()
+                    $('#btnCancel').show()
+                }
+
+
+                // window.location = "/contract/details";
+            },
+            error: function (req, status, error) {
+                alert(msg);
+            }
+        });
+
+
+    })
+    $('#StudentDropdown').change(function () {
+
+        if ($('#StudentDropdown option:selected').text() == "Yes") {
+
+
+            $('#lblfirstnameCps').show()
+            $('#txtfirstNameCps').show()
+            $('#lbllastnameCps').show()
+            $('#txtlastNameCps').show()
+
+            $('#lblemailCps').show()
+            $('#txtEmailCps').show()
+
+            $('#btnsendCodeCps').show()
+
+            $('#lblotpCps').hide()
+            $('#txtOtpCps').hide()
+
+            $('#btnVerifyCps').hide()
+
+            $('#lblaccreditationCps').hide()
+            $('#AccreditationDropdownCps').hide()
+            $('#lblschoolNameCps').hide()
+            $('#txtSchoolNameCps').hide()
+            $('#lblProgramListCps').hide()
+            $('#txtprogramListCps').hide()
+
+            $('#sol').hide()
+            //$('#sol1 ').hide()
+            $('#Soldb ').hide()
+            //$('#lbltution').hide()
+            $('#lblSol').hide()
+
+
+            //$('#sol2').hide()
+            //$('#lblcareer').hide()
+
+            //$('#sol3').hide()
+             $('#btnSubmit').hide()
+             $('#btnCancel').hide()
+
+
+
+
+
+
+        }
+        else if ($('#StudentDropdown option:selected').text() == "No") {
+           
+            $('#sol').show()
+            $('#Soldb ').show()
+            $('#lblSol').show()
+
+
+            //$('#sol2').show()
+            //$('#lblcareer').show()
+
+            //$('#sol3').show()
+            //$('#lblpartnership').show()
+
+            $('#lblfirstnameCps').hide()
+            $('#txtfirstNameCps').hide()
+            $('#lbllastnameCps').hide()
+            $('#txtlastNameCps').hide()
+
+            $('#lblemailCps').hide()
+            $('#txtEmailCps').hide()
+            $('#btnsendCodeCps').hide()
+
+            $('#lblschoolNameCps').hide()
+            $('#txtSchoolNameCps').hide()
+            $('#txtprogramListCps').hide()
+
+
+            $('#lblotpCps').hide()
+            $('#txtOtpCps').hide()
+            $('#btnVerifyCps').hide()
+
+            $('#lblaccreditationCps').hide()
+            $('#AccreditationDropdownCps').hide()
+            $('#lblProgramListCps').hide()
+
+            $('.submitButton').show()
+            $('.cancelButton').show()
+
+
+        }
+        else if ($('#StudentDropdown option:selected').text() == 'Are you a current or prospective student.?') {
+            $('#lblfirstnameCps').hide()
+            $('#txtfirstNameCps').hide()
+            $('#lbllastnameCps').hide()
+            $('#txtlastNameCps').hide()
+
+            $('#lblemailCps').hide()
+            $('#txtEmailCps').hide()
+
+            $('#btnsendCodeCps').hide()
+
+            $('#lblotpCps').hide()
+            $('#txtOtpCps').hide()
+
+            $('#btnVerifyCps').hide()
+
+            $('#lblaccreditationCps').hide()
+            $('#AccreditationDropdownCps').hide()
+            $('#lblschoolNameCps').hide()
+            $('#txtSchoolNameCps').hide()
+            $('#lblProgramListCps').hide()
+            $('#txtprogramListCps').hide()
+
+            $('#btnSubmit').hide()
+            $('#btnCancel').hide()
+                    $('#sol').hide()
+  
+        $('#Soldb ').hide()
+        
+        $('#lblSol').hide()
+        }
+ 
+
+
+    });
+
+
+    if ($('#IsBasedInUS option:selected').text() == "No" && $('#StudentDropdown option:selected').text() == "Yes") {
+
+        $('#lblfirstnameCps').show()
+        $('#txtfirstNameCps').show()
+        $('#lbllastnameCps').show()
+        $('#txtlastNameCps').show()
+
+        $('#lblemailCps').show()
+        $('#txtEmailCps').show()
+
+        $('#btnsendCodeCps').show()
+
+        $('#lblotpCps').show()
+        $('#txtOtpCps').show()
+
+        $('#solCps').show()
+        $('#Soldbcps').show()
+        $('#cps1').show()
+        $('#cps2').show()
+        $('#cps3').show()
+        //$('#sol1Cps').show()
+ 
+
+        $('#sol').hide()
+        //$('#sol1 ').hide()
+        $('#Soldb ').hide()
+        //$('#lbltution').hide()
+        $('#lblSol').hide()
+
+
+        //$('#sol2').hide()
+        //$('#lblcareer').hide()
+
+        //$('#sol3').hide()
+        //$('#lblpartnership').hide()
+
+    }
+
+
+
+
+    if ($('#IsBasedInUS option:selected').text()  == "Yes" && $('#StudentDropdown option:selected').text()  == "Yes") {
+
+        $('#lblfirstnameCps').show()
+        $('#txtfirstNameCps').show()
+        $('#lbllastnameCps').show()
+        $('#txtlastNameCps').show()
+
+        $('#lblemailCps').show()
+        $('#txtEmailCps').show()
+        $('#btnsendCodeCps').show()
+
+        $('#lblschoolNameCps').show()
+        $('#txtSchoolNameCps').show()
+        $('#txtprogramListCps').show()
+        $('#solCps').hide()
+        $('#Soldbcps').hide()
+ 
+        
+            $('#btnSubmit').hide()
+            $('#btnCancel').hide()
+        //$('#sol1Cps').hide()
+ 
+
+    }
+
+    $('#btnCancel').click(function(){
+        $(location).prop('href', 'https://localhost:44378/Identity/Account/login');
+    })
+
+     
+
+
+</script>

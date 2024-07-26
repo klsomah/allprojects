@@ -1,0 +1,18 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    Layout = "_PublicLayout";
+    ViewData["Title"] = "Access denied";
+}
+
+<header>
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <p class="text-danger">You do not have access to this resource.</p>
+</header>
+<p>
+    <a asp-page="./Login" class="btn btn-brand btn-gradient">Log in</a>
+    @*<a href="dashboard" class="btn btn-brand btn-gradient">Login</a>*@
+    <a asp-page="./Register" class="btn btn-light">Register as a new user</a>
+
+   
+</p>

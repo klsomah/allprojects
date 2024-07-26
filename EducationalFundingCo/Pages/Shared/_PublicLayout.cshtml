@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Education Funding Co.</title>
+
+     <!-- Vendor CSS -->
+    <link href="~/vendors/css/all.css" rel="stylesheet"/> <!-- Font awesome file -->
+    <link href="~/vendors/css/material.css" rel="stylesheet"/>
+    <link href="~/vendors/css/reset.css" rel="stylesheet"/>
+    <link href="~/vendors/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="~/vendors/css/perfect-scrollbar.css" rel="stylesheet"/>
+    <link href="~/vendors/css/jquery.dataTables.min.css" rel="stylesheet"/>
+
+    <link href="~/vendors/css/responsive.dataTables.min.css" rel="stylesheet"/>
+    <link href="~/vendors/js/fullcalendar/core/main.css" rel='stylesheet' />
+    <link href="~/vendors/js/fullcalendar/daygrid/main.css" rel='stylesheet' />
+    <link href="~/vendors/js/fullcalendar/timegrid/main.css" rel='stylesheet' />
+    
+    <link href="~/vendors/js/fullcalendar/list/main.css" rel='stylesheet' />
+    <link href="~/vendors/css/jquery.slider.min.css" rel="stylesheet"/>
+
+    <link href="~/css/app.css" rel="stylesheet"/>
+    
+<!-- Vendor Js -->
+<script src="~/vendors/js/jquery-3.4.1.min.js"></script>
+<script src="~/vendors/js/popper.min.js"></script>
+<script src="~/vendors/js/bootstrap.min.js"></script>
+<script src="~/vendors/js/Chart.bundle.min.js"></script>
+
+<script src="~/vendors/js/perfect-scrollbar.min.js"></script>
+<script src="~/vendors/js/Chart.min.js"></script>
+<script src="~/vendors/js/d3.min.js"></script>
+<script src="~/vendors/js/topojson.min.js"></script>
+<script src="~/vendors/js/datamaps.world.js"></script>
+
+<script src="~/vendors/js/jquery.dataTables.min.js"></script>
+<script src="~/vendors/js/dataTables.responsive.min.js"></script>
+
+<!-- amChart -->
+<script src="~/vendors/js/amChart/core.js"></script>
+<script src="~/vendors/js/amChart/charts.js"></script>
+<script src="~/vendors/js/amChart/animated.js"></script>
+
+<script src="~/vendors/js/slider/jquery.slider.min.js"></script>
+
+<!--Fullcalendar-->
+<script src="~/vendors/js/fullcalendar/core/main.js"></script>
+<script src="~/vendors/js/fullcalendar/interaction/main.js"></script>
+<script src="~/vendors/js/fullcalendar/daygrid/main.js"></script>
+<script src="~/vendors/js/fullcalendar/timegrid/main.js"></script>
+<script src="~/vendors/js/fullcalendar/list/main.js"></script>
+
+<!--rg scripts-->
+<script src="~/js/fullscreen.js"></script>
+<script src="~/js/rg-wizard.js"></script>
+<script src="~/js/rg-accordion.js"></script>
+<script src="~/js/rg-data-table.js"></script>
+<script src="~/js/rg-tooltip.js"></script>
+<script src="~/js/rg-layout.js"></script>
+
+     
+
+</head>
+
+<body>
+    <main class="public-main">
+        <aside class="public-aside">
+            <header>
+                <div class="container">
+                    <img src="~/images/logo.png" alt="">
+                </div>
+            </header>
+            <section class="my-auto align-items-center">
+                <div class="container">
+                    <h1 style="color:white">Welcome to Education Funding Co.!</h1>
+                        <p style="color:white">Sign in to enter the world of the most advanced technical educational trainings</p>
+                </div>
+            </section>
+            <footer class="clearfix">
+                <div class="container footer-nav">
+                    <span class="footer-nav-copyright float-left" href="#" style="color:white">Copyrights © 2020 All rights reserved by EF Co.</span>
+                    <ul class="footer-nav-link float-right ml-auto">
+                        <li class="">
+                            <a class="" href="#">Privacy <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">Policy</a>
+                        </li>
+                        <li class="">
+                            <a class=""  asp-page="/School/Create">Contact</a>
+                        </li>
+
+ 
+                    </ul>
+                </div>
+
+            </footer>
+        </aside>
+        <section class="public-section align-items-center">
+            <div class="container-fluid my-auto">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

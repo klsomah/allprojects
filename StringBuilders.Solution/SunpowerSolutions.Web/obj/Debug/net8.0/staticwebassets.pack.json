@@ -1,0 +1,1097 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\fonts\\flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\about.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\about1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\aboutsmall.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\aboutsmall.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\client.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\client.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\dot.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\dot.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\frame.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\frame.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\01.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\02.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\03.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\04.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\05.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\06.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\06.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\07.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\07.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\08.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\08.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\icon\\09.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\icon\\09.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\signature.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\about\\technical-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\technical-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\brand\\dot-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\dot-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\contact-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\contact-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\contact-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\contact-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\contact-shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\contact.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\5.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\counter-icon\\7.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\counter-icon\\7.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\faq-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\faq-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\faq.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\faq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\favicon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\feature.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\post1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\post1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\footer\\post2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\post2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\header\\home-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header\\home-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\header\\home-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header\\home-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\header\\home-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header\\home-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\background1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\background1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\background2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\background2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\hero\\background3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\background3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\logo\\black-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\black-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\logo\\footer-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\footer-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\logo\\sunpower-footer-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\sunpower-footer-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\logo\\sunpower-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\sunpower-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\logo\\white-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\white-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\author_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\author_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\author_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\author_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\author_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\author_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\post-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\post-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\post-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\post-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\post-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\pp1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\pp1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\pp2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\pp2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\news\\pp3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\pp3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\number-talks.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\number-talks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\page-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\page-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\portfolio\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\portfolio\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\portfolio\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\portfolio\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\portfolio\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\portfolio\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\01.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\02.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\03.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\04.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\05.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\06.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\06.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\process\\07.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\process\\07.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\details-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\details-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\project\\details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\quotepost.png",
+      "PackagePath": "staticwebassets\\assets\\img\\quotepost.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\contact-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\details-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\details-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\details-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\icon\\icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\icon\\icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\icon\\icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\icon\\icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\icon\\icon-3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\icon\\icon-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\icon\\icon-4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\icon\\icon-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\icon\\icon-5.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\icon\\icon-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\icon\\icon-6.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\icon\\icon-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\service1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\service1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\service2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\service2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\service\\service3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\service3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\team\\signature.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-7.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-8.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\client-9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-9.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\left-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\left-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\map-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\map-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\testimonial\\right-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\right-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\img\\work-process.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\work-process.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\circle-progress.js",
+      "PackagePath": "staticwebassets\\assets\\js\\circle-progress.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\jquery.waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\viewport.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\viewport.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_animation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_brand.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_cta.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_cta.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_faq.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_faq.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_feature.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_feature.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_helping.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_helping.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_hero.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_meanmenu.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_meanmenu.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_news-addons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_news-addons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_preloader.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_preloader.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_project.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_project.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_section.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_section.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_service.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_service.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_team.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_testimonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\assets\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\SunpowerSolutions.Web\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SunpowerSolutions.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SunpowerSolutions.Web.props",
+      "PackagePath": "build\\SunpowerSolutions.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SunpowerSolutions.Web.props",
+      "PackagePath": "buildMultiTargeting\\SunpowerSolutions.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SunpowerSolutions.Web.props",
+      "PackagePath": "buildTransitive\\SunpowerSolutions.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

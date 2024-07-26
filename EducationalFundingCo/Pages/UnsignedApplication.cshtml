@@ -1,0 +1,220 @@
+﻿@page
+@model EducationalFundingCo.Pages.UnsignedApplicationModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+    ViewData["Title"] = "Applications";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <h4 class="text-highlight-primary">Pending Applications</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item breadcrumb-item-first"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Pending Applications</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small">
+            <span class="material-icons">settings_applications</span>
+        </button>
+    </nav>
+    
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-12">
+                <div class="rg-card-simple equal-height">
+                    <header>
+                        <h5>All Contracts</h5>
+                    </header>
+                    <section>
+                        <div class="rg-card-simple equal-height">
+                            <header>
+                                <h5>Applications</h5>
+                            </header>
+                            <section>
+                                <form method="post">
+                                    <table class="table rg-table rg-table-simple" id="manageContract">
+                                        <thead>
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>School Name</th>
+                                                @*<th>Phone</th>*@
+                                                <th>Program</th>
+                                                <th>Signed Date</th>
+                                                <th>Status</th>
+                                                <th class="text-center">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @if (Model.Contracts != null)
+                                            {
+                                        @foreach (var item in Model.Contracts)
+                                        {
+                                            if (item.DateSigned == null && item.RecordStatus != 0)
+                                            {
+                                        <tr>
+                                                            <td>
+                                                                <div class="rg-d-flex">
+                                                                    <p class="text-weight-500 mb-0">@item.Id</p>
+                                                                </div>
+                                                            </td>
+                                            <td>
+                                                <a asp-page="/Contract/Create" asp-route-id="@item.Id" class="text-highlight-info mb-0">@item.FirstName @item.LastName</a>
+                                            </td>
+                                            <td>
+                                                <div class="rg-d-flex">
+                                                    <p class="text-weight-500 mb-0">@item.Email</p>
+                                                </div>
+                                            </td>
+                                                            <td>
+                                                                @*@{
+                                                                    //string schoolName = HttpContext.Session.GetString("SchoolName").ToString();
+                                                                    string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+
+
+                                                                }*@
+                                                                @{
+                                                                    string SchoolName = null;
+
+                                                                    string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+                                                                    string data = item.School.Name;
+
+
+                                                                    if (schoolName == null)
+                                                                    {
+                                                                        SchoolName = data;
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        SchoolName = schoolName;
+                                                                    }
+
+                                                                }
+
+                                                                <div class="rg-d-flex">
+                                                                    <p class="text-weight-500 mb-0">@SchoolName</p>
+                                                                </div>
+                                                            </td>
+                                       @*     <td>
+                                                <div class="rg-d-flex">
+                                                    <p class="text-weight-500 mb-0">@item.Phone</p>
+                                                </div>
+                                            </td>*@
+                                            <td>
+                                                <div class="rg-d-flex">
+                                                    <p class="text-weight-500 mb-0">@item.AcademyProgram.ProgramName</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="rg-d-flex">
+                                                    <p class="text-weight-500 mb-0">@Convert.ToString(string.Format("{0:MMM dd, yyyy h:mm tt}", item.DateSigned))</p>
+                                                </div>
+                                            </td>
+                                                            <td>
+                                                                <div class="rg-d-flex">
+                                                                    <p class="text-weight-500 mb-0">@item.RecordStatus</p>
+                                                                </div>
+                                                            </td>
+
+
+                                            <td class="text-center">
+                                                <span class="material-icons info link" data-toggle="dropdown" aria-haspopup="true"
+                                                      aria-expanded="false">more_horiz</span>
+                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                                    <section>
+                                                        
+                                                        <input type="hidden" name="contractID" id="contractID" asp-for="@item.Id" />
+                                                        <div class="dropdown-divider"></div>
+                                                                        @if (item.RecordStatus != 0)
+                                                                        {
+                                                                            <a class="dropdown-item deleteData" id="@item.Id">
+                                                                                <i class="material-icons secondary">delete </i>
+                                                                                <span>Delete</span>
+                                                                            </a>
+                                                                        }
+                                                        <div class="dropdown-divider"></div>
+
+                                                    </section>
+                                                </div>
+                                            </td>
+                                        </tr>}
+
+                                                        }}
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("table#manageContract .approve").click(function () {
+            var contractID = $(this).parent().find("#contractID").val();
+            $("#approveContractModel").find("#contractID").val(employementID);
+        });
+
+
+        $('.deleteData').click(function () {
+            debugger;
+            var id = jQuery(this).attr("id")
+
+            $.ajax({
+                type: "GET",
+                url: "@Url.Page("/UnsignedApplication","DeleteRecord1")",
+                data: { "id": id },
+                contentType: "application/json;charset=UTF-8",
+                dataType: "json",
+                success: function (result) {
+                    if (result == "Updated") {
+                        console.log("Updated");
+                        location.reload();
+                    }
+
+                },
+                error: function (req, status, error) {
+                    console.log(error);
+                }
+            });
+        });
+
+        //$('.deleteData').click(function () {
+        //    debugger;
+        //    var id = jQuery(this).attr("id")
+
+        //    $.ajax({
+        //        type: "GET",
+        //        url: "@Url.Page("/UnsignedApplication","DeleteRecord")",
+        //        data: { "id": id },
+        //        contentType: "application/json;charset=UTF-8",
+        //        dataType: "json",
+        //        success: function (result) {
+        //            if (result == "Deleted") {
+        //                console.log("Deleted");
+        //                location.reload();
+        //            }
+
+        //        },
+        //        error: function (req, status, error) {
+        //            console.log(error);
+        //        }
+        //    });
+        //});
+
+        
+    });
+</script>

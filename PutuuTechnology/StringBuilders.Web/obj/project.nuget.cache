@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HUNr4MZw8d3Viwp+/paLOoFwonCIFE+7f+r0fEsAbyNEu3a1pTQFuncE9GFaMZYZYf/xvgHC+11yvZYyfpChtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\StringBuilders.Web\\StringBuilders.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ksomah\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ksomah\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ksomah\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ksomah\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

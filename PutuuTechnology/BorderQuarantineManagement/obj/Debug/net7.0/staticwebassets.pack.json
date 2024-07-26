@@ -1,0 +1,1097 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BorderQuarantineManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BorderQuarantineManagement.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\postcss.config.js",
+      "PackagePath": "staticwebassets\\postcss.config.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\app.css",
+      "PackagePath": "staticwebassets\\src\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\css\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_box.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_box.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_global.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_global.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_image-fit.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_image-fit.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_intro.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_intro.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_scrollbar-hidden.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_scrollbar-hidden.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_typing-dots.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_typing-dots.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\base\\_zoom-in.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\base\\_zoom-in.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\components\\mobile-menu.css",
+      "PackagePath": "staticwebassets\\src\\css\\components\\mobile-menu.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\css\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\fonts\\_roboto.css",
+      "PackagePath": "staticwebassets\\src\\css\\fonts\\_roboto.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\enigma\\side-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\enigma\\side-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\enigma\\top-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\enigma\\top-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\icewall\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\icewall\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\icewall\\side-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\icewall\\side-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\icewall\\top-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\icewall\\top-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\rubick\\side-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\rubick\\side-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\rubick\\top-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\rubick\\top-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\tinker\\side-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\tinker\\side-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\themes\\tinker\\top-nav.css",
+      "PackagePath": "staticwebassets\\src\\css\\themes\\tinker\\top-nav.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\ckeditor.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\ckeditor.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\dropzone.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\full-calendar.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\full-calendar.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\highlight.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\leaflet.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\leaflet.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\litepicker.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\litepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\simplebar.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\tabulator.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\tabulator.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\tippy.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\tippy.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\toastify.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\toastify.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\tom-select.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\tom-select.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\css\\vendors\\zoom-vanilla.css",
+      "PackagePath": "staticwebassets\\src\\css\\vendors\\zoom-vanilla.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\error-illustration.svg",
+      "PackagePath": "staticwebassets\\src\\images\\error-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-1.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-10.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-11.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-12.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-13.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-14.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-15.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-16.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-17.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-18.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-19.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-2.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-3.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-4.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-5.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-6.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-7.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-8.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\food-beverage-9.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\food-beverage-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-1.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-10.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-11.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-12.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-13.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-14.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-15.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-2.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-3.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-4.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-5.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-6.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-7.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-8.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\preview-9.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\preview-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-1.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-10.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-11.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-12.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-13.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-14.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-15.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-2.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-3.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-4.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-5.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-6.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-7.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-8.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\fakers\\profile-9.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\fakers\\profile-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\illustration.svg",
+      "PackagePath": "staticwebassets\\src\\images\\illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\layouts\\side-menu.png",
+      "PackagePath": "staticwebassets\\src\\images\\layouts\\side-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\layouts\\simple-menu.png",
+      "PackagePath": "staticwebassets\\src\\images\\layouts\\simple-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\layouts\\top-menu.png",
+      "PackagePath": "staticwebassets\\src\\images\\layouts\\top-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\src\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\phone-illustration.svg",
+      "PackagePath": "staticwebassets\\src\\images\\phone-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\placeholders\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\images\\placeholders\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\placeholders\\200x200.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\placeholders\\200x200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\placeholders\\800x800.jpg",
+      "PackagePath": "staticwebassets\\src\\images\\placeholders\\800x800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\themes\\enigma.png",
+      "PackagePath": "staticwebassets\\src\\images\\themes\\enigma.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\themes\\icewall.png",
+      "PackagePath": "staticwebassets\\src\\images\\themes\\icewall.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\themes\\rubick.png",
+      "PackagePath": "staticwebassets\\src\\images\\themes\\rubick.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\themes\\tinker.png",
+      "PackagePath": "staticwebassets\\src\\images\\themes\\tinker.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\images\\woman-illustration.svg",
+      "PackagePath": "staticwebassets\\src\\images\\woman-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\app.js",
+      "PackagePath": "staticwebassets\\src\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\balloon-block-editor.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\balloon-block-editor.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\balloon-editor.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\balloon-editor.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\calendar\\calendar.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\calendar\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\calendar\\draggable.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\calendar\\draggable.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\classic-editor.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\classic-editor.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\document-editor.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\document-editor.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\dropzone.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\highlight.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\inline-editor.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\inline-editor.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\leaflet-map-loader.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\leaflet-map-loader.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\litepicker.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\litepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\lucide.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\lucide.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\preview-component.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\preview-component.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\source.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\source.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\theme-color.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\theme-color.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\tippy-content.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\tippy-content.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\tippy.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\tippy.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\base\\tom-select.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\base\\tom-select.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\donut-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\donut-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\horizontal-bar-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\horizontal-bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\line-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\mobile-menu.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\mobile-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\pie-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-bar-chart-1.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-bar-chart-1.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-bar-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-donut-chart-1.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-donut-chart-1.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-donut-chart-2.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-donut-chart-2.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-donut-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-donut-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-line-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\report-pie-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\report-pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\simple-line-chart-1.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\simple-line-chart-1.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\simple-line-chart-2.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\simple-line-chart-2.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\simple-line-chart-3.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\simple-line-chart-3.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\simple-line-chart-4.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\simple-line-chart-4.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\simple-line-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\simple-line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\stacked-bar-chart-1.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\stacked-bar-chart-1.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\stacked-bar-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\stacked-bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\themes\\enigma\\top-bar.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\themes\\enigma\\top-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\themes\\icewall\\top-bar.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\themes\\icewall\\top-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\themes\\rubick\\top-bar.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\themes\\rubick\\top-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\themes\\tinker\\top-bar.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\themes\\tinker\\top-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\components\\vertical-bar-chart.js",
+      "PackagePath": "staticwebassets\\src\\js\\components\\vertical-bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\chat.js",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\modal.js",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\notification.js",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\notification.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\slideover.js",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\slideover.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\tabulator.js",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\tabulator.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\pages\\validation.js",
+      "PackagePath": "staticwebassets\\src\\js\\pages\\validation.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\themes\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\themes\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\themes\\enigma.js",
+      "PackagePath": "staticwebassets\\src\\js\\themes\\enigma.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\themes\\icewall.js",
+      "PackagePath": "staticwebassets\\src\\js\\themes\\icewall.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\themes\\rubick.js",
+      "PackagePath": "staticwebassets\\src\\js\\themes\\rubick.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\themes\\tinker.js",
+      "PackagePath": "staticwebassets\\src\\js\\themes\\tinker.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\utils\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\utils\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\utils\\colors.js",
+      "PackagePath": "staticwebassets\\src\\js\\utils\\colors.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\utils\\helper.js",
+      "PackagePath": "staticwebassets\\src\\js\\utils\\helper.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\accordion.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\alert.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\axios.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\axios.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\calendar\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\calendar\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\calendar\\calendar.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\calendar\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\calendar\\plugins\\day-grid.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\calendar\\plugins\\day-grid.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\calendar\\plugins\\interaction.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\calendar\\plugins\\interaction.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\calendar\\plugins\\list.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\calendar\\plugins\\list.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\calendar\\plugins\\time-grid.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\calendar\\plugins\\time-grid.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\chartjs.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\chartjs.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\ckeditor\\.DS_Store",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\ckeditor\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\ckeditor\\balloon-block.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\ckeditor\\balloon-block.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\ckeditor\\balloon.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\ckeditor\\balloon.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\ckeditor\\classic.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\ckeditor\\classic.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\ckeditor\\document.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\ckeditor\\document.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\ckeditor\\inline.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\ckeditor\\inline.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\dayjs.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\dayjs.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\dom.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\dom.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\dropdown.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\dropzone.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\image-zoom.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\image-zoom.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\leaflet-map.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\leaflet-map.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\litepicker.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\litepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\lodash.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\lodash.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\lucide.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\lucide.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\modal.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\popper.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\pristine.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\pristine.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\simplebar.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\svg-loader.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\svg-loader.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\tab.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\tabulator.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\tabulator.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\tailwind-merge.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\tailwind-merge.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\tippy.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\tippy.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\toastify.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\toastify.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\tom-select.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\tom-select.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\transition.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\transition.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\js\\vendors\\xlsx.js",
+      "PackagePath": "staticwebassets\\src\\js\\vendors\\xlsx.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\BorderQuarantineManagement\\wwwroot\\src\\json\\location.json",
+      "PackagePath": "staticwebassets\\src\\json\\location.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BorderQuarantineManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BorderQuarantineManagement.props",
+      "PackagePath": "build\\BorderQuarantineManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BorderQuarantineManagement.props",
+      "PackagePath": "buildMultiTargeting\\BorderQuarantineManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BorderQuarantineManagement.props",
+      "PackagePath": "buildTransitive\\BorderQuarantineManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

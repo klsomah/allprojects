@@ -1,0 +1,298 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.MakePaymentModel
+
+@{
+    ViewData["Title"] = "MakePayment";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li>
+                <h4 class="text-highlight-primary">Make Payment</h4>
+            </li>
+            <li class="breadcrumb-item breadcrumb-item-first"><a asp-page="/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Payment</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small">
+            <span class="material-icons">settings_applications</span>
+        </button>
+    </nav>
+    <div class="row user-profile">
+
+        <div class="col-lg-11">
+
+
+        </div>
+        <div class="col-lg-11">
+             <div class="alert rg-alert alert-danger" id="divValidation" role="alert">
+                <ul></ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            @if (Model.Payment != null)
+                            {
+                                <h5>@Model.Payment.Contract.FirstName @Model.Payment.Contract.LastName</h5>
+                            }
+                        </header>
+                        <section>
+                            <div class="user-account-information mb-4">
+                                
+                                <form method="post">
+                                    @{
+                                        if (Model.Contract != null && Model.Contract.PaymentStatus != "Active")
+                                        {
+                                            <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                <span class="material-icons">error_outline</span>
+                                                <span>A payment schedule has been @Model.Contract.PaymentStatus</span>
+                                            </div>
+                                        }
+                                        else if (Model.PaymentBalance <= 0)
+                                        {
+                                            <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                <span class="material-icons">error_outline</span>
+                                                <span>You have completed your payment</span>
+                                            </div>
+                                        }
+                                        else if (Model.Payment != null)
+                                        {
+                                            if (Model.IsLate)
+                                            {
+                                                <div class="alert rg-alert alert-error-transparent" role="alert">
+                                                    <span class="material-icons">error_outline</span>
+                                                    <span>Your payment is late. 10% of the monthly payment will automatically be added to the late payment. </span>
+                                                </div>
+                                            }
+                                               <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Account Type</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="radio" class="form-check-input" id="individual" name="accountHolderType" checked>
+                                                        <label class="form-check-label" for="individual">Individual</label>
+                                                    </div>
+
+                                                    <!-- Material inline 2 -->
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="radio" class="form-check-input" id="company" name="accountHolderType">
+                                                        <label class="form-check-label" for="company">Company</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Account Holder Name</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="nameOnAccount" name="nameOnAccount" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Routing Number</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input type="text" id="routingNumber" name="routingNumber" class="form-control" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Account Number</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input type="text"  id="accountNumber" name="accountNumber" class="form-control" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Payment Amount <br />(1.5% processing fees included)</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="@Model.PaymentAmount" class="form-control currencymask" readonly required>
+                                                        @*<span>@Model.Payment.Amount *1.015 </span>*@
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Payment Scheduled</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Payment.ScheduledDate" class="form-control" placeholder="Employment Start Date" type="date" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Payment Method</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="radio" class="form-check-input" id="bankAccountOption" name="paymentOptions" checked>
+                                                        <label class="form-check-label" for="bankAccountOption">Bank Account</label>
+                                                    </div>
+
+                                                    <!-- Material inline 2 -->
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="radio" class="form-check-input" id="creditCardOption" name="paymentOptions">
+                                                        <label class="form-check-label" for="creditCardOption">Credit / Debit Card</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="offset-lg-4 col-lg-8" id="connectDiv">
+                                                <a class="btn btn-primary" id="link-button" style="color:white">Submit Payment</a>
+                                            </div>
+                                            
+                                        }
+                                        else
+                                        {
+                                            <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                <span class="material-icons">error_outline</span>
+                                                <span>A payment schedule has not been created for you yet!</span>
+                                            </div>
+                                        }
+                                    }
+                                </form>
+
+                            </div>
+
+
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+@*<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>*@
+<script src="~/assets/js/jquery.inputmask.js"></script>
+ <script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+ <script type="text/javascript">
+
+  $(document).ready(function () {
+
+            $("#divValidation").hide();
+          
+
+        });
+ 
+ $("#link-button").click(function(){
+
+      var errors = false;
+    $("#divValidation ul").empty();
+
+    if ($('#nameOnAccount').val() == "") {
+        $("#divValidation ul").append('<li>Name on account is required</li>');
+        errors = true;
+    }
+
+    if ($('#routingNumber').val() == "") {
+        $("#divValidation ul").append('<li>Routing Number is required</li>');
+        errors = true;
+    }
+
+    if ($('#accountNumber').val() == "") {
+        $("#divValidation ul").append('<li>Account Number required</li>');
+        errors = true;
+    }
+
+              
+
+    if (errors) {
+        $("#divValidation").show();
+    }
+    else {
+        $("#divValidation").hide();
+    }
+
+     var stripe = Stripe('@Model.PublishableKey');
+     var amount = '@Model.PaymentAmount';
+     var elements = stripe.elements();
+     var accountNumber = $('#accountNumber').val();
+     var routingNumber = $('#routingNumber').val();
+     var nameOnAccount = $('#nameOnAccount').val();
+     var accountType = "";
+     if ($('#individual').is(':checked')) {
+         accountType = 'individual';
+    }
+    if ($('#company').is(':checked')) {
+         accountType = 'company';
+    }
+
+    stripe
+      .createToken('bank_account', {
+        country: 'US',
+        currency: 'usd',
+        routing_number: routingNumber,
+        account_number: accountNumber,
+        account_holder_name: nameOnAccount,
+        account_holder_type: 'individual',
+      })
+      .then(function(result) {
+        console.log(result.token);
+        console.log(result.token.id);
+        console.log(result.token.bank_account);
+        console.log(result.token.bank_account.id);
+        console.log(result.error);
+        processPayment(result.token.id, result.token.bank_account.id, nameOnAccount, amount);
+      });
+  
+});
+
+ function processPayment(token, btoken, student, amount){
+     //alert("Here");
+     $.ajax({
+            type: "GET",
+            url: "@Url.Page("/Contract/MakePayment", "ProcessAchPayment")",
+            data: {"publicToken": "" + token + "", "bankToken": "" + btoken + "", "student": "" + student + "", "amount": "" + amount + ""},
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+                window.location = "/contract/details";
+            },
+            error: function (req, status, error) {
+                console.log(msg);
+            }
+    });
+    return false;
+ }
+
+ 
+    $(".datemask").inputmask('99/99/9999', { placeholder: "mm/dd/yyyy" });
+
+    $(".currencymask").inputmask('currency', {
+        rightAlign: false
+    });
+    $(".phonemask").inputmask("1(999) 999-9999", {
+        inputFormat: "1(999) 999-9999",
+        outputFormat: "1(999) 999-9999",
+        inputEventOnly: true
+    });
+    $("#plaidDiv").hide();
+
+    $(function () {
+        $("input[name='paymentOptions']").click(function () {
+            if ($("#bankAccountOption").is(":checked")) {
+                $("#plaidDiv").show();
+                $("#stripeDiv").hide();
+            } 
+            if ($("#creditCardOption").is(":checked")) {
+                $("#plaidDiv").hide();
+                $("#stripeDiv").show();
+                window.location.href = "/Contract/MakePaymentStripe"; 
+            }
+        });
+    });
+
+    </script>
+}

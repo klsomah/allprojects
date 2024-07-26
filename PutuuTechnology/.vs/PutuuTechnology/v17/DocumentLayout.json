@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\putuutechnology\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|solutionrelative:putuutechnology\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\putuutechnology\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|solutionrelative:putuutechnology\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A799E317-88B4-4EF6-81C3-A244F5EF69C3}|StringBuilders.Web\\StringBuilders.Web.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\stringbuilders.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A799E317-88B4-4EF6-81C3-A244F5EF69C3}|StringBuilders.Web\\StringBuilders.Web.csproj|solutionrelative:stringbuilders.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\putuutechnology\\putuutechnology.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|solutionrelative:putuutechnology\\putuutechnology.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\putuutechnology\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|solutionrelative:putuutechnology\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A799E317-88B4-4EF6-81C3-A244F5EF69C3}|StringBuilders.Web\\StringBuilders.Web.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\stringbuilders.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A799E317-88B4-4EF6-81C3-A244F5EF69C3}|StringBuilders.Web\\StringBuilders.Web.csproj|solutionrelative:stringbuilders.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|c:\\users\\ksomah\\documents\\projects\\personal\\putuutechnology\\putuutechnology\\pages\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{170FE508-717D-4BCD-BC38-8490CD1629D9}|PutuuTechnology\\PutuuTechnology.csproj|solutionrelative:putuutechnology\\pages\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PutuuTechnology\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "PutuuTechnology\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T21:16:31.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PutuuTechnology\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "PutuuTechnology\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T21:16:27.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\StringBuilders.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StringBuilders.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\StringBuilders.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StringBuilders.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T21:15:30.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\StringBuilders.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "StringBuilders.Web\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\StringBuilders.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "StringBuilders.Web\\Pages\\Index.cshtml",
+              "ViewState": "AQIAALwBAACAmZmZmZkgwPEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T20:33:13.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PutuuTechnology",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\PutuuTechnology.csproj",
+              "RelativeDocumentMoniker": "PutuuTechnology\\PutuuTechnology.csproj",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\PutuuTechnology.csproj",
+              "RelativeToolTip": "PutuuTechnology\\PutuuTechnology.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T20:29:20.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "PutuuTechnology\\Pages\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\AboutUs.cshtml",
+              "RelativeToolTip": "PutuuTechnology\\Pages\\AboutUs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T15:42:48.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "PutuuTechnology\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\PutuuTechnology\\PutuuTechnology\\Pages\\Index.cshtml",
+              "RelativeToolTip": "PutuuTechnology\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPQBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T15:38:42.602Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

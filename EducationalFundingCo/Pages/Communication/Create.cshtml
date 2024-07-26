@@ -1,0 +1,64 @@
+﻿@page
+@model EducationalFundingCo.Pages.Communication.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Communication</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Communication.ContractId" class="control-label"></label>
+                <select asp-for="Communication.ContractId" class ="form-control" asp-items="ViewBag.ContractId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Communication.Status" class="control-label"></label>
+                <input asp-for="Communication.Status" class="form-control" />
+                <span asp-validation-for="Communication.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Communication.Date" class="control-label"></label>
+                <input asp-for="Communication.Date" class="form-control" />
+                <span asp-validation-for="Communication.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Communication.Message" class="control-label"></label>
+                <input asp-for="Communication.Message" class="form-control" />
+                <span asp-validation-for="Communication.Message" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Communication.MessageType" class="control-label"></label>
+                <input asp-for="Communication.MessageType" class="form-control" />
+                <span asp-validation-for="Communication.MessageType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Communication.Meduim" class="control-label"></label>
+                <input asp-for="Communication.Meduim" class="form-control" />
+                <span asp-validation-for="Communication.Meduim" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Communication.ReadStatus" /> @Html.DisplayNameFor(model => model.Communication.ReadStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

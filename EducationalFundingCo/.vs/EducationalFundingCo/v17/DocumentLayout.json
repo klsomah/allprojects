@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\pages\\academyprogram\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\academyprogram\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\pages\\academyprogram\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\academyprogram\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\pages\\contract\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\contract\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwEcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T18:20:12.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAcwOoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:41:07.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:39:51.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:29:40.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T18:38:42.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:37:59.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\AcademyProgram\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\AcademyProgram\\Create.cshtml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:08:24.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AcademyProgram\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml",
+              "RelativeToolTip": "Pages\\AcademyProgram\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T09:08:21.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\Contract\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Contract\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\Contract\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Contract\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:02:16.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

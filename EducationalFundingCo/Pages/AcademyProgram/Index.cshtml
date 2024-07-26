@@ -1,0 +1,187 @@
+﻿@page
+@model EducationalFundingCo.Pages.AcademyProgram.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="rg-card-simple equal-height">
+            <header>
+                <div class="heading">
+                    <h5>Academic Programs</h5>
+                </div>
+                <div>
+                    <a asp-page="Create">Create New</a>
+                </div>
+            </header>
+
+            <section>
+                <table id="manageProgram" class="table rg-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Program Name</th>
+                            <th scope="col">Income %</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Payment Cap</th>
+                            <th scope="col">Min Income</th>
+                            <th scope="col">School Name</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.AcademyProgram)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ProgramName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IncomePercentage)%
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Duration)
+                                </td>
+
+                                <td>
+                                    @Convert.ToString(string.Format("{0:C2}", item.Cap))
+                                </td>
+                                <td>
+                                    @Convert.ToString(string.Format("{0:C2}", item.MinIncome))
+                                </td>
+                                 <td>
+                                     @Html.DisplayFor(modelItem => item.School.Name)
+                                </td>
+                      
+                                       
+                                <td>
+                                    <a class="modalLink" href="#emailModal" data-id="@item.Id" itemprop="@item.SchoolId" data-toggle="modal">Send Link</a> |
+                                    <a class="modalLink" href="#linkModal" data-id="@item.Id" itemprop="@item.SchoolId" data-toggle="modal">Copy Link</a> |
+                                    <a asp-page="./Edit" asp-route-id="@item.Id" itemprop="@item.SchoolId">Edit</a> |
+                                    <a asp-page="./Delete" asp-route-id="@item.Id" itemprop="@item.SchoolId">Delete</a>
+                                    <input type="hidden" name="programID" id="programID" asp-for="@item.Id" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade rg-modal email-modal" id="emailModal" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Compose</h5>
+                <a href="javascript:void(0);" class="material-icons ml-1 text-secondary" data-dismiss="modal" aria-label="Close">close</a>
+            </div>
+            <form method="post" asp-page="Index" asp-page-handler="UpdateEmployment" class="was-validated" id="emailForm">
+                <div class="modal-body">
+                    <div class="email-subject">
+                        <div class="form-group">
+                            <input type="email" class="form-control" asp-for="EmailElements.ToEmail" placeholder="To" required>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="email-subject">
+                        <div class="form-group">
+                            <input type="text" class="form-control" asp-for="EmailElements.Subject" placeholder="Subject" required>
+                        </div>
+                    </div>
+                    <div class="email-body">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="10" placeholder="Text area" asp-for="EmailElements.Body" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <br /><br />
+                <div class="modal-footer text-left" style="justify-content: flex-start;">
+                    <button type="submit" class="btn btn-info btn-rectangle">Send</button>
+                    @*<a href="javascript:void(0);" class="material-icons text-secondary">attachment</a>*@
+                    <a href="javascript:void(0);" class="material-icons text-secondary ml-auto">delete</a>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade rg-modal email-modal" id="linkModal" data-backdrop="false"  tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" style="height:35%; width:70%">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="javascript:void(0);" class="material-icons ml-1 text-secondary" data-dismiss="modal" aria-label="Close">close</a>
+            </div>
+                <div class="modal-body">
+                  
+                    <div class="email-body">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" placeholder="Text area" asp-for="EmailElements.Link" ></textarea>
+                        </div>
+                    </div>
+                </div>
+                <br /><br />
+               
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<script>
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $(document).on("click", ".modalLink", function () {
+        debugger;
+        var programID = $(this).data('id');
+         var SchoolId = $(this).attr('itemprop');
+        //$(".modal-body #partID").val(passedID);
+        //$(".modal-body #bookId").val(passedID);
+
+            GetEmailBody(programID, SchoolId);
+            
+    });
+        function GetEmailBody(programID,SchoolId) {
+            debugger;
+        $.ajax({
+            url: "@Url.Page("/AcademyProgram/Index", "AjaxEmailContent")",
+            typr: "GET",
+            data: { "programID": "" + programID + "", "SchoolId": "" + SchoolId + "" },
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (response) {
+                //alert("OOO");
+                console.log(response);
+                $('#emailModal #EmailElements_Subject').val(response.subject);
+                $('#emailModal #EmailElements_Body').val(response.body);
+                $('#linkModal #EmailElements_Link').val(response.link);
+               
+            },
+            error: function (response) {
+                alert(response.responseText);
+                $('#emailModal #EmailElements_Subject').val("");
+                $('#emailModal #EmailElements_Body').val("");
+                $('#linkModal #EmailElements_Link').val("");
+               
+            }
+        });
+        return false;
+    }
+
+            
+
+    function ResetFormWithJS() {
+        document.getElementById('emailForm').reset();
+    }
+</script>
+}

@@ -1,0 +1,222 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.DetailsModel
+@using Microsoft.WindowsAzure.Storage.Blob;
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li>
+                <h4 class="text-highlight-primary">User profile</h4>
+            </li>
+            <li class="breadcrumb-item breadcrumb-item-first"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">User profile</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small">
+            <span class="material-icons">settings_applications</span>
+        </button>
+    </nav>
+    <div class="row user-profile">
+
+        <div class="col-lg-11">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            <h5>User Info</h5>
+                        </header>
+                        <section>
+                            <div class="user-account-information mb-4">
+                                <h6 class="text-highlight-secondary">Account Information</h6>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">E-mail:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.Email</p>
+                                </div>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Phone:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.Phone</p>
+                                </div>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Name:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.FirstName @Model.Contract.LastName</p>
+                                </div>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Program:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Model.Contract.AcademyProgram.ProgramName</p>
+                                </div>
+                                <div class="row info">
+                                    @{
+                                        //string schoolName = HttpContext.Session.GetString("SchoolName").ToString();
+                                        string schoolName = (HttpContext.Session.GetString("SchoolName") ?? "").ToString();
+                                    }
+                                                  
+                                 @*   @{
+                                        string SchoolName = null;
+
+                                        string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+                                        string data = item.School.Name;
+
+
+                                          if (schoolName == null)
+                                          {
+                                             SchoolName = data;
+                                          }
+                                          else
+                                          {
+                                             SchoolName = schoolName;
+                                          }
+                                      }*@
+
+                                    <label class="col-lg-4 text-weight-500">School Name:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@schoolName</p>
+                                </div>
+
+                            </div>
+                            <div class="social-media-account mb-4">
+                                <h6 class="text-highlight-secondary">Enrollment Status</h6>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Contract Signed On: </label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Convert.ToString(string.Format("{0:MMMM dd, yyyy  	h:mm tt}", Model.Contract.DateSigned)) </p>
+                                </div>
+                                <div class="row info">
+                                    <label class="col-lg-4 text-weight-500">Accepted On:</label>
+                                    <p class="col-lg-8 text-highlight-secondary">@Convert.ToString(string.Format("{0:MMMM dd, yyyy  	h:mm tt}", Model.Contract.AcceptedDate)) </p>
+                                </div>
+
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            <h5>Payment Schedule</h5>
+                            
+                        </header>
+                        <section>
+                            <div class="rg-blog-list">
+
+                                <div class="rg-card-simple equal-height">
+                                    @if (Model.PagedPayments.Count > 0)
+                                    {
+                                    <section>
+                                        <br />
+                                        <h6>Payment Total: @Convert.ToString(string.Format("{0:c}", Model.PaymentTotal))</h6>
+                                        <table class="table rg-table rg-table-simple">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Due Date</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var payment in Model.PagedPayments)
+                                                {
+                                                    <tr>
+                                                        <td>@Convert.ToString(string.Format("{0:MM/dd/yyyy}", payment.ScheduledDate))</td>
+                                                        <td>@Convert.ToString(string.Format("{0:c}", payment.Amount))</td>
+                                                        @if (payment.ScheduledDate.Value < DateTime.Now.AddDays(-4))
+                                                        {
+                                                            <td>
+                                                                <span class="rg-badge rg-badge-highlight rg-badge-highlight-error">Payment Late</span>
+                                                            </td>
+                                                        }
+                                                        else
+                                                        {
+                                                            <td>
+                                                                <span class="rg-badge rg-badge-highlight rg-badge-highlight-primary">Scheduled</span>
+                                                            </td>
+                                                        }
+                                                        <td> <a class="btn btn-brand btn-sm btn-gradient mb-1" style="color:white" asp-page="/contract/MakePaymentStripe">Pay</a></td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                        @{
+                                            var prevDisabled = !Model.PagedPayments.HasPreviousPage ? "disabled" : "";
+                                            var nextDisabled = !Model.PagedPayments.HasNextPage ? "disabled" : "";
+                                        }
+
+                                        <a asp-page="./Details"
+                                           asp-route-pageIndex="@(Model.PagedPayments.PageIndex - 1)"
+                                           class="btn btn-primary @prevDisabled">
+                                            Previous
+                                        </a>
+                                        <a asp-page="./Details"
+                                           asp-route-pageIndex="@(Model.PagedPayments.PageIndex + 1)"
+                                           class="btn btn-primary @nextDisabled">
+                                            Next
+                                        </a>
+                                    </section>
+                                    }
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            <h5>Uploaded Documents</h5>
+                        </header>
+                        <section>
+                            <div class="rg-notification-list">
+                                @{
+                                    if (Model.AllBlobItems != null)
+                                    {
+                                        foreach (var blobItem in Model.AllBlobItems)
+                                        {
+                                            var cloudBlob = (CloudBlob)blobItem;
+                                            <div class="rg-notification-list-item">
+                                                <div class="notification-icon"><span class="material-icons warning">inbox</span></div>
+                                                <div class="notification-details">
+                                                    <h6 class="mb-0">@cloudBlob.Name</h6>
+                                                    <span>Added on @Convert.ToString(string.Format("{0:MM/dd/yyyy}", cloudBlob.Properties.LastModified)) </span>
+                                                </div>
+                                                <a class="btn btn-success btn-small btn-icon-text btn-elevated mb-1" href="@cloudBlob.Uri" target="_blank">View</a>
+                                            </div>
+                                        }
+                                    }
+                                }
+
+
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            <h5>Communications</h5>
+                        </header>
+                        <section>
+                            <div class="rg-blog-list">
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+

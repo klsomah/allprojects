@@ -1,0 +1,356 @@
+﻿@page
+@model IndexModel
+
+@{
+    Layout = "_LayoutMain";
+}
+
+<form method="post">
+    <div>
+        <nav class="rg-breadcrumb" aria-label="breadcrumb">
+            <h4 class="text-highlight-primary">@Model.SelectedSchName</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item breadcrumb-item-first"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">Dashboard</a></li>
+            </ol>
+            @if (User.IsInRole("Administrator"))
+            {
+
+                <div class="dropdown btn-secondary ml-auto" style="width:31%">
+                    <button style="width:100%" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" asp-route-id="@Model.SelectedSch">
+                        @Model.SelectedSchName
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width:100%">
+                        @if (Model.Schools != null)
+                        {
+
+                            @foreach (var sch in Model.Schools)
+                            {
+                                <button type="submit" asp-page-handler="DropDownChange" class="dropdown-item" asp-route-id="@sch.Id">@sch.Name</button>
+                            }
+                        }
+
+                    </div>
+                </div>
+            }
+        </nav>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="rg-card-numbers no-header">
+                    <section class="d-flex align-items-center">
+                        <div class="mr-3">
+                            <i class="material-icons rg-badge rg-badge-xl rg-badge-round rg-badge-highlight rg-badge-highlight-error ml-3 mr-3">card_travel</i>
+                        </div>
+                        <div>
+                            <h3 class="mb-0 text-highlight-info">@Model.ActiveContracts</h3>
+                            <h6 class="mb-0 text-highlight-secondary">Active Contracts</h6>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="rg-card-numbers no-header">
+                    <section class="d-flex align-items-center">
+                        <div class="mr-3">
+                            <i class="material-icons rg-badge rg-badge-xl rg-badge-round rg-badge-highlight rg-badge-highlight-error ml-3 mr-3">flag</i>
+                        </div>
+                        <div>
+                            <h3 class="mb-0 text-highlight-info">@Model.SuspendedContracts</h3>
+                            <h6 class="mb-0 text-highlight-secondary">Suspended Contracts</h6>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="rg-card-numbers no-header">
+                    <section class="d-flex align-items-center">
+                        <div class="mr-3">
+                            <i class="material-icons rg-badge rg-badge-xl rg-badge-round rg-badge-highlight rg-badge-highlight-info ml-3 mr-3">face</i>
+                        </div>
+                        <div>
+                            <h3 class="mb-0 text-highlight-info">@Model.FulfilledContracts</h3>
+                            <h6 class="mb-0 text-highlight-secondary">Fulfilled Contracts</h6>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="rg-card-simple equal-height">
+                    <header>
+                        <div class="row">
+                            <div class="col-lg-2 form-group">
+
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        @Model.NumOfMonths days
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <button class="dropdown-item" asp-route-id="30" type="submit">30 days</button>
+                                        <button class="dropdown-item" asp-route-id="60" type="submit">60 days</button>
+                                        <button class="dropdown-item" asp-route-id="90" type="submit">90 days</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 form-group">
+                                <h5> Summary</h5>
+                            </div>
+                        </div>
+                    </header>
+                    <section>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4">
+                                <h4 class="title-medium text-primary mb-2">@string.Format("{0:c}", Model.YearToDatePayment)</h4>
+                                <h6 class="text-secondary mb-4">Total earnings</h6>
+                                <h4 class="title-medium text-primary mb-1">@string.Format("{0:c}", Model.SelectedTotal)</h4>
+                                <h6 class="text-secondary mb-4">@Model.NumOfMonths days earnings</h6>
+                                <h4 class="title-medium text-primary mb-1">@string.Format("{0:c}", Model.SelectedTotalLate)</h4>
+                                <h6 class="text-secondary mb-4">@Model.NumOfMonths days unpaid</h6>
+                                <h4 class="title-medium text-primary mb-1">@string.Format("{0:c}", Model.SelectedTotalFee)</h4>
+                                <h6 class="text-secondary mb-4">@Model.NumOfMonths days fees paid</h6>
+                            </div>
+                            <div class="col-md-9 col-sm-8">
+                                <div id="amBarChart" style="width: 100%; height:300px;"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="rg-card-simple equal-height">
+                    <header>
+                        <h5>@Model.NumOfMonths Past Due List</h5>
+                    </header>
+                    <section>
+                        <table id="simpleTable" class="table rg-table rg-table-simple">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Student Name</th>
+                                    <th scope="col">Amount Due</th>
+                                    <th scope="col">Scheduled</th>
+                                    <th scope="col">Payment Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var late in Model.LatePayments)
+                                {
+                                    <tr>
+                                        <td><span class="text-capitalize">@late.Contract.FirstName</span> <span class="text-capitalize">@late.Contract.LastName</span></td>
+                                        <td><span class="text-danger">@string.Format("{0:c}", late.Amount)</span></td>
+                                        <td>@string.Format("{0:MM/dd/yyyy}", late.ScheduledDate)</td>
+                                        <td>@late.Contract.PaymentStatus</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rg-card-simple no-header">
+            <header>
+                <h5>Students Payment Summary and Details</h5>
+            </header>
+            <section>
+                <table id="user-data-table" class="table rg-table rg-table-simple user-data-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Details
+                            </th>
+                            <th>Student Name</th>
+                            <th>Status</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Total Payments</th>
+                            <th>Balance</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Contracts)
+                        {
+                            <tr>
+                                <td class="text-right">
+                                </td>
+                                <td>
+                                    <span class="text-capitalize"><a asp-page="/Contract/PreviewContract" asp-route-id="@item.Id" class="text-highlight-info mb-0 text-capitalize">@item.FirstName @item.LastName</a></span>
+                                </td>
+                                <td>
+                                    @if (item.PaymentStatus == "Active")
+                                    {
+                                        <span class="rg-badge rg-badge-highlight rg-badge-highlight-success">Active</span>
+                                    }
+                                    else if (item.PaymentStatus == "Suspended")
+                                    {
+                                        <span class="rg-badge rg-badge-highlight rg-badge-highlight-error">Suspended</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="rg-badge rg-badge-highlight rg-badge-highlight-warning">Inactive</span>
+                                    }
+                                </td>
+                                <td>
+                                    <span class="rg-m-r-20 text-primary">@item.Email</span>
+                                </td>
+                                <td>
+                                    <span class="rg-m-r-20 text-primary">@item.Phone</span>
+                                </td>
+                                <td>
+                                    <span>@string.Format("{0:c}", item.Payments.Where(p => p.CompleteDate != null && p.Status == "Succeeded").Select(p => p.Amount).Sum())</span>
+                                </td>
+                                <td>
+                                    <span>@string.Format("{0:c}", item.Payments.Where(p => p.CompleteDate == null && p.Status == "Scheduled").Select(p => p.Amount).Sum())</span>
+                                </td>
+                                <td class="align-items-center !important">
+                                    <div style="padding-left: 80px !important;">
+                                        <table class="table table-bordered">
+                                            <thead class="btn-brand btn-gradient">
+                                                <tr>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Trans Fees</th>
+                                                    <th scope="col">Late Fees</th>
+                                                    <th scope="col">Scheduled</th>
+                                                    <th scope="col">Trans Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var payment in Model.Payments.Where(p => p.ContractId == item.Id && p.CompleteDate != null && p.Status == "Succeeded").OrderByDescending(p => p.TransactionDate))
+                                                {
+                                                    <tr>
+                                                        <td>@payment.Status</td>
+                                                        <td>@string.Format("{0:c}", payment.Amount)</td>
+                                                        <td>@string.Format("{0:c}", payment.ProcessingFee)</td>
+                                                        <td>@string.Format("{0:c}", payment.LateFees)</td>
+                                                        <td>@string.Format("{0:MM/dd/yyyy}", payment.ScheduledDate)</td>
+                                                        <td>@string.Format("{0:MM/dd/yyyy}", payment.TransactionDate)</td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                        <br /><br />
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+    </div>
+</form>
+
+
+@section Scripts {
+    @*<script src="~/js/am-charts.js"></script>*@
+    <script src="~/js/calendar.js"></script>
+    <script src="~/js/data-tables.js"></script>
+    <script type="text/javascript">
+
+       $(document).ready(function() {
+           //location.reload(true);
+            var data = '@Model.ChartData';
+            data = data.replace(/&quot;/g, '');
+            //console.log(JSON.parse(data));
+            data = data.replace('Total Due', '"Total Due"');
+            data = data.replace('Total Payments', '"Total Payments"');
+            data = data.replace('Total Late Payments', '"Total Late Payments"');
+            data = data.replace('Late Unpaid', '"Late Unpaid"');
+            console.log(data);
+            //console.log(JSON.parse(data));
+
+            amBarChart(data);
+
+        } );
+
+        $('select[name="schools"]').on('change', function () {
+            location.reload(true);
+        });
+
+        function amBarChart(pData){
+        am4core.ready(function() {
+            // Themes begin
+            am4core.useTheme(am4themes_animated);
+            // Themes end
+            var chart = am4core.create("amBarChart", am4charts.XYChart);
+            chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+            chart.data = eval(pData);//[{History:"Total Payments",Amount:10896.27},{History:"Completed Payments",Amount:6112.91},{History:"Completed Late",Amount:0.0},{History:"Late Payments",Amount:4783.36}];
+            console.log(chart.data);
+
+            var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+            categoryAxis.renderer.grid.template.location = 0;
+            categoryAxis.dataFields.category = "History";
+            categoryAxis.renderer.minGridDistance = 40;
+            categoryAxis.fontSize = 11;
+            var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+            valueAxis.min = 0;
+            valueAxis.max = 50000;
+            valueAxis.strictMinMax = true;
+            valueAxis.renderer.minGridDistance = 30;
+            // axis break
+            @*var axisBreak = valueAxis.axisBreaks.create();
+            axisBreak.startValue = 2100;
+            axisBreak.endValue = 22900;
+            axisBreak.breakSize = 0.005;
+            // make break expand on hover
+            var hoverState = axisBreak.states.create("hover");
+            hoverState.properties.breakSize = 1;
+            hoverState.properties.opacity = 0.1;
+            hoverState.transitionDuration = 1500;
+            axisBreak.defaultState.transitionDuration = 1000;*@
+            var series = chart.series.push(new am4charts.ColumnSeries());
+            series.dataFields.categoryX = "History";
+            series.dataFields.valueY = "Amount";
+            series.columns.template.tooltipText = "{valueY.value}";
+            series.columns.template.tooltipY = 0;
+            series.columns.template.strokeOpacity = 0;
+            // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
+            series.columns.template.adapter.add("fill", function(fill, target) {
+              return chart.colors.getIndex(target.dataItem.index);
+            });
+            }); // end am4core.ready()
+    }
+
+    function processPayment(days){
+     //alert("Here");
+     $.ajax({
+            type: "POST",
+            url: "@Url.Page("/Index", "ChartdataRefresh")",
+            data: {"days": "" + days + ""},
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (msg) {
+                console.log(msg);
+            },
+            error: function (req, status, error) {
+                console.log(msg);
+            }
+    });
+    return false;
+        }
+
+        function ddlChange(schoolId){
+        //var schoolId = $("#ddlSchool").val();
+         $.ajax({
+                type: "POST",
+                url: "@Url.Page("/Index", "DropDownChange")",
+             data: { "schoolId": "" + schoolId + ""},
+                contentType: "application/json;charset=UTF-8",
+                dataType: "json",
+             success: function (msg) {
+                    console.log(msg);
+                },
+                error: function (req, status, error) {
+                    console.log(msg);
+                }
+    });
+    return false;
+ }
+
+    </script>
+}

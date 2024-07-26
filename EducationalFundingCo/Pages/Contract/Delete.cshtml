@@ -1,0 +1,113 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Contract</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.MiddleName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.MiddleName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.IpAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.IpAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.SocialSecurityNum)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.SocialSecurityNum)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.AcceptedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.AcceptedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.CompletedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.CompletedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.EstCompletedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.EstCompletedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.PaymentFenquency)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.PaymentFenquency)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.MaxDelinquencyAge)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.MaxDelinquencyAge)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.AcademyProgram)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.AcademyProgram.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Contract.IdentityUser)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contract.IdentityUser.Id)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Contract.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger deleteData" asp-for="Contract.Id" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
+
+
+<script>
+
+
+
+ 
+
+
+
+
+</script>

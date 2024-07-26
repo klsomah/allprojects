@@ -1,0 +1,65 @@
+﻿@page
+@model EducationalFundingCo.Pages.Communication.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Communication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.Status)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.Message)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.Message)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.MessageType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.MessageType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.Meduim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.Meduim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.ReadStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.ReadStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Communication.Contract)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Communication.Contract.Id)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Communication.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

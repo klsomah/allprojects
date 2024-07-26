@@ -1,0 +1,800 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.CreateModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <h4 class="text-highlight-primary">Create User</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item breadcrumb-item-first"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Create user</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small"><span class="material-icons">settings_applications</span></button>
+    </nav>
+    <div class="alert rg-alert alert-danger" id="divValidation" role="alert">
+        <ul></ul>
+    </div>
+    <div class="rg-tabs">
+        <ul class="nav nav-tabs nav-fill rg-tabs-card primary" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link p-4 active" id="personal-info-tab" data-toggle="tab" href="#personal-info" role="tab" aria-controls="personal-info" aria-selected="true">
+                    <span class="material-icons">person</span>
+                    Create Account
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-4" id="account-info-tab" data-toggle="tab" href="#account-info" role="tab" aria-controls="account-info" aria-selected="false">
+                    <span class="material-icons">face</span>
+                    Contact Info
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-4" id="address-tab" data-toggle="tab" href="#address" role="tab" aria-controls="address" aria-selected="false">
+                    <span class="material-icons">money</span>
+                    Address
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-4" id="preview-tab" data-toggle="tab" href="#preview" role="tab" aria-controls="preview" aria-selected="false">
+                    <i class="material-icons">local_atm</i>
+                    Connect Bank
+                </a>
+            </li>
+            @*<li class="nav-item">
+                <a class="nav-link p-4" id="sign-tab" data-toggle="tab" href="#complete" role="tab" aria-controls="complete" aria-selected="false" >
+                    <span class="material-icons">input</span>
+                    Sign Contract
+                </a>
+            </li>*@
+        </ul>
+        <form method="post" class="was-validated" id="contractForm">
+            @if (User.IsInRole("Administrator"))
+            {
+                <input id="txtRole" value="Admin" hidden />
+            }
+            else
+            {
+                <input id="txtRole" value="Student" hidden />
+            }
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="personal-info" role="tabpanel" aria-labelledby="personal-info-tab">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-8">
+                            <div class="rg-card-simple equal-height text-center">
+                                <header>
+                                    <h5>Income Share Agreement</h5>
+                                    <span>In consideration for @Model.Contract.AcademyProgram.ProgramName by Educational Funding Co.</span>
+                                </header>
+                                <section>
+                                    <p class="text-thin">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                Income Percent
+                                                <br /><h5>@Model.Contract.AcademyProgram.IncomePercentage %</h5>
+                                                <input id="incomePercentage" name="incomePercentage" value="@Model.Contract.AcademyProgram.IncomePercentage" hidden />
+                                            </div>
+                                        
+                                            <div class="col-lg-4">
+                                                Payment Cap
+                                                <br /><h5>@Convert.ToString(string.Format("{0:C2}", Model.Contract.AcademyProgram.Cap))</h5>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                Minimum Income
+                                                <br /><h5>@Convert.ToString(string.Format("{0:C2}", Model.Contract.AcademyProgram.MinIncome))</h5>
+                                            </div>
+                                        </div>
+                                        <br />
+                                       
+                                        <input id="duration" name="duration" value="@Model.Contract.AcademyProgram.Duration" hidden />
+                                    </p>
+                                    <hr />
+                                    <hr />
+                                    <p class="text-thin">
+                                        <h5>Estimate your payments</h5>
+                                        <br />If your salary is <b><span id="yourSalary"></span></b>
+                                        <div class="d-flex justify-content-center my-4">
+                                            <span class="font-weight-bold text-primary ml-2 valueSpan1"></span>
+                                            <div class="w-75">
+                                                <input type="range" class="custom-range" id="customRange11" min="0" max="150000" value="50000">
+                                            </div>
+                                            <span class="font-weight-bold text-primary ml-2 valueSpan2"></span>
+                                        </div>
+                                        <br />You will pay: <b><span id="yourPay"></span></b>
+                                        <br />Semi-monthly payments
+                                    </p>
+                                </section>
+                                <footer>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="form-group row">
+                                <label asp-for="Contract.Email" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        <input asp-for="Contract.Email" class="form-control" placeholder="Email" required readonly>
+                                        <input asp-for="Contract.Id" hidden>
+                                        <input asp-for="Contract.ProgramId" hidden>
+                                        <input asp-for="Contract.UserId" hidden>
+                                        <input asp-for="Contract.IpAddress" hidden>
+                                        <input asp-for="Contract.AcceptedDate" hidden>
+                                        <input asp-for="Contract.DateSigned" hidden>
+                                        <input asp-for="Contract.SchoolId" hidden>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="form-group row">
+                                <label class="col-lg-3 col-form-label">School Name </label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        @{
+                                            string schoolName = null;//HttpContext.Session.GetString("SchoolName").ToString();
+                                            if (Model.Contract != null && Model.Contract.School != null)
+                                                schoolName = (Model.Contract.School.Name ?? "").ToString();
+                                        }
+                                        <input asp-for="@schoolName" class="form-control" placeholder="School Name" required readonly>
+ 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+
+                                <a class="btn btn-info btn-icon-text" id="accountNext" href="#"> <span class="text">Next</span><span class="material-icons">arrow_forward</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="account-info" role="tabpanel" aria-labelledby="account-info-tab">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-8">
+                            <div class="form-group row">
+                                <label asp-for="Contract.FirstName" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        @if (Model.Contract != null && Model.Contract.FirstName != null)
+                                        {
+                                            <input asp-for="Contract.FirstName" class="form-control" placeholder="First Name" required readonly />
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="Contract.FirstName" id="txtFirstName" class="form-control" placeholder="First Name" required />
+                                        }
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.LastName" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        @if (Model.Contract != null && Model.Contract.LastName != null)
+                                        {
+                                            <input asp-for="Contract.LastName" class="form-control" placeholder="Last Name" required readonly />
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="Contract.LastName" class="form-control" id="txtLastName" placeholder="Last Name" required />
+                                        }
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.MiddleName" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        @if (Model.Contract != null && Model.Contract.MiddleName != null)
+                                        {
+                                            <input asp-for="Contract.MiddleName" class="form-control" placeholder="Middle Name" readonly>
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="Contract.MiddleName" class="form-control" placeholder="Middle Name">
+                                        }
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.Phone" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        <input asp-for="Contract.Phone" id="contactPhone" class="form-control" placeholder="Phone" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.SocialSecurityNum" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        @if (Model.Contract != null && Model.Contract.SocialSecurityNum != null)
+                                        {
+                                            <input asp-for="Contract.SocialSecurityNum" class="form-control" placeholder="Social Security Number" required readonly>
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="Contract.SocialSecurityNum" id="ssNumber" class="form-control" placeholder="Social Security Number" required>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.DateOfBirth" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        @if (Model.Contract != null && Model.Contract.DateOfBirth != null)
+                                        {
+                                            <input asp-for="Contract.DateOfBirth" class="form-control" placeholder="Date Of Birth" required type="date" readonly>
+                                        }
+                                        else
+                                        {
+                                            <input asp-for="Contract.DateOfBirth" id="txtDateOfBirth" class="form-control" placeholder="Date Of Birth" required type="date">
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <a class="btn btn-secondary btn-icon-text" id="personalInfoPrev" href="#"><span class="material-icons">arrow_back</span><span class="text">previous</span></a>
+                                <a class="btn btn-info btn-icon-text" id="personalInfoNext" href="#"> <span class="text">Next</span><span class="material-icons">arrow_forward</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-8">
+                            <div class="form-group row">
+                                <label asp-for="Contract.Address" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        <input asp-for="Contract.Address" id="txtAddress" class="form-control" placeholder="Address" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.City" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        <input asp-for="Contract.City" id="txtCity" class="form-control" placeholder="City" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.State" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        <select asp-for="Contract.State" required class="form-control" id="ddlStates">
+                                            <option value="">Select a state</option>
+                                            <option value="AL">Alabama</option>
+                                            <option value="AK">Alaska</option>
+                                            <option value="AZ">Arizona</option>
+                                            <option value="AR">Arkansas</option>
+                                            <option value="CA">California</option>
+                                            <option value="CO">Colorado</option>
+                                            <option value="CT">Connecticut</option>
+                                            <option value="DE">Delaware</option>
+                                            <option value="DC">District Of Columbia</option>
+                                            <option value="FL">Florida</option>
+                                            <option value="GA">Georgia</option>
+                                            <option value="HI">Hawaii</option>
+                                            <option value="ID">Idaho</option>
+                                            <option value="IL">Illinois</option>
+                                            <option value="IN">Indiana</option>
+                                            <option value="IA">Iowa</option>
+                                            <option value="KS">Kansas</option>
+                                            <option value="KY">Kentucky</option>
+                                            <option value="LA">Louisiana</option>
+                                            <option value="ME">Maine</option>
+                                            <option value="MD">Maryland</option>
+                                            <option value="MA">Massachusetts</option>
+                                            <option value="MI">Michigan</option>
+                                            <option value="MN">Minnesota</option>
+                                            <option value="MS">Mississippi</option>
+                                            <option value="MO">Missouri</option>
+                                            <option value="MT">Montana</option>
+                                            <option value="NE">Nebraska</option>
+                                            <option value="NV">Nevada</option>
+                                            <option value="NH">New Hampshire</option>
+                                            <option value="NJ">New Jersey</option>
+                                            <option value="NM">New Mexico</option>
+                                            <option value="NY">New York</option>
+                                            <option value="NC">North Carolina</option>
+                                            <option value="ND">North Dakota</option>
+                                            <option value="OH">Ohio</option>
+                                            <option value="OK">Oklahoma</option>
+                                            <option value="OR">Oregon</option>
+                                            <option value="PA">Pennsylvania</option>
+                                            <option value="RI">Rhode Island</option>
+                                            <option value="SC">South Carolina</option>
+                                            <option value="SD">South Dakota</option>
+                                            <option value="TN">Tennessee</option>
+                                            <option value="TX">Texas</option>
+                                            <option value="UT">Utah</option>
+                                            <option value="VT">Vermont</option>
+                                            <option value="VA">Virginia</option>
+                                            <option value="WA">Washington</option>
+                                            <option value="WV">West Virginia</option>
+                                            <option value="WI">Wisconsin</option>
+                                            <option value="WY">Wyoming</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Contract.Zipcode" class="col-lg-3 col-form-label"></label>
+                                <div class="col-lg-9">
+                                    <div class="form-group">
+                                        <input asp-for="Contract.Zipcode" class="form-control" id="zipCode" placeholder="Zipcode" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="offset-lg-3 col-lg-9">
+                                <a class="btn btn-secondary btn-icon-text" id="addressPrev" href="#"><span class="material-icons">arrow_back</span><span class="text">previous</span></a>
+                                <a class="btn btn-info btn-icon-text" id="addressNext" href="#"><span class="text">Next</span><span class="material-icons">arrow_forward</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-8">
+                            <div>
+                                <p style="text-align:center">
+                                    <span style="font-weight:700"> Link the bank account where you'll receive your income.</span>
+                                </p>
+                                <p style="text-align:center">
+                                    Transmitted using bank-level encryption
+                                </p>
+
+                                <p style="text-align:center">
+                                    We do not store your login credentials
+                                </p>
+                                <p style="text-align:center">
+                                    <span style="font-weight:700">CONSENT TO ELIGIBILITY INQUIRY</span>
+                                </p>
+                                <p><b>Our Commitment to Privacy</b></p>
+                                <p>All information stored in our database is secure and is strictly confidential. Your personal and credit information will only be used to fulfill your request and in accordance with our Privacy Policy.</p>
+                                <p><b>Acknowledgement and Consent</b></p>
+                                <p>You understand that by providing an electronic signature on the "Sign Contract" tab and clicking the "Connect Bank" button immediately following this notice, you certify that all of the information provided in this application is true and correct, and you are confirming you have read and understand the Privacy Policy and you are providing written instructions to this company under the Fair Credit Reporting Act authorizing this company to obtain information from your personal credit profile or other information from Experian and/or TransUnion. You authorize this company to obtain such information solely to conduct a pre-qualification.</p>
+                            </div>
+                            <hr />
+
+                            <div class="text-center">
+                                @if (Model.Contract != null && Model.Contract.PublicToken != null && Model.Contract.MetaDataArray != null)
+                                {
+                                    <div><b>You've connected your bank info</b></div><br />
+                                }
+                                <a class="btn btn-primary" id="link-button" style="color:white">Connect Bank</a>
+                                <input asp-for="@Model.LinkToken" id="plaidLinkToken" hidden />
+                                <input asp-for="Contract.PublicToken" id="plaidPublicToken" hidden />
+                                <input asp-for="Contract.MetaDataArray" id="plaidMetaDataArray" hidden />
+
+                            </div>
+                            <br />
+                            <div class="text-center">
+                                <a class="btn btn-secondary btn-icon-text" id="connectBankPrev" href="#"><span class="material-icons">arrow_back</span><span class="text">previous</span></a>
+                                <button type="submit" class="btn btn-info btn-icon-text" id="connectBankNext" href="#"> <span class="text">Next</span><span class="material-icons">arrow_forward</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+
+    <style>
+        #sig-canvas {
+            border: 2px dotted #CCCCCC;
+            border-radius: 15px;
+            cursor: crosshair;
+        }
+    </style>
+    <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+    <script src="~/assets/js/jquery.inputmask.js"></script>
+    <script type="text/javascript">
+        (async function () {
+            const $plaidLinkToken = $("#plaidLinkToken");
+            var $plaidPublicToken = $("#plaidPublicToken");
+            var $plaidMetaDataArray = $("#plaidMetaDataArray");
+
+            const configs = {
+                // Pass the link_token generated in step 2.
+                token: $plaidLinkToken.val(),
+                onLoad: function () {
+                    // The Link module finished loading.
+                },
+                onSuccess: function (public_token, metadata) {
+                    // The onSuccess function is called when the user has
+                    // successfully authenticated and selected an account to
+                    // use.
+                    //
+                    // When called, you will send the public_token
+                    // and the selected account ID, metadata.accounts,
+                    // to your backend app server.
+                    //
+                    // sendDataToBackendServer({
+                    //   public_token: public_token,
+                    //   account_id: metadata.accounts[0].id
+                    // });
+                    $plaidPublicToken.val(public_token);
+                    $plaidMetaDataArray.val(JSON.stringify(metadata.accounts));
+
+                    console.log('Public Token: ' + public_token);
+                    switch (metadata.accounts.length) {
+                        case 0:
+                            // Select Account is disabled: https://dashboard.plaid.com/link/account-select
+                            break;
+                        case 1:
+                            console.log('Customer-selected account ID: ' + metadata.accounts[0].id);
+                            break;
+                        default:
+                        // Multiple Accounts is enabled: https://dashboard.plaid.com/link/account-select
+                    }
+                },
+                onExit: async function (err, metadata) {
+                    // The user exited the Link flow.
+                    if (err != null) {
+                        // The user encountered a Plaid API error
+                        // prior to exiting.
+                    }
+                    // metadata contains information about the institution
+                    // that the user selected and the most recent
+                    // API request IDs.
+                    // Storing this information can be helpful for support.
+                },
+            };
+
+            var linkHandler = Plaid.create(configs);
+
+            document.getElementById('link-button').onclick = function () {
+                linkHandler.open();
+            };
+        })();
+
+
+        //(function () {
+        //    window.requestAnimFrame = (function (callback) {
+        //        return window.requestAnimationFrame ||
+        //            window.webkitRequestAnimationFrame ||
+        //            window.mozRequestAnimationFrame ||
+        //            window.oRequestAnimationFrame ||
+        //            window.msRequestAnimaitonFrame ||
+        //            function (callback) {
+        //                window.setTimeout(callback, 1000 / 60);
+        //            };
+        //    })();
+
+        //    var canvas = document.getElementById("sig-canvas");
+        //    var ctx = canvas.getContext("2d");
+        //    ctx.strokeStyle = "#222222";
+        //    ctx.lineWidth = 4;
+
+        //    var drawing = false;
+        //    var mousePos = {
+        //        x: 0,
+        //        y: 0
+        //    };
+        //    var lastPos = mousePos;
+
+        //    canvas.addEventListener("mousedown", function (e) {
+        //        drawing = true;
+        //        lastPos = getMousePos(canvas, e);
+        //    }, false);
+
+        //    canvas.addEventListener("mouseup", function (e) {
+        //        drawing = false;
+        //    }, false);
+
+        //    canvas.addEventListener("mousemove", function (e) {
+        //        mousePos = getMousePos(canvas, e);
+        //    }, false);
+
+        //    // Add touch event support for mobile
+        //    canvas.addEventListener("touchstart", function (e) {
+
+        //    }, false);
+
+        //    canvas.addEventListener("touchmove", function (e) {
+        //        var touch = e.touches[0];
+        //        var me = new MouseEvent("mousemove", {
+        //            clientX: touch.clientX,
+        //            clientY: touch.clientY
+        //        });
+        //        canvas.dispatchEvent(me);
+        //    }, false);
+
+        //    canvas.addEventListener("touchstart", function (e) {
+        //        mousePos = getTouchPos(canvas, e);
+        //        var touch = e.touches[0];
+        //        var me = new MouseEvent("mousedown", {
+        //            clientX: touch.clientX,
+        //            clientY: touch.clientY
+        //        });
+        //        canvas.dispatchEvent(me);
+        //    }, false);
+
+        //    canvas.addEventListener("touchend", function (e) {
+        //        var me = new MouseEvent("mouseup", {});
+        //        canvas.dispatchEvent(me);
+        //    }, false);
+
+        //    function getMousePos(canvasDom, mouseEvent) {
+        //        var rect = canvasDom.getBoundingClientRect();
+        //        return {
+        //            x: mouseEvent.clientX - rect.left,
+        //            y: mouseEvent.clientY - rect.top
+        //        }
+        //    }
+
+        //    function getTouchPos(canvasDom, touchEvent) {
+        //        var rect = canvasDom.getBoundingClientRect();
+        //        return {
+        //            x: touchEvent.touches[0].clientX - rect.left,
+        //            y: touchEvent.touches[0].clientY - rect.top
+        //        }
+        //    }
+
+        //    function renderCanvas() {
+        //        if (drawing) {
+        //            ctx.moveTo(lastPos.x, lastPos.y);
+        //            ctx.lineTo(mousePos.x, mousePos.y);
+        //            ctx.stroke();
+        //            lastPos = mousePos;
+        //        }
+        //    }
+
+        //    // Prevent scrolling when touching the canvas
+        //    document.body.addEventListener("touchstart", function (e) {
+        //        if (e.target == canvas) {
+        //            e.preventDefault();
+        //        }
+        //    }, false);
+        //    document.body.addEventListener("touchend", function (e) {
+        //        if (e.target == canvas) {
+        //            e.preventDefault();
+        //        }
+        //    }, false);
+        //    document.body.addEventListener("touchmove", function (e) {
+        //        if (e.target == canvas) {
+        //            e.preventDefault();
+        //        }
+        //    }, false);
+
+        //    (function drawLoop() {
+        //        requestAnimFrame(drawLoop);
+        //        renderCanvas();
+        //    })();
+
+        //    function clearCanvas() {
+        //        canvas.width = canvas.width;
+        //    }
+
+        //    // Set up the UI
+        //    var sigText = document.getElementById("sig-dataUrl");
+        //    var sigImage = document.getElementById("sig-image");
+        //    var clearBtn = document.getElementById("sig-clearBtn");
+        //    var submitBtn = document.getElementById("sig-submitBtn");
+        //    var sigLabel = document.getElementById("sig-label");
+        //    var submitContract = document.getElementById("submitContract");
+
+        //    if (sigText.innerHTML === "") {
+        //        canvas.style.display = "block";
+        //        sigImage.style.display = "none";
+        //        sigLabel.style.display = "block";
+        //        submitContract.disabled = true;
+        //        submitBtn.style.display = "block";
+        //        clearBtn.style.display = "block";
+        //    }
+        //    else {
+        //        canvas.style.display = "none";
+        //        sigImage.style.display = "block";
+        //        sigLabel.style.display = "none";
+        //        submitContract.disabled = false;
+        //        submitBtn.style.display = "none";
+        //        clearBtn.style.display = "none";
+        //    }
+
+        //    clearBtn.addEventListener("click", function (e) {
+        //        clearCanvas();
+        //        sigText.innerHTML = "";
+        //        sigImage.setAttribute("src", "");
+        //    }, false);
+        //    submitBtn.addEventListener("click", function (e) {
+        //        var dataUrl = canvas.toDataURL();
+        //        sigText.innerHTML = dataUrl;
+        //        sigImage.setAttribute("src", dataUrl);
+
+        //        canvas.style.display = "none";
+        //        sigImage.style.display = "block";
+        //        sigLabel.style.display = "none";
+        //        submitContract.disabled = false;
+        //        submitBtn.style.display = "none";
+        //        clearBtn.style.display = "none";
+
+        //    }, false);
+
+
+
+
+        //})();
+
+
+        function currencyFormat(num) {
+            return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+        }
+
+        $("#ssNumber").inputmask("999-99-9999", {
+            inputFormat: "999-99-9999",
+            outputFormat: "999-99-9999",
+            inputEventOnly: true
+        });
+        $("#contactPhone").inputmask("1(999) 999-9999", {
+            inputFormat: "1(999) 999-9999",
+            outputFormat: "1(999) 999-9999",
+            inputEventOnly: true
+        });
+        $("#zipCode").inputmask("99999", {
+            inputFormat: "99999",
+            outputFormat: "99999",
+            inputEventOnly: true
+        });
+
+        $(document).ready(function () {
+
+            $("#divValidation").hide();
+            const $valueSpan = $('.valueSpan2');
+            const $valueSpan1 = $('.valueSpan1');
+            const $value = $('#customRange11');
+            const $valueSalary = $('#yourSalary');
+            const $duration = $('#duration');
+            const $totalMonths = $('#totalMonths');
+            const $incomePercentage = $('#incomePercentage');
+            const $yourPay = $('#yourPay');
+            const $sigText1 = $("#sig-dataUrl");
+            const $sigImage1 = $("#sig-image");
+            const $txtRole = $("#txtRole");
+
+            const $incomeDecimal = parseFloat($incomePercentage.val() / 100);
+            const $durationAmt = $duration.val().split(" ")[0];
+            const $initialAmt = parseFloat($incomeDecimal * 50000) / parseInt($durationAmt);
+
+            $totalMonths.html($durationAmt);
+            $yourPay.html(currencyFormat($initialAmt));
+            $valueSpan.html(currencyFormat(parseInt('150000')));
+            $valueSpan1.html(currencyFormat(parseInt('0')));
+            $valueSalary.html(currencyFormat(parseInt($value.val())));
+            $sigImage1.attr("src", $sigText1.val());
+            //alert($sigImage1.attr('src'));
+
+            //$("#str").load("htmlpage.html #fullName");
+            //$("#str").html(str.html().replace("[Obligor Name]", "Kloteh E. Somah"));
+
+            $value.on('input change', () => {
+                $valueSalary.html(currencyFormat(parseInt($value.val())));
+                $yourPay.html(currencyFormat(parseFloat($incomeDecimal * parseFloat($value.val())) / parseInt($durationAmt)));
+            });
+
+            $('#accountNext').click(function () {
+                $('#account-info-tab')[0].click();
+            })
+            $('#personalInfoPrev').click(function () {
+                $('#personal-info-tab')[0].click();
+            })
+            $('#personalInfoNext').click(function () {
+                $('#address-tab')[0].click();
+            })
+            $('#addressPrev').click(function () {
+                $('#account-info-tab')[0].click();
+            })
+            $('#addressNext').click(function () {
+                $('#preview-tab')[0].click();
+            })
+            $('#connectBankPrev').click(function () {
+                $('#account-info-tab')[0].click();
+            })
+            //$('#connectBankNext').click(function () {
+            //    $('#sign-tab')[0].click();
+            //})
+            $('#signPrev').click(function () {
+                $('#preview-tab')[0].click();
+            })
+
+            $('#connectBankNext').click(function () {
+
+                var errors = false;
+                $("#divValidation ul").empty();
+
+                if ($('#txtFirstName').val() == "") {
+                    $("#divValidation ul").append('<li>First Name required</li>');
+                    errors = true;
+                }
+
+                if ($('#txtLastName').val() == "") {
+                    $("#divValidation ul").append('<li>Last Name required</li>');
+                    errors = true;
+                }
+
+                if ($('#contactPhone').val() == "") {
+                    $("#divValidation ul").append('<li>Phone required</li>');
+                    errors = true;
+                }
+
+                if ($('#ssNumber').val() == "") {
+                    $("#divValidation ul").append('<li>Social Securtiy Number required</li>');
+                    errors = true;
+                }
+
+                if ($('#txtDateOfBirth').val() == "") {
+                    $("#divValidation ul").append('<li>Date Of Birth required</li>');
+                    errors = true;
+                }
+
+                if ($('#txtAddress').val() == "") {
+                    $("#divValidation ul").append('<li>Address required</li>');
+                    errors = true;
+                }
+
+                if ($('#ddlStates').val() == "") {
+                    $("#divValidation ul").append('<li>State required</li>');
+                    errors = true;
+                }
+
+                if ($('#txtCity').val() == "") {
+                    $("#divValidation ul").append('<li>City required</li>');
+                    errors = true;
+                }
+
+                if ($('#zipCode').val() == "") {
+                    $("#divValidation ul").append('<li>Zip Code required</li>');
+                    errors = true;
+                }
+
+                //if ($('#plaidPublicToken').val() == "") {
+                //    $("#divValidation ul").append('<li>Bank connection required</li>');
+                //    errors = true;
+                //}
+
+                //if ($('#sig-dataUrl').val() == "") {
+                //    $("#divValidation ul").append('<li>Signature required</li>');
+                //    errors = true;
+                //}
+
+                if (errors) {
+                    $("#divValidation").show();
+                }
+                else {
+                    $("#divValidation").hide();
+                }
+
+            })
+
+            if ($txtRole.val() === "Admin") {
+                $('#contractForm input').attr('readonly', 'readonly');
+            }
+
+        });
+
+
+    </script>
+}

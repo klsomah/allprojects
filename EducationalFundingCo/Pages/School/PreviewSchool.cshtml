@@ -1,0 +1,400 @@
+﻿@page
+@model EducationalFundingCo.Pages.School.PreviewSchoolModel
+
+@{
+    ViewData["Title"] = "PreviewSchool";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+
+}
+<style>
+    .btn.btn-secondary {
+        background: #7688aa;
+        border: none;
+        color: #ffffff;
+        /*margin-left: 570px;*/
+    }
+</style>
+
+@{
+    if (Model.PreviewMessage != null)
+    {
+        if (Model.PreviewMessage.StartsWith("Success"))
+        {
+            <div class="alert rg-alert alert-success" role="alert">
+                @Model.PreviewMessage
+            </div>
+        }
+        if (Model.PreviewMessage.StartsWith("Error"))
+        {
+            <div class="alert rg-alert alert-danger" role="alert">
+                @Model.PreviewMessage
+            </div>
+        }
+    }
+}
+
+<div class="row">
+
+
+
+    <div class="col-lg-6">
+
+        <div class="rg-card-simple equal-height">
+
+            @*            <header>
+            <span _ngcontent-ldo-c19="" class="icon material-icons text-success">person</span>
+            <h5>@Model.Schools.FirstName @Model.Schools.LastName </h5>
+            </header>*@
+
+
+            <div id="accordion_with_icon" class="accordion">
+
+                <div class="card">
+
+                    <div class="card-header" id="accordion_with_icon_headingOne">
+                        <h4 class="mb-0">
+
+                            <span _ngcontent-ldo-c19="" class="icon material-icons text-success">person</span>
+
+                            <span> @Model.Schools.FirstName @Model.Schools.LastName </span>
+
+                        </h4>
+
+                    </div>
+
+                    <div id="accordion_with_icon_collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_with_icon">
+                        <div class="card-body">
+                            @* <form method="post" class="was-validated" asp-page-handler="UpdateSchool">*@
+                            <form class="was-validated">
+
+                                <div class="form-group row">
+                                    <label asp-for="Schools.FirstName" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.FirstName" class="form-control" placeholder="First Name" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="Schools.LastName" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.LastName" class="form-control" placeholder="Last Name" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="Schools.Email" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.Email" class="form-control" placeholder=" Email " type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="Schools.Address1" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.Address1" class="form-control" placeholder="Address1" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="Schools.City" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.City" class="form-control" placeholder="City" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                
+
+                                <div class="form-group row">
+                                    <label asp-for="Schools.State" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+
+                                        <div class="form-group">
+
+                                            @{
+                                                //string state = null;
+                                                //string data = null;
+                                                if (ViewBag.USAState != null)
+                                                {
+                                                    foreach (var item in ViewBag.USAState)
+                                                    {
+                                                        <input asp-for=@Model.USStateValues class="form-control" placeholder="State" type="text" disabled="disabled" name="USAState" value="@item.Text">
+                                                    }
+                                                }
+
+                                                if (Model.Schools.State != null)
+                                                {
+
+                                                    <input asp-for="Schools.State" class="form-control" placeholder="State" type="text" disabled="disabled">
+                                                }
+
+
+
+                                            }
+
+                                           @* <input asp-for="Schools.State" class="form-control" placeholder="State" type="text" disabled="disabled">*@
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="Schools.ZipCode" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.ZipCode" class="form-control" placeholder="Zip Code" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <label asp-for="Schools.CreatedOn" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.CreatedOn" class="form-control" placeholder="Created Date" type="date" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                @*<div class="form-group row">*@
+                                 @*   <label asp-for="Schools.ModifiedOn" class="col-lg-4 col-form-label"></label>*@
+                                @*    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.ModifiedOn" class="form-control" placeholder="Modified Date" type="" disabled="disabled">
+                                        </div>
+                                    </div>*@
+
+                                @*</div>*@
+@*                                <div class="form-group row">
+                                    <label asp-for="Schools.Address1" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.Address1" class="form-control" placeholder="Address 1" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>*@
+                                <div class="form-group row">
+                                    <label asp-for="Schools.Name" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.Name" class="form-control" placeholder="School Name" type="text" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    @{
+
+                                        <label class="col-lg-4 col-form-label"> EdFundCo solutions:  </label>
+
+                                        <div class="col-lg-8">
+                                            @foreach (var item in ViewBag.Choices)
+                                            {
+
+
+                                                <input checked="@true" type="checkbox" value="@item.Value" name="Choices" disabled="disabled" />
+                                                 @item.Text <br/>
+                                            
+
+                                            }
+                                        
+                                        </div>
+
+
+                                    }
+                                </div>
+                                @*            <div class="form-group row">
+                                <label asp-for="Contract.PaymentStatus" class="col-lg-4 col-form-label"></label>
+                                <div class="col-lg-8">
+                                <div class="form-group">
+                                <select asp-for="Contract.PaymentStatus" class="form-control" id="ddlStates">
+                                <option value="">Select a status</option>
+                                <option value="Active">Active</option>
+                                <option value="Suspended">Suspended</option>
+                                <option value="Completed">Completed</option>
+                                </select>
+                                </div>
+                                </div>
+                                </div>*@
+                                @*            <div class="offset-lg-4 col-lg-8">
+                                <button class="btn btn-brand btn-gradient mb-1" type="submit">Update Record</button>
+                                <input asp-for="Schools.Id" class="form-control" hidden>
+                                </div>*@
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="col-lg-6">
+
+        <div class="rg-card-simple equal-height">
+
+
+
+            <div id="accordion_with_icon" class="accordion">
+
+                <div class="card">
+
+                    <div class="card-header" id="accordion_with_icon_headingOne">
+                        <h4 class="mb-0">
+
+                            Status :  @Model.Schools.Status
+                        </h4>
+                    </div>
+
+                    <div id="accordion_with_icon_collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_with_icon">
+                        <div class="card-body">
+                           @* <form method="post" class="was-validated" asp-page-handler="UpdateSchool">*@
+                            <form class="was-validated">
+
+                                @{
+
+                                    if (Model.Schools.CPSEmail != null && Model.Schools.CPSFirstName != null && Model.Schools.CPSLastName != null && Model.Schools.CPSName != null && Model.Schools.CPSProgram != null && Model.Schools.IsCPSBasedInUS != null)
+
+                                    {
+
+                                        <div class="form-group row">
+                                            <label asp-for="Schools.CPSFirstName" class="col-lg-4 col-form-label"></label>
+                                            <div class="col-lg-8">
+                                                <div class="form-group">
+                                                    <input asp-for="Schools.CPSFirstName" class="form-control" placeholder="CPS First Name" type="text" disabled="disabled">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="Schools.CPSLastName" class="col-lg-4 col-form-label"></label>
+                                            <div class="col-lg-8">
+                                                <div class="form-group">
+                                                    <input asp-for="Schools.CPSLastName" class="form-control" placeholder="CPS Last Name" type="text" disabled="disabled">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="Schools.CPSEmail" class="col-lg-4 col-form-label"></label>
+                                            <div class="col-lg-8">
+                                                <div class="form-group">
+                                                    <input asp-for="Schools.CPSEmail" class="form-control" placeholder=" CPS Email " type="text" disabled="disabled">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label asp-for="Schools.CPSProgram" class="col-lg-4 col-form-label"></label>
+                                            <div class="col-lg-8">
+                                                <div class="form-group">
+                                                    <input asp-for="Schools.CPSProgram" class="form-control" placeholder="CPS Program" type="text" disabled="disabled">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label asp-for="Schools.CPSName" class="col-lg-4 col-form-label"></label>
+                                            <div class="col-lg-8">
+                                                <div class="form-group">
+                                                    <input asp-for="Schools.CPSName" class="form-control" placeholder="CPS School Name" type="text" disabled="disabled">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group row">
+                                            <label asp-for="Schools.ZipCode" class="col-lg-4 col-form-label"></label>
+                                            <div class="col-lg-8">
+                                                <div class="form-group">
+                                                    <input asp-for="Schools.ZipCode" class="form-control" placeholder="Zip Code" type="text" disabled="disabled">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        //<div class="form-group row">
+                                        //    <label asp-for="Schools.CreatedOn" class="col-lg-4 col-form-label"></label>
+                                        //    <div class="col-lg-8">
+                                        //        <div class="form-group">
+                                        //            <input asp-for="Schools.CreatedOn" class="form-control" placeholder="Created On" type="date" disabled="disabled">
+                                        //        </div>
+                                        //    </div>
+
+                                        //</div>
+
+
+                                    }
+
+
+
+
+                                }
+
+
+                                  @* <div class="form-group row">
+                                    <label asp-for="Schools.CreatedOn" class="col-lg-4 col-form-label"></label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Schools.CreatedOn" class="form-control" placeholder="Created On" type="date" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                </div>*@
+
+
+ 
+                            </form>
+
+
+                        </div>
+                        <div class="col-lg-4 col-form-label">
+                            <a asp-page="./Index" class="btn btn-secondary">Back</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+        </div>
+
+    </div>
+
+
+    <style>
+
+        .form-control:disabled {
+            background: #f9f9f9;
+            opacity: 19.3;
+        }
+
+        .form-control {
+            height: calc(1.5em + 0.75rem + 4px);
+            border-color: #000000;
+            background: #fffdfd;
+            color: #000000;
+        }
+
+        .material-icons {
+            font-size: 40px
+        }
+    </style>

@@ -1,0 +1,101 @@
+﻿@page
+@model EducationalFundingCo.Pages.Configurations.EditModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<style>
+
+    .form-control:disabled {
+        color: #000000;
+        border-color: #e6e8ec;
+        background: #e6e8ec;
+        opacity: 1.3;
+    }
+</style>
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <h4 class="text-primary">Configuration Form</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item breadcrumb-item-first"><a asp-page="/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Edit Form</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small"><span class="material-icons">settings_applications</span></button>
+    </nav>
+    <div class="row">
+        <input type="hidden" asp-for="ConfigValue.Id" />
+        <div class="col-lg-8">
+            <div class="rg-card-simple equal-height">
+                <header>
+                    <h5>Edit Academy Program</h5>
+                </header>
+                <section>
+                    <form method="post" class="was-validated">
+                        <input type="hidden" asp-for="ConfigValue.Id" />
+                        <div class="form-group row">
+                            <label asp-for="ConfigValue.KeyPair" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="ConfigValue.KeyPair" class="form-control" placeholder="Key" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="ConfigValue.ValuePair" class="col-lg-4 col-form-label"></label>
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <input asp-for="ConfigValue.ValuePair" class="form-control" placeholder="Income Percentage" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="School.Name" class="col-lg-4 col-form-label"></label>
+                            @{
+
+                                //if (Model.School.Name != null)
+                                //{
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            @{
+                                                //string schoolName = HttpContext.Session.GetString("SchoolName").ToString();
+                                               
+                                                string schoolName = (HttpContext.Session.GetString("SchoolName") ?? "").ToString();
+                                            }
+                                            <input asp-for="@schoolName" class="form-control" placeholder="School Name" required disabled="disabled">
+                                        </div>
+                                    </div>
+                                //}
+
+
+
+                           }
+
+                        </div>
+                        <div class="offset-lg-4 col-lg-8">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

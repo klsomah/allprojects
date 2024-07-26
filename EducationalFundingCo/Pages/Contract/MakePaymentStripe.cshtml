@@ -1,0 +1,217 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.MakePaymentStripeModel
+
+@{
+    ViewData["Title"] = "MakePayment";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li>
+                <h4 class="text-highlight-primary">Make Payment</h4>
+            </li>
+            <li class="breadcrumb-item breadcrumb-item-first"><a asp-page="/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Payment</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small">
+            <span class="material-icons">settings_applications</span>
+        </button>
+    </nav>
+    <div class="row user-profile">
+
+        <div class="col-lg-11">
+
+
+        </div>
+        <div class="col-lg-11">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            @if (Model.Payment != null)
+                            {
+                                <h5>@Model.Payment.Contract.FirstName @Model.Payment.Contract.LastName</h5>
+                            }
+                        </header>
+                        <section>
+                            <div class="user-account-information mb-4">
+                                
+                                <form method="post">
+                                    @{
+                                        if (Model.Contract != null && Model.Contract.PaymentStatus != "Active")
+                                        {
+                                            <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                <span class="material-icons">error_outline</span>
+                                                <span>A payment schedule has been @Model.Contract.PaymentStatus</span>
+                                            </div>
+                                        }
+                                        else if (Model.PaymentBalance <= 0)
+                                        {
+                                            <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                <span class="material-icons">error_outline</span>
+                                                <span>You have completed your payment</span>
+                                            </div>
+                                        }
+                                        else if (Model.Payment != null)
+                                        {
+                                            if (Model.IsLate)
+                                            {
+                                                <div class="alert rg-alert alert-error-transparent" role="alert">
+                                                    <span class="material-icons">error_outline</span>
+                                                    <span>Your payment is late. @(Model.LateFees* 100)% of the monthly payment will automatically be added to the late payment. </span>
+                                                </div>
+                                            }
+                                            if (Model.PaymentAmountMessage != null)
+                                            {
+                                                <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                    <span class="material-icons">error_outline</span>
+                                                    <span>@Model.PaymentAmountMessage</span>
+                                                </div>
+                                            }
+                                            <div class="form-group row">
+                                                <label asp-for="Payment.AcademyProgram.ProgramName" class="col-lg-4 col-form-label"></label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Payment.AcademyProgram.ProgramName" class="form-control" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Payment Amount <br />(@(Model.ProcessingFees * 100)% processing fees included)</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="PaymentAmount" class="form-control currencymask" readonly>
+                                                        @*<span>@Model.Payment.Amount *1.015 </span>*@
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Payment Scheduled</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-group">
+                                                        <input asp-for="Payment.ScheduledDate" class="form-control" placeholder="Employment Start Date" type="date" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label">Payment Method</label>
+                                                <div class="col-lg-8">
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="radio" class="form-check-input" id="bankAccountOption" name="paymentOptions" disabled>
+                                                        <label class="form-check-label" for="bankAccountOption">Bank Account</label>
+                                                    </div>
+
+                                                    <!-- Material inline 2 -->
+                                                    <div class="form-check form-check-inline">
+                                                        <input type="radio" class="form-check-input" id="creditCardOption" name="paymentOptions" checked>
+                                                        <label class="form-check-label" for="creditCardOption">Credit / Debit Card</label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            if (Model.Contract.AcceptedDate != null && Model.Contract.AcceptedDate > Model.NewPaymentDate)
+                                            {
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label">Payment Method</label>
+                                                    <div class="col-lg-8">
+
+                                                        <select asp-for="@Model.PaymentPreference" class="form-control record" id="donationOpt" data-type="record" disabled>
+                                                            <option value="0" selected>One time payment</option>
+                                                            <option value="1">Recurring payment</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label">Payment Method</label>
+                                                    <div class="col-lg-8">
+
+                                                        <select asp-for="@Model.PaymentPreference" class="form-control record" id="donationOpt" data-type="record" disabled>
+                                                            <option value="0" selected>One time payment</option>
+                                                            <option value="1">Recurring payment</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            }
+                                            <div class="offset-lg-4 col-lg-8" id="stripeDiv">
+                                                <script src="https://checkout.stripe.com/checkout.js"
+                                                        class="stripe-button"
+                                                        data-key="@Model.PublishableKey"
+                                                        data-amount="PaymentAmount"
+                                                        data-name="Education Fundation."
+                                                        data-description="Income Share"
+                                                        data-image="@Url.Content("~/assets/img/stripe.png")"
+                                                        data-label="Pay with stripe"
+                                                        data-currency="usd">
+                                                </script>
+                                            </div>
+
+                                            <div class="offset-lg-4 col-lg-8" id="plaidDiv">
+                                                <button class="btn btn-primary" asp-page-handler="BankDebit" type="submit">Submit</button>
+
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="alert rg-alert alert-primary-transparent" role="alert">
+                                                <span class="material-icons">error_outline</span>
+                                                <span>A payment schedule has not been created for you yet!</span>
+                                            </div>
+                                        }
+                                    }
+                                </form>
+
+                            </div>
+
+
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+<script src="~/assets/js/jquery.inputmask.js"></script>
+<script type="text/javascript">
+        console.log(navigator.userAgent);
+    $(".datemask").inputmask('99/99/9999', { placeholder: "mm/dd/yyyy" });
+
+    $(".currencymask").inputmask('currency', {
+        rightAlign: false
+    });
+    $(".phonemask").inputmask("1(999) 999-9999", {
+        inputFormat: "1(999) 999-9999",
+        outputFormat: "1(999) 999-9999",
+        inputEventOnly: true
+    });
+    $("#stripeDiv").hide();
+
+    $(function () {
+        $("input[name='paymentOptions']").click(function () {
+            if ($("#bankAccountOption").is(":checked")) {
+                $("#plaidDiv").show();
+                $("#stripeDiv").hide();
+                window.location.href = "/Contract/MakePayment"; 
+            } 
+            if ($("#creditCardOption").is(":checked")) {
+                $("#plaidDiv").hide();
+                $("#stripeDiv").show();
+            }
+        });
+    });
+
+</script>

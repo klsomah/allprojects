@@ -1,0 +1,665 @@
+﻿@page
+@model EducationalFundingCo.Pages.ContractsModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions
+@using Microsoft.AspNetCore.Html
+@{
+    ViewData["Title"] = "Contracts";
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+}
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <h4 class="text-highlight-primary">Contracts</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item breadcrumb-item-first"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Contracts</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small">
+            <span class="material-icons">settings_applications</span>
+        </button>
+    </nav>
+    
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-12">
+                <div class="rg-card-simple equal-height">
+                    <header>
+                        <h5>All Contracts</h5>
+                    </header>
+                    <section>
+                        <div class="rg-tabs">
+                            <ul class="nav nav-pills rg-pills primary" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="camera-tab" data-toggle="tab" href="#camera" role="tab" aria-controls="camera" aria-selected="true">
+                                        <span class="material-icons">camera</span>Payment Scheduled
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="camera-tab" data-toggle="tab" href="#unpaid" role="tab" aria-controls="camera" aria-selected="false">
+                                        <span class="material-icons">camera</span>Payment Not Scheduled
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="bluetooth-tab" data-toggle="tab" href="#suspended" role="tab" aria-controls="bluetooth" aria-selected="false">
+                                        <span class="material-icons">bluetooth</span>Suspended Contracts
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="bluetooth-tab" data-toggle="tab" href="#bluetooth" role="tab" aria-controls="bluetooth" aria-selected="false">
+                                        <span class="material-icons">bluetooth</span>Completed Contracts
+                                    </a>
+                                </li>
+                             
+
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="camera" role="tabpanel" aria-labelledby="camera-tab">
+                                    <div class="rg-card-simple equal-height">
+                                        <header>
+                                            <h5>Signed Contracts</h5>
+                                        </header>
+                                        <section>
+                                            <form method="post">
+                                                <table class="table rg-table rg-table-simple" id="manageContract">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Contract ID</th>
+                                                            <th>Name</th>
+                                                            <th>Program</th>
+                                                            <th>School Name</th>
+                                                            <th>Signed Date</th>
+                                                            <th>Accepted Date</th>
+                                                            <th>Emp Questions</th>
+                                                            <th>Status</th>
+                                                            <th class="text-center">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @if (Model.Contracts != null)
+                                                        {
+                                            @foreach (var item in Model.Contracts.Where(c => c.DateSigned != null && c.PaymentStatus == "Active"))
+                                            {
+                            <tr>
+
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <div>
+                                            <p class="text-weight-500 mb-0">@item.Id</p>
+                                            @*<span class="text-highlight-secondary">Square inc</span>*@
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a asp-page="/Contract/Create" asp-route-id="@item.Id" class="text-highlight-info mb-0">@item.FirstName @item.LastName</a>
+                                </td>
+                                @*<td>
+            <div class="rg-d-flex">
+                <p class="text-weight-500 mb-0">@item.Email</p>
+            </div>
+        </td>
+        <td>
+            <div class="rg-d-flex">
+                <p class="text-weight-500 mb-0">@item.Phone</p>
+            </div>
+        </td>*@
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.AcademyProgram.ProgramName</p>
+                                    </div>
+                                </td>
+                                <td>
+                                     <div class="rg-d-flex">
+                                                                            @{
+                                                                                string SchoolName = null;
+
+                                                                                string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+                                                                                string data = item.School.Name;
+
+
+
+                                                                                if (schoolName==null)
+                                                                                {
+                                                                                    SchoolName = data;
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    SchoolName = schoolName;
+                                                                                }
+                                                                            }
+
+
+                                                                            <p class="text-weight-500 mb-0">@SchoolName</p>
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@Convert.ToString(string.Format("{0:MMM dd, yy h:mm tt}", item.DateSigned))</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@Convert.ToString(string.Format("{0:MMM dd, yy h:mm tt}", item.AcceptedDate))</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@Model.EmploymentQuestionnaire.Any(e => e.ContractId == item.Id)</p>
+                                    </div>
+                                </td>
+                                                                    <td>
+                                                                        <div class="rg-d-flex">
+                                                                            <p class="text-weight-500 mb-0">@item.RecordStatus</p>
+                                                                        </div>
+                                                                    </td>
+
+                                <td class="text-center">
+                                    <span class="material-icons info link" data-toggle="dropdown" aria-haspopup="true"
+                                          aria-expanded="false">more_horiz</span>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                        <section>
+                                            <a class="dropdown-item" asp-page="/Contract/PreviewContract" asp-route-id="@item.Id">
+                                                <i class="material-icons secondary">pageview</i>
+                                                <span>Preview</span>
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                            <button class="dropdown-item" type="submit" asp-route-id="@item.Id">
+                                                <i class="material-icons secondary">rate_review</i>
+                                                 @if (item.AcceptedDate == null && item.RecordStatus != 0)
+                                                {
+                                                 <span>Approve</span>  
+                                                }
+                                                else
+                                                {
+                                                 <span>Unapprove</span>
+                                                
+                                                }
+                                            </button>
+                                       <input type="hidden" class="deleteData" name="contractID" id="contractID" asp-for="@item.Id" itemprop="@item.Id" />
+                                            <div class="dropdown-divider"></div>
+@*                                           <a class="dropdown-item deleteData" id="@item.Id">
+                                                <i class="material-icons secondary">delete </i>
+                                                <span>Delete</span>
+                                            </a>*@
+
+                                                                                @if (item.RecordStatus != 0)
+                                                                                {
+                                                                                    <a class="dropdown-item deleteData" id="@item.Id">
+                                                                                        <i class="material-icons secondary">delete </i>
+                                                                                        <span>Delete</span>
+                                                                                    </a>
+                                                                                }
+                                            <div class="dropdown-divider"></div>
+
+                                        </section>
+                                    </div>
+                                </td>
+                            </tr>}}
+                                                    </tbody>
+                                                </table>
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="bluetooth" role="tabpanel" aria-labelledby="bluetooth-tab">
+                                    <div class="rg-card-simple equal-height">
+                                        <header>
+                                            <h5>Completed Contracts</h5>
+                                        </header>
+                                        <section>
+                                            <table class="table rg-table rg-table-simple" id="example">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Contract ID</th>
+                                                        <th>Name</th>
+                                                        <th> School Name</th>
+                                                        <th>Email</th>
+                                                        <th>Phone</th>
+                                                        <th>Program</th>
+                                                        <th>Status</th>
+                                                        <th class="text-center">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @if (Model.Contracts != null)
+                                                    {
+                                        @foreach (var item in Model.Contracts.Where(c => c.DateSigned != null && c.PaymentStatus == "Completed"))
+                                        {
+                            <tr>
+
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <div>
+                                            <p class="text-weight-500 mb-0">@item.Id</p>
+                                            @*<span class="text-highlight-secondary">Square inc</span>*@
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a asp-page="/Contract/Create" asp-route-id="@item.Id" class="text-highlight-info mb-0">@item.FirstName @item.LastName</a>
+                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        @{
+                                                                            string SchoolName = null;
+
+                                                                            string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+                                                                            string data = item.School.Name;
+
+
+                                                                            if (schoolName == null)
+                                                                            {
+                                                                                SchoolName = data;
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                SchoolName = schoolName;
+                                                                            }
+                                                                        }
+
+
+                                                                        <p class="text-weight-500 mb-0">@SchoolName</p>
+                                                                    </div>
+                                                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.Email</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.Phone</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.AcademyProgram.ProgramName</p>
+                                    </div>
+                                </td>
+
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        <p class="text-weight-500 mb-0">@item.RecordStatus</p>
+                                                                    </div>
+                                                                </td>
+                                <td class="text-center">
+                                    <span class="material-icons info link" data-toggle="dropdown" aria-haspopup="true"
+                                          aria-expanded="false">more_horiz</span>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                                                        <section>
+                                                                            <a class="dropdown-item" asp-page="/Contract/PreviewContract" asp-route-id="@item.Id">
+                                                                                <i class="material-icons secondary">pageview</i>
+                                                                                <span>Preview</span>
+                                                                            </a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <button class="dropdown-item" type="submit" asp-route-id="@item.Id">
+                                                                                <i class="material-icons secondary">rate_review</i>
+                                                                                @if (item.AcceptedDate == null && item.RecordStatus != 0)
+                                                                                {
+                                                                                    <span>Approve</span>
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    <span>Unapprove</span>
+
+                                                                                }
+                                                                            </button>
+                                                                            <input type="hidden" class="deleteData" name="contractID" id="contractID" asp-for="@item.Id" itemprop="@item.Id" />
+                                                                            <div class="dropdown-divider"></div>
+                                                                            @*                                           <a class="dropdown-item deleteData" id="@item.Id">
+                                                                    <i class="material-icons secondary">delete </i>
+                                                                    <span>Delete</span>
+                                                                    </a>*@
+
+                                                                            @if (item.RecordStatus != 0)
+                                                                            {
+                                                                                <a class="dropdown-item deleteData" id="@item.Id">
+                                                                                    <i class="material-icons secondary">delete </i>
+                                                                                    <span>Delete</span>
+                                                                                </a>
+                                                                            }
+                                                                            <div class="dropdown-divider"></div>
+
+                                                                        </section>
+                                    </div>
+                                </td>
+                            </tr>}}
+
+                                                </tbody>
+                                            </table>
+                                        </section>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="suspended" role="tabpanel" aria-labelledby="bluetooth-tab">
+                                    <div class="rg-card-simple equal-height">
+                                        <header>
+                                            <h5>Suspended Contracts</h5>
+                                        </header>
+                                        <section>
+                                            <table class="table rg-table rg-table-simple" id="example">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Contract ID</th>
+                                                        <th>Name</th>
+                                                        <th> School Name</th>
+                                                        <th>Email</th>
+                                                        <th>Phone</th>
+                                                        <th>Program</th>
+                                                        <th>Status</th>
+                                                        <th class="text-center">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @if (Model.Contracts != null)
+                                                    {
+                                        @foreach (var item in Model.Contracts.Where(c => c.DateSigned != null && c.PaymentStatus == "Suspended"))
+                                        {
+                            <tr>
+
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <div>
+                                            <p class="text-weight-500 mb-0">@item.Id</p>
+                                            @*<span class="text-highlight-secondary">Square inc</span>*@
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a asp-page="/Contract/Create" asp-route-id="@item.Id" class="text-highlight-info mb-0">@item.FirstName @item.LastName</a>
+                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        @{
+                                                                            string SchoolName = null;
+
+                                                                            string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+                                                                            string data = item.School.Name;
+
+
+                                                                            if (schoolName == null)
+                                                                            {
+                                                                                SchoolName = data;
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                SchoolName = schoolName;
+                                                                            }
+                                                                        }
+
+
+                                                                        <p class="text-weight-500 mb-0">@SchoolName</p>
+                                                                    </div>
+                                                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.Email</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.Phone</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.AcademyProgram.ProgramName</p>
+                                    </div>
+                                </td>
+                                                                <td>
+                                    <div class="rg-d-flex">
+                                        <p class="text-weight-500 mb-0">@item.RecordStatus</p>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <span class="material-icons info link" data-toggle="dropdown" aria-haspopup="true"
+                                          aria-expanded="false">more_horiz</span>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                        <section>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="material-icons secondary">pageview</i>
+                                                <span>Preview</span>
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="material-icons secondary">rate_review</i>
+                                                <span>Edit</span>
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                                                            @if (item.RecordStatus != 0)
+                                                                            {
+                                                                                <a class="dropdown-item deleteData" id="@item.Id">
+                                                                                    <i class="material-icons secondary">delete </i>
+                                                                                    <span>Delete</span>
+                                                                                </a>
+                                                                            }
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">
+                                                <i class="material-icons secondary">file_copy</i>
+                                                <span>Export</span>
+                                            </a>
+                                        </section>
+                                    </div>
+                                </td>
+                            </tr>}}
+
+                                                </tbody>
+                                            </table>
+                                        </section>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="unpaid" role="tabpanel" aria-labelledby="bluetooth-tab">
+                                    <div class="rg-card-simple equal-height">
+                                        <header>
+                                            <h5>Suspended Contracts</h5>
+                                        </header>
+                                        <section>
+                                            <table class="table rg-table rg-table-simple" id="example">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Contract ID</th>
+                                                        <th>Name</th>
+                                                        <th> School Name</th>
+                                                        <th>Email</th>
+                                                        <th>Phone</th>
+                                                        <th>Program</th>
+                                                        <th>Status</th>
+                                                        <th class="text-center">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @if (Model.Contracts != null)
+                                                    {
+                                                        @foreach (var item in Model.Contracts.Where(c => c.DateSigned != null && c.PaymentStatus == null))
+                                                        {
+                                                            <tr>
+
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        <div>
+                                                                            <p class="text-weight-500 mb-0">@item.Id</p>
+                                                                            @*<span class="text-highlight-secondary">Square inc</span>*@
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <a asp-page="/Contract/Create" asp-route-id="@item.Id" class="text-highlight-info mb-0">@item.FirstName @item.LastName</a>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        @{
+                                                                            string SchoolName = null;
+
+                                                                            string schoolName = HttpContext.Session != null ? HttpContext.Session.GetString("SchoolName") : null;
+                                                                            string data = item.School.Name;
+
+
+                                                                            if (schoolName == null)
+                                                                            {
+                                                                                SchoolName = data;
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                SchoolName = schoolName;
+                                                                            }
+                                                                        }
+
+
+                                                                        <p class="text-weight-500 mb-0">@SchoolName</p>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        <p class="text-weight-500 mb-0">@item.Email</p>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        <p class="text-weight-500 mb-0">@item.Phone</p>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        <p class="text-weight-500 mb-0">@item.AcademyProgram.ProgramName</p>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="rg-d-flex">
+                                                                        <p class="text-weight-500 mb-0">@item.RecordStatus</p>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <span class="material-icons info link" data-toggle="dropdown" aria-haspopup="true"
+                                                                          aria-expanded="false">more_horiz</span>
+                                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                                                        <section>
+                                                                            <a class="dropdown-item" asp-page="/Contract/PreviewContract" asp-route-id="@item.Id">
+                                                                                <i class="material-icons secondary">pageview</i>
+                                                                                <span>Preview</span>
+                                                                            </a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <button class="dropdown-item" type="submit" asp-route-id="@item.Id">
+                                                                                <i class="material-icons secondary">rate_review</i>
+                                                                                @if (item.AcceptedDate == null && item.RecordStatus != 0)
+                                                                                {
+                                                                                    <span>Approve</span>
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    <span>Unapprove</span>
+
+                                                                                }
+                                                                            </button>
+                                                                            <input type="hidden" class="deleteData" name="contractID" id="contractID" asp-for="@item.Id" itemprop="@item.Id" />
+                                                                            <div class="dropdown-divider"></div>
+                                                                            @*                                           <a class="dropdown-item deleteData" id="@item.Id">
+                                                                    <i class="material-icons secondary">delete </i>
+                                                                    <span>Delete</span>
+                                                                    </a>*@
+
+                                                                            @if (item.RecordStatus != 0)
+                                                                            {
+                                                                                <a class="dropdown-item deleteData" id="@item.Id">
+                                                                                    <i class="material-icons secondary">delete </i>
+                                                                                    <span>Delete</span>
+                                                                                </a>
+                                                                            }
+                                                                            <div class="dropdown-divider"></div>
+
+                                                                        </section>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        }           }
+
+                                                </tbody>
+                                            </table>
+                                        </section>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("table#manageContract .approve").click(function () {
+            var contractID = $(this).parent().find("#contractID").val();
+            $("#approveContractModel").find("#contractID").val(employementID);
+        });
+
+
+        $('.deleteData').click(function () {
+            debugger;
+            var id = jQuery(this).attr("id")
+
+            $.ajax({
+                type: "GET",
+                url: "@Url.Page("/Contracts","DeleteRecord1")",
+                data: { "id": id },
+                contentType: "application/json;charset=UTF-8",
+                dataType: "json",
+                success: function (result) {
+                    if (result == "Updated") {
+                        console.log("Updated");
+                        location.reload();
+                    }
+
+                },
+                error: function (req, status, error) {
+                    console.log(error);
+                }
+            });
+        });
+
+
+        //$('.deleteData').click(function () {
+        //    debugger;
+        //    var id = jQuery(this).attr("id")
+
+        //    $.ajax({
+        //        type: "GET",
+        //        url: "@Url.Page("/Contracts","DeleteRecord")",
+        //        data: { "id": id },
+        //        contentType: "application/json;charset=UTF-8",
+        //        dataType: "json",
+        //        success: function (result) {
+        //            if (result == "Deleted")
+        //            {
+        //                console.log("Deleted");
+        //                location.reload();
+        //            }
+                  
+        //        },
+        //        error: function (req, status, error) {
+        //            console.log(error);
+        //        }
+        //    });
+        //});
+
+        
+    });
+
+
+
+  
+
+
+
+</script>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+     <Folder Include="wwwroot\assets\images\counter\" />
+    <Folder Include="wwwroot\assets\images\product\" />
+    <Folder Include="wwwroot\assets\images\subscribtion\" />
+    <Folder Include="wwwroot\assets\images\video\" />
+    <Folder Include="wwwroot\assets\images\working-process\" />
+  </ItemGroup>
+
+</Project>

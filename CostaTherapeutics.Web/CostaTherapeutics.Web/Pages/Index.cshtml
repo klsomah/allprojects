@@ -1,0 +1,749 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Costa Therapeutis llc.</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="~/images/costalogo.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <!-- LOADING FONTS AND ICONS -->
+    <link rel="stylesheet" type="text/css" href="~/rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" type="text/css" href="~/rev/fonts/font-awesome/css/font-awesome.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="~/rev/css/rs6.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <!-- Progressbar CSS -->
+    <link rel="stylesheet" href="~/css/progressbar.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="~/css/animations.min.css">
+    <!-- Magnefic Popup CSS -->
+    <link rel="stylesheet" href="~/css/magnific-popup.min.css">
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="~/fonts/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="~/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="~/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/fonts/themify-icons/themify-icons.css">
+    <!--  Style CSS -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <!--  Responsive CSS -->
+    <link rel="stylesheet" href="~/css/responsive.css">
+</head>
+
+<body>
+    <!--loading start-->
+    <div id="pq-loading">
+        <div id="pq-loading-center">
+            <img src="~/images/costalogo.png" class="img-fluid" alt="loading">
+        </div>
+    </div>
+    <!--loading End-->
+    <!--=================================
+     header start-->
+    <header id="pq-header" class="pq-header-default ">
+        <div class="pq-top-header">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-md-6 text-right">
+                        @*<div class="pq-header-social text-right">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>*@
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pq-header-contact ">
+                            <ul>
+                                <li>
+                                    <a href="tel:+19549374907">
+                                        <i class="fas fa-phone"></i>
+                                        <span> +1954-937-4907</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@costatherapeutics.com">
+                                        <i class="fas fa-envelope"></i><span>info@costatherapeutics.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pq-bottom-header pq-has-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="index.html">
+                                <img class="img-fluid logo" src="images/costalogo.png" alt="medicate">
+                            </a>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div id="pq-menu-contain" class="pq-menu-contain">
+                                    <ul id="pq-main-menu" class="navbar-nav ml-auto">
+                                        <li class="menu-item current-menu-item">
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li class="menu-item ">
+                                            <a href="#services">Services</a>
+                                                
+                                        </li>
+                                        <li class="menu-item ">
+                                            <a href="#aboutus">About Us</a>
+                                        </li>
+                                        <li class="menu-item ">
+                                            <a href="#">
+                                                Contact
+                                                Us
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pq-menu-search-block">
+                                <a href="javascript:void(0)" id="pq-seacrh-btn"><i class="ti-search"></i></a>
+                                <div class="pq-search-form">
+                                    <form role="search" method="get" class="search-form" action=".html">
+                                        <label>
+                                            <span class="screen-reader-text">Search for:</span>
+                                            <input type="search" class="search-field" placeholder="Search …" value=""
+                                                   name="s">
+                                        </label>
+                                        <button type="submit" class="search-submit">
+                                            <span class="screen-reader-text">Search</span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <a href="make-appoinment.html" class="pq-button">
+                                <div class="pq-button-block">
+                                    <span class="pq-button-text">Appointments</span>
+                                    <i class="ion ion-plus-round"></i>
+                                </div>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--==============
+       Header end
+       =================-->
+    <!-- START Home 1 REVOLUTION SLIDER 6.5.19
+
+     ================================= -->
+    <p class="rs-p-wp-fix"></p>
+    <rs-module-wrap id="rev_slider_24_1_wrapper" data-alias="home-1" data-source="gallery"
+                    style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+        <rs-module id="rev_slider_24_1" data-version="6.5.19">
+            <rs-slides>
+                <rs-slide style="position: absolute;" data-key="rs-84" data-title="Slide"
+                          data-thumb="rev/assets/1-51-50x100.jpg" data-anim="ms:600;" data-in="o:0;"
+                          data-out="a:false;">
+                    <img src="rev/assets/3.png" alt="" title="1-51.jpg"
+                         class="rev-slidebg tp-rs-img" data-no-retina>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-84-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
+                              data-xy="xo:30px;y:m;yo:2px,17px,29px,17px;"
+                              data-text="w:normal;s:16,16,14,12;l:32,24,22,20;fw:600;"
+                              data-dim="w:654px,565px,436px,268px;h:auto,auto,45px,27px;" data-vbility="t,t,t,f"
+                              data-frame_0="x:50,39,22px,13px;y:0,0,0px,0px;"
+                              data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:1100;sp:1000;sR:1100;"
+                              data-frame_999="o:0;st:w;sR:6900;" style="z-index:11;font-family:'Quicksand';">
+                        Our mission is to develop a range of effective plant derived cures and treatments 
+                        for a wide range of diseases that affect millions of people across the world.
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-84-layer-1" data-type="text" data-color="#28B463" data-rsp_ch="on"
+                              data-xy="xo:41px,38px,38px,39px;y:m;yo:-197px,-154px,-121px,-78px;"
+                              data-text="w:normal;s:14,14,14,13;l:22,22,26,21;fw:600;" data-dim="w:auto,auto,auto,144px;"
+                              data-frame_0="x:50,39,29,17;" data-frame_1="st:600;sp:1000;sR:600;"
+                              data-frame_999="o:0;st:w;sR:7400;"
+                              style="z-index:9;font-family:'Quicksand';text-transform:uppercase;">
+                        Passion for caring
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-84-layer-2" data-type="text" data-color="#18100f" data-rsp_ch="on"
+                              data-xy="xo:30px,30px,30px,31px;y:m;yo:-105px,-75px,-50px,-30px;"
+                              data-text="w:normal;s:64,48,42,22;l:72,56,50,30;fw:600;"
+                              data-border="boc:#196F3D;bow:1px,1px,1px,1px;" data-frame_0="x:50,39,29,17;"
+                              data-frame_1="st:900;sp:1000;sR:900;" data-frame_999="o:0;st:w;sR:7100;"
+                              style="z-index:10;font-family:'Quicksand';text-transform:capitalize;">
+                        Genuine commitment<br>
+                        to your health
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-84-layer-4" data-type="shape" data-rsp_ch="on"
+                              data-xy="xo:30px;yo:202px,155px,114px,85px;" data-text="w:normal;s:20,15,11,6;l:0,19,14,8;"
+                              data-dim="w:164px,158px,160px,155px;h:30px,30px,30px,25px;" data-border="bor:3px,3px,3px,3px;"
+                              data-frame_0="x:50,39,29,17;" data-frame_1="st:600;sp:1000;sR:600;"
+                              data-frame_999="o:0;st:w;sR:7400;" style="z-index:8;background-color:#d3e9fb;">
+                    </rs-layer>
+                    <!--
+                    -->
+                    <a id="slider-24-slide-84-layer-6" class="rs-layer pq-button rev-btn"
+                       href="about-us.html" target="_self" data-type="button"
+                       data-rsp_ch="on" data-xy="xo:27px,30px,30px,30px;y:m;yo:93px,97px,104px,37px;"
+                       data-text="w:normal;s:14,16,16,12;l:22,24,30,20;fw:600;a:left,left,center,center;"
+                       data-dim="minh:0px,none,none,none;"
+                       data-padding="t:15,15,10,10;r:30,30,25,20;b:15,15,10,10;l:30,30,25,20;"
+                       data-border="bor:3px,3px,3px,3px;" data-frame_0="x:50,39,29,17;"
+                       data-frame_1="st:1300;sp:1000;sR:1300;" data-frame_999="o:0;st:w;sR:6700;"
+                       data-frame_hover="bgc:#196F3D;bor:3px,3px,3px,3px;bos:solid;sp:100;bri:120%;"
+                       style="z-index:12;background-color:#28B463;font-family:'Quicksand';text-transform:uppercase;">
+                        <span class="text">Read More</span><i class="ion ion-plus-round"></i>
+                    </a>
+                    <!--
+                    -->
+                </rs-slide>
+                <rs-slide style="position: absolute;" data-key="rs-85" data-title="Slide"
+                          data-thumb="rev/assets/2-51-50x100.jpg" data-in="o:0;" data-out="a:false;">
+                    <img src="rev/assets/4.png" alt="" title="2-51.jpg"
+                         class="rev-slidebg tp-rs-img" data-no-retina>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-85-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
+                              data-xy="xo:30px;y:m;yo:2px,17px,29px,17px;"
+                              data-text="w:normal;s:16,16,14,12;l:32,24,22,20;fw:600;"
+                              data-dim="w:654px,565px,436px,268px;h:auto,auto,45px,27px;" data-vbility="t,t,t,f"
+                              data-frame_0="x:50,39,22px,13px;y:0,0,0px,0px;"
+                              data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:1700;sp:1000;" data-frame_999="o:0;st:w;sR:6370;"
+                              style="z-index:11;font-family:'Quicksand';">
+                        Our mission is to develop a range of effective plant derived cures and treatments
+                        for a wide range of diseases that affect millions of people across the world.
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-85-layer-1" data-type="text" data-color="#28B463" data-rsp_ch="on"
+                              data-xy="xo:41px,38px,38px,37px;y:m;yo:-197px,-154px,-121px,-75px;"
+                              data-text="w:normal;s:14,14,14,13;l:22,22,26,21;fw:600;" data-frame_0="x:50,39,29,17;"
+                              data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;"
+                              style="z-index:9;font-family:'Quicksand';text-transform:uppercase;">
+                        Great Experience In Research
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-85-layer-2" data-type="text" data-color="#18100f" data-rsp_ch="on"
+                              data-xy="xo:30px,30px,30px,31px;y:m;yo:-105px,-75px,-50px,-30px;"
+                              data-text="w:normal;s:64,48,42,22;l:72,56,50,30;fw:600;"
+                              data-border="boc:#196F3D;bow:1px,1px,1px,1px;" data-frame_0="x:50,39,29,17;"
+                              data-frame_1="st:1400;sp:1000;sR:1400;" data-frame_999="o:0;st:w;sR:6600;"
+                              style="z-index:10;font-family:'Quicksand';text-transform:capitalize;">
+                        Ongoing study
+                        <br>
+                        group of 24 Cancer
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-85-layer-4" data-type="shape" data-rsp_ch="on"
+                              data-xy="xo:30px;yo:202px,155px,114px,86px;" data-text="w:normal;s:20,15,11,6;l:0,19,14,8;"
+                              data-dim="w:233px,227px,227px,212px;h:30px,30px,30px,25px;" data-border="bor:3px,3px,3px,3px;"
+                              data-frame_0="x:50,39,29,17;" data-frame_1="st:1100;sp:1000;" data-frame_999="o:0;st:w;"
+                              style="z-index:8;background-color:#d3e9fb;">
+                    </rs-layer>
+                    <!--
+                    -->
+                    <a id="slider-24-slide-85-layer-6" class="rs-layer pq-button rev-btn"
+                       href="about-us.html" target="_self" data-type="button"
+                       data-rsp_ch="on" data-xy="xo:27px,30px,30px,30px;y:m;yo:93px,97px,104px,37px;"
+                       data-text="w:normal;s:14,16,16,12;l:22,24,30,20;fw:600;a:left,left,center,center;"
+                       data-dim="minh:0px,none,none,none;"
+                       data-padding="t:15,15,10,10;r:30,30,25,20;b:15,15,10,10;l:30,30,25,20;"
+                       data-border="bor:3px,3px,3px,3px;" data-frame_0="x:50,39,29,17;"
+                       data-frame_1="st:1900;sp:1000;sR:1800;" data-frame_999="o:0;st:w;sR:6200;"
+                       data-frame_hover="bgc:#196F3D;bor:3px,3px,3px,3px;bos:solid;sp:100;bri:120%;"
+                       style="z-index:12;background-color:#28B463;font-family:'Quicksand';text-transform:uppercase;">
+                        <span class="text">Read More</span><i class="ion ion-plus-round"></i>
+                    </a>
+                    <!--
+                    -->
+                </rs-slide>
+                <rs-slide style="position: absolute;" data-key="rs-86" data-title="Slide"
+                          data-thumb="rev/assets/3-2-50x100.jpg" data-in="o:0;" data-out="a:false;">
+                    <img src="rev/assets/3-2.jpg" alt="" title="3-2"
+                         class="rev-slidebg tp-rs-img" data-no-retina>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-86-layer-0" data-type="text" data-color="#666666" data-rsp_ch="on"
+                              data-xy="xo:30px;y:m;yo:2px,17px,29px,17px;"
+                              data-text="w:normal;s:16,16,14,12;l:32,24,22,20;fw:600;"
+                              data-dim="w:654px,565px,436px,268px;h:auto,auto,45px,27px;" data-vbility="t,t,t,f"
+                              data-frame_0="x:50,39,22px,13px;y:0,0,0px,0px;"
+                              data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:1700;sp:1000;" data-frame_999="o:0;st:w;sR:6370;"
+                              style="z-index:11;font-family:'Quicksand';">
+                        Our mission is to develop a range of effective plant derived cures and treatments 
+                        for a wide range of diseases that affect millions of people across the world.
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-86-layer-1" data-type="text" data-color="#28B463" data-rsp_ch="on"
+                              data-xy="xo:41px,38px,38px,37px;y:m;yo:-197px,-154px,-121px,-81px;"
+                              data-text="w:normal;s:14,14,14,13;l:22,22,26,21;fw:600;" data-frame_0="x:50,39,29,17;"
+                              data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;"
+                              style="z-index:9;font-family:'Quicksand';text-transform:uppercase;">
+                        higher level of care
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-86-layer-2" data-type="text" data-color="#18100f" data-rsp_ch="on"
+                              data-xy="xo:30px,30px,30px,31px;y:m;yo:-105px,-75px,-50px,-30px;"
+                              data-text="w:normal;s:64,48,42,22;l:72,56,50,30;fw:600;"
+                              data-border="boc:#196F3D;bow:1px,1px,1px,1px;" data-frame_0="x:50,39,29,17;"
+                              data-frame_1="st:1400;sp:1000;sR:1400;" data-frame_999="o:0;st:w;sR:6600;"
+                              style="z-index:10;font-family:'Quicksand';text-transform:capitalize;">
+                        Setting standards in<br>
+                        natural remedies
+                    </rs-layer>
+                    <!--
+                    -->
+                    <rs-layer id="slider-24-slide-86-layer-4" data-type="shape" data-rsp_ch="on"
+                              data-xy="xo:30px;yo:202px,155px,114px,81px;" data-text="w:normal;s:20,15,11,6;l:0,19,14,8;"
+                              data-dim="w:178px,171px,172px,158px;h:30px,30px,30px,25px;" data-border="bor:3px,3px,3px,3px;"
+                              data-frame_0="x:50,39,29,17;" data-frame_1="st:1100;sp:1000;" data-frame_999="o:0;st:w;"
+                              style="z-index:8;background-color:#d3e9fb;">
+                    </rs-layer>
+                    <!--
+                    -->
+                    <a id="slider-24-slide-86-layer-6" class="rs-layer pq-button rev-btn"
+                       href="about-us.html" target="_self" data-type="button"
+                       data-rsp_ch="on" data-xy="xo:27px,30px,30px,30px;y:m;yo:93px,97px,104px,37px;"
+                       data-text="w:normal;s:14,16,16,12;l:22,24,30,20;fw:600;a:left,left,center,center;"
+                       data-dim="minh:0px,none,none,none;"
+                       data-padding="t:15,15,10,10;r:30,30,25,20;b:15,15,10,10;l:30,30,25,20;"
+                       data-border="bor:3px,3px,3px,3px;" data-frame_0="x:50,39,29,17;"
+                       data-frame_1="st:1900;sp:1000;sR:1800;" data-frame_999="o:0;st:w;sR:6200;"
+                       data-frame_hover="bgc:#196F3D;bor:3px,3px,3px,3px;bos:solid;sp:100;bri:120%;"
+                       style="z-index:12;background-color:#28B463;font-family:'Quicksand';text-transform:uppercase;">
+                        <span class="text">Read More</span><i class="ion ion-plus-round"></i>
+                    </a>
+                    <!--
+                    -->
+                </rs-slide>
+            </rs-slides>
+            <rs-static-layers>
+                <!--
+                -->
+            </rs-static-layers>
+        </rs-module>
+    </rs-module-wrap>
+
+    <!--=================================
+          END REVOLUTION SLIDER
+          ================================= -->
+
+    <section class="servicebox p-lg-0 pb-0 pq-bg-grey ">
+        <div class="container pq-mt-60">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 col-xl-4" >
+                    <div class="pq-info-box pq-style-1" >
+                        <div class="pq-info-box-right-icon"> <i class=" flaticon-medicine"></i> </div>
+                        <div class="pq-info-box-icon"><i class=" flaticon-medicine"></i></div>
+                        <h5 class="pq-info-title">Need for Plant-Based Medicines</h5>
+                        <p class="pq-infobox-description" style="height: 410px !important">In recent years, there has been a growing awareness of the importance of plant-based medicines in the treatment of serious illnesses. Plants have long been recognized as a rich source of potential therapeutic compounds, and the tropical rainforest of West Africa is no exception. At Costa Therapeutics, we believe that the natural world holds powerful answers to some of our most pressing medical challenges, and we're committed to unlocking their potential through cutting-edge research and development.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xl-4 pt-md-0 pt-4">
+                    <div class="pq-info-box pq-style-2">
+                        <div class="pq-info-box-right-icon"> <i class=" flaticon-heartbeat"></i> </div>
+                        <div class="pq-info-box-icon"><i class=" flaticon-doctor"></i></div>
+                        <h5 class="pq-info-title">Benefits of Plant-Based Medicines</h5>
+                        <p class="pq-infobox-description" style="height: 410px !important">They're often less toxic and gentler on the body than synthetic drugs. Additionally, they're often more affordable and accessible, making them an ideal choice for people who live in resource-limited settings. Also, they're often highly targeted, meaning that they act specifically on the cells or tissues that are responsible for the illness. This makes them a highly effective option for treating a wide range of conditions, including cancer, HIV/AIDS, and benign prostate hyperplasia.</p>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xl-4 pt-xl-0 pt-4">
+                    <div class="pq-info-box pq-style-3">
+                        <div class="pq-info-box-right-icon"> <i class=" flaticon-care"></i> </div>
+                        <div class="pq-info-box-icon"><i class=" flaticon-medical-history"></i></div>
+                        <h5 class="pq-info-title">Developing Plant-Based Medicines</h5>
+                        <p class="pq-infobox-description" style="height: 410px !important">At Costa Therapeutics, we're dedicated to conducting rigorous preclinical and clinical trials to ensure that our treatments meet the highest standards of safety and efficacy. Our team of experts is made up of leading scientists and healthcare professionals, who are committed to advancing the field of plant-based medicine. Our approach is to identify the most promising plant extracts from the tropical rainforest of West Africa, and to then subject them to rigorous testing in the laboratory and in animal models.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section End-->
+    <!--Section about-us start-->
+    <section class="pq-bg-grey">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6"> <img src="images/About-us/AboutUs.png" class="img-fluid pe-xl-5 wow fadeInLeft" alt="home"> </div>
+                <div class="col-lg-6 align-self-center mt-lg-0 mt-4">
+                    <div class="pq-section pq-style-1 text-left">
+                        <span class="pq-section-sub-title">What About Us</span>
+                        <h5 class="pq-section-title">Costa Therapeutics, Inc. </h5>
+                        <p class="pq-section-description">Is a biotechnology company that is committed to making a difference in the lives of people affected by serious illnesses.</p>
+                    </div>
+                    <ul class="pq-list-check pq-text-dark mt-3 mb-4">
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Comprehensive Preclinical and Clinical</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Plant-based Medicinal Remedies </span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>From Tropical Rainforest of Africa</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Anecdotal and in vitro data</span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Safe, Effective, and Accessible Remedies </span></li>
+                        <li><i aria-hidden="true" class="ion ion-checkmark-round"></i><span>Unlock full potential of plant-based medicine</span></li>
+                    </ul>
+                    <a class="pq-button pq-button-flat mt-3" href="~/images//About-us/CostaTherapeuticsCompanyProfile.pdf" target="_blank">
+                        <div class="pq-button-block"> <span class="pq-button-text">Read More</span> <i class="ion ion-plus-round"></i> </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section about-us End-->
+    <!--Section service start-->
+    <section class="service">
+        <div class="container" id="services">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title">Costa Therapeutics LLC</span>
+                        <h5 class="pq-section-title">Current Status</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xl-4">
+                    <div class="pq-service-box pq-style-1">
+                        <div class="pq-service-block">
+                            <div class="pq-service-img"><img src="images/ww2.png" class="img-fluid" alt="servicebox"></div>
+                            <div class="pq-service-box-info">
+                                <div class="pq-info-text">
+                                    <span class="pq-service-sub-title">Medical Research </span>
+                                    <a href="eye-care-services.html">
+                                        <h5 class="pq-service-title">Ongoing study group of
+                                        24 Cancer and Benign
+                                        Prostate Hyperplasia
+                                        (enlarged parostate)
+                                        participants in the United
+                                        States and Africa
+                                        </h5>
+                                    </a>
+                                </div>
+                                @*<div class="pq-service-icon"> <i class=" flaticon-laboratory"></i> </div>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xl-4 pt-md-0 pt-4">
+                    <div class="pq-service-box pq-style-1">
+                        <div class="pq-service-block">
+                            <div class="pq-service-img"><img src="images/8.png" class="img-fluid" alt="servicebox"></div>
+                            <div class="pq-service-box-info">
+                                <div class="pq-info-text">
+                                    <span class="pq-service-sub-title">Clinical Testing </span>
+                                    <a href="cardiology-services.html">
+                                        <h5 class="pq-service-title">Completion of initial laboratory tests on HIV
+                                            product. Anecdotal and in vitro data. Comprehensive Preclinical and Clinical.
+                                        </h5>
+                                    </a>
+                                </div>
+                                @*<div class="pq-service-icon"><i class=" flaticon-doctor-1"></i> </div>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xl-4 pt-4 pt-xl-0">
+                    <div class="pq-service-box pq-style-1">
+                        <div class="pq-service-block">
+                            <div class="pq-service-img"><img src="images/foni.png" class="img-fluid" alt="servicebox"></div>
+                            <div class="pq-service-box-info">
+                                <div class="pq-info-text">
+                                    <span class="pq-service-sub-title">Medical Pediatrics</span>
+                                    <a href="dental-services.html">
+                                        <h5 class="pq-service-title">
+                                            Advanced stage of closing a financing deal to
+                                            bring out a range of highly effective plant-based
+                                            products on the global market
+
+                                        </h5>
+                                    </a>
+                                </div>
+                                @*<div class="pq-service-icon"><i class=" flaticon-medical-prescription"></i> </div>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section service End-->
+    <!--Section about start-->
+    <!--Section process-step End-->
+    <!--Section team start-->
+    <section class="team pq-bg-grey pq-team-pb">
+        <div class="container" id="aboutus">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pq-section pq-style-1 text-center">
+                        <span class="pq-section-sub-title">Our Team</span>
+                        <h5 class="pq-section-title">Meet Our Specialists</h5>
+                    </div>
+                </div>
+                <div class="col-lg-12 pb-dot-mt-0">
+                    <div class="owl-carousel owl-theme " data-dots="true" data-nav="false" data-desk_num="3" data-lap_num="3" data-tab_num="2" data-mob_num="2" data-mob_sm="1" data-autoplay="false" data-loop="false" data-margin="30">
+                        <div class="item">
+                            <div class="pq-team-box pq-style-1">
+                                <div class="pq-team-img">
+                                    <img src="images/avatar-g56da8e70a_640.png" class="img-fluid" alt="team-image">
+                                    <div class="pq-team-social">
+                                        <ul>
+                                            <li>
+                                                <a class="facebook" href="" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pq-team-info">
+                                    <h5 class="pq-member-name">
+                                        <a href="doctor-1.html">
+                                            Henry Pedro Costa
+                                        </a>
+                                    </h5> <span class="pq-team-designation">
+                                        BA, MSc - Business and
+                                        communications strategist with more than ten years of
+                                        experience. Graduate of Wilmington University, Delaware USA.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-team-box pq-style-1">
+                                <div class="pq-team-img">
+                                    <img src="images/avatar-g56da8e70a_640.png" class="img-fluid" alt="team-image">
+                                    <div class="pq-team-social">
+                                        <ul>
+                                            <li>
+                                                <a class="facebook" href="" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pq-team-info">
+                                    <h5 class="pq-member-name">
+                                        <a href="doctor-1.html">
+                                            Guarav Chandra
+                                        </a>
+                                    </h5> <span class="pq-team-designation">
+                                        MD, MBA, FAGE - Medical doctor, Chief
+                                        Operating Officer and Vice President, Research and
+                                        Development, in Biotechnology. Published author in several
+                                        scientific journals
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-team-box pq-style-1">
+                                <div class="pq-team-img">
+                                    <img src="images/avatar-g56da8e70a_640.png" class="img-fluid" alt="team-image">
+                                    <div class="pq-team-social">
+                                        <ul>
+                                            <li>
+                                                <a class="facebook" href="" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pq-team-info">
+                                    <h5 class="pq-member-name">
+                                        <a href="doctor-1.html">
+                                            Harven V. Deshield
+                                        </a>
+                                    </h5> <span class="pq-team-designation">
+                                        PhD, JD, MSc.- Patent lawyer and Chief
+                                        Legal Officer with extensive research experience in
+                                        Biotechnology
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-team-box pq-style-1">
+                                <div class="pq-team-img">
+                                    <img src="images/avatar-g56da8e70a_640.png" class="img-fluid" alt="team-image">
+                                    <div class="pq-team-social">
+                                        <ul>
+                                            <li>
+                                                <a class="facebook" href="" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pq-team-info">
+                                    <h5 class="pq-member-name">
+                                        <a href="doctor-1.html">
+                                            Victoria Cooper
+                                        </a>
+                                    </h5> <span class="pq-team-designation">
+                                        MS, LPC, LBS - Strategist, Licensed
+                                        Professional Counselor and Licensed Behavior Specialist with
+                                        15 years of experience with studying behaviors and patterns
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pq-team-box pq-style-1">
+                                <div class="pq-team-img">
+                                    <img src="images/avatar-g56da8e70a_640.png" class="ig-fluid" alt="team-image">
+                                    <div class="pq-team-social">
+                                        <ul>
+                                            <li>
+                                                <a class="facebook" href="" target="_blank"> <span class="sr-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" target="_blank"> <span class="sr-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" target="_blank"> <span class="sr-only">Google-plus</span> <i class="fab fa-google-plus"></i> </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pq-team-info">
+                                    <h5 class="pq-member-name">
+                                        <a href="#">
+                                            Samuel P. Jackson
+                                        </a>
+                                    </h5> <span class="pq-team-designation">
+                                        AAS, BBA, BSC, MBA, DIP, MSC - 
+                                        Investment strategist, urban economist and business
+                                        development specialist. Graduate of the London School of
+                                        Economics and Political Science</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section team End-->
+    <!--Section form start-->
+    
+
+    <!-- =========================
+         Footer start
+         ============================== -->
+
+    <footer id="pq-footer">
+        <div class="pq-footer-style-1">
+            <div class="pq-subscribe align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="pq-subscribe-bg">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-5">
+                                        <div class="pq-subscribe-block">
+                                            <img src="images/Subscribe.png" class="pq-subscribe-img img-fluid" alt="medicate-subscribe-image">
+                                            <div class="pq-subscribe-details">
+                                                <h5>Latest Updates Subscribe To Our Newsletter</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 align-self-center">
+                                        <div class="pq-subscribe-from">
+                                            <form id="form" class="form">
+                                                <div class="form-fields">
+                                                    <input class="w-100 pq-bg-transparent" type="email" name="EMAIL" placeholder="Enter Your Email" required="">
+                                                    <input class="" type="submit" value="Sign up">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pq-copyright-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center "> <span class="pq-copyright"> Copyright 2022 Costa Therapetics All Rights Reserved</span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer End-->
+    <!--Back To Top start-->
+    <div id="back-to-top">
+        <a class="topbtn" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
+    </div>
+    <!--Back To Top End-->
+    <!--jquery js-->
+    <script src="~/js/jquery.min.js"></script>
+    <!--bootstrap js-->
+    <script src="~/js/bootstrap.min.js"></script>
+    <!--owl-carousal-->
+    <script src="~/js/owl.carousel.min.js"></script>
+    <!--progress-bar js-->
+    <script src="~/js/progressbar.js"></script>
+    <!--isotope js-->
+    <script src="~/js/isotope.pkgd.min.js"></script>
+    <!--countTo js-->
+    <script src="~/js/jquery.countTo.min.js"></script>
+    <!--Maginfic-Popup js-->
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <!-- Animation JS -->
+    <script src="~/js/wow.min.js"></script>
+    <!-- Rev-Slider -->
+    <script src="~/rev/js/rbtools.min.js"></script>
+    <script src="~/rev/js/rs6.min.js"></script>
+    <script src="~/js/rev-custom.js"></script>
+    <!--custom js-->
+    <script src="~/js/custom.js"></script>
+
+</body>
+
+</html>

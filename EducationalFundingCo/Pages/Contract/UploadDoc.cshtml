@@ -1,0 +1,184 @@
+﻿@page
+@model EducationalFundingCo.Pages.Contract.UploadDocModel
+@using Microsoft.WindowsAzure.Storage.Blob;
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http.Extensions;
+@{
+    Layout = "~/Pages/Shared/_LayoutMain.cshtml";
+
+}
+
+<div>
+    <nav class="rg-breadcrumb" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li>
+                <h4 class="text-highlight-primary">Supporting Documents</h4>
+            </li>
+            <li class="breadcrumb-item breadcrumb-item-first"><a asp-page="/Index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Documents</a></li>
+        </ol>
+        <button class="btn btn-secondary btn-icon ml-auto btn-small">
+            <span class="material-icons">settings_applications</span>
+        </button>
+    </nav>
+    <div class="row user-profile">
+
+        <div class="col-lg-11">
+
+
+        </div>
+        <div class="col-lg-11">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="rg-card-simple equal-height">
+                        <header>
+                            <h5>Supporting Documents</h5>
+                        </header>
+                        <section>
+                            <div class="user-account-information mb-4">
+                                
+                                <form method="post" enctype="multipart/form-data">
+                                        @*<div class="form-group row">
+                                            <label class="col-lg-4 col-form-label">Background Consent</label>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                                                    </div>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" asp-for="BackgroundConsentUpload" id="inputGroupFile01"
+                                                               aria-describedby="inputGroupFileAddon01" required>
+                                                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>*@
+
+                                        @*<div class="form-group row">
+                                            <label class="col-lg-4 col-form-label">Background Check</label>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                                                    </div>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" asp-for="BackgroundCheckUpload" id="inputGroupFile02"
+                                                               aria-describedby="inputGroupFileAddon02" required>
+                                                        <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>*@
+                                    <div class="form-group row">
+                                    <label class=" col-lg-4 col-form-label">School Name </label>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            @{
+                                                string schoolName = HttpContext.Session.GetString("SchoolName").ToString();
+                                            }
+                                            <input asp-for="@schoolName" class="form-control" placeholder="School Name" required readonly>
+
+                                        </div>
+                                    </div>
+                                    </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label">Driver’s License</label>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroupFileAddon03">Upload</span>
+                                                    </div>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" asp-for="DrivesLicenseUpload" id="inputGroupFile03"
+                                                               aria-describedby="inputGroupFileAddon03" required>
+                                                        <label class="custom-file-label" for="inputGroupFile03">Choose file</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label">Social Security Card</label>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="inputGroupFileAddon04">Upload</span>
+                                                    </div>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" asp-for="SocialSecurityCardUpload" id="inputGroupFile04"
+                                                               aria-describedby="inputGroupFileAddon04" required>
+                                                        <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <br />
+                                        <div class="offset-lg-4 col-lg-8">
+                                            <button class="btn btn-primary" type="submit">Submit</button>
+
+                                        </div>
+                                        <br />
+                                        @if (Model.UploadMessage != "" && Model.UploadMessage != null)
+                                        {
+                                            if (Model.UploadMessage.StartsWith("Error"))
+                                            {
+                                                <div class="alert rg-alert alert-error" role="alert">
+                                                    <span>@Model.UploadMessage</span>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="alert rg-alert alert-success" role="alert">
+                                                    <span>@Model.UploadMessage</span>
+                                                </div>
+                                            }
+                                        }
+</form>
+
+                            </div>
+
+
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#inputGroupFile01').on('change', function () {
+        //get the file name
+        var fileName = $(this).val();
+        //replace the "Choose a file" label
+        $(this).next('.custom-file-label').html(fileName);
+    })
+
+    $('#inputGroupFile02').on('change', function () {
+        //get the file name
+        var fileName2 = $(this).val();
+        //replace the "Choose a file" label
+        $(this).next('.custom-file-label').html(fileName2);
+    })
+
+    $('#inputGroupFile03').on('change', function () {
+        //get the file name
+        var fileName3 = $(this).val();
+        //replace the "Choose a file" label
+        $(this).next('.custom-file-label').html(fileName3);
+    })
+
+    $('#inputGroupFile04').on('change', function () {
+        //get the file name
+        var fileName4 = $(this).val();
+        //replace the "Choose a file" label
+        $(this).next('.custom-file-label').html(fileName4);
+    })
+</script>

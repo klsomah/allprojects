@@ -1,0 +1,1229 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CostaTherapeutics.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CostaTherapeutics.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\animations.min.css",
+      "PackagePath": "staticwebassets\\css\\animations.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\magnific-popup.min.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\progressbar.css",
+      "PackagePath": "staticwebassets\\css\\progressbar.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.js",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\flaticon\\flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\ionicons\\ionicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\ionicons\\ionicons.js",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\ionicons.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\ionicons\\ionicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\ionicons\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\ionicons\\ionicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\ionicons\\ionicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\ionicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\fonts\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\themify-icons\\themify-icons.js",
+      "PackagePath": "staticwebassets\\fonts\\themify-icons\\themify-icons.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\themify-icons\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify-icons\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\themify-icons\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify-icons\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\themify-icons\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify-icons\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\fonts\\themify-icons\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify-icons\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\14.png",
+      "PackagePath": "staticwebassets\\images\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\8.png",
+      "PackagePath": "staticwebassets\\images\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\About-us\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\About-us\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\About-us\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\About-us\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\About-us\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\AboutUs.png",
+      "PackagePath": "staticwebassets\\images\\About-us\\AboutUs.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\CostaTherapeuticsCompanyProfile.pdf",
+      "PackagePath": "staticwebassets\\images\\About-us\\CostaTherapeuticsCompanyProfile.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\About-us\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\About-us\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\Subscribe.png",
+      "PackagePath": "staticwebassets\\images\\Subscribe.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\Whoweare\\1.png",
+      "PackagePath": "staticwebassets\\images\\Whoweare\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\after.jpg",
+      "PackagePath": "staticwebassets\\images\\after.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\appoinment.png",
+      "PackagePath": "staticwebassets\\images\\appoinment.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\avatar-g56da8e70a_640.png",
+      "PackagePath": "staticwebassets\\images\\avatar-g56da8e70a_640.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\before.jpg",
+      "PackagePath": "staticwebassets\\images\\before.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\bg-1.png",
+      "PackagePath": "staticwebassets\\images\\bg-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\blog\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\single-blog-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\single-blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\single-blog-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\single-blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\blog\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\images\\breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\call-img.jpg",
+      "PackagePath": "staticwebassets\\images\\call-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\care\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\care\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\care\\2.png",
+      "PackagePath": "staticwebassets\\images\\care\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\1.png",
+      "PackagePath": "staticwebassets\\images\\client\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\2.png",
+      "PackagePath": "staticwebassets\\images\\client\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\3.png",
+      "PackagePath": "staticwebassets\\images\\client\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\4.png",
+      "PackagePath": "staticwebassets\\images\\client\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\5.png",
+      "PackagePath": "staticwebassets\\images\\client\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\client\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\w1.png",
+      "PackagePath": "staticwebassets\\images\\client\\w1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\w2.png",
+      "PackagePath": "staticwebassets\\images\\client\\w2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\w3.png",
+      "PackagePath": "staticwebassets\\images\\client\\w3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\w4.png",
+      "PackagePath": "staticwebassets\\images\\client\\w4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\client\\w5.png",
+      "PackagePath": "staticwebassets\\images\\client\\w5.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\clinic\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\clinic\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\costalogo.ico",
+      "PackagePath": "staticwebassets\\images\\costalogo.ico"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\costalogo.png",
+      "PackagePath": "staticwebassets\\images\\costalogo.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\faq.jpg",
+      "PackagePath": "staticwebassets\\images\\faq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\foni.png",
+      "PackagePath": "staticwebassets\\images\\foni.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\footer-image\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-image\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\footer-image\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-image\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\footer-image\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\footer-image\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\footer_logo.png",
+      "PackagePath": "staticwebassets\\images\\footer_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\from-img.jpg",
+      "PackagePath": "staticwebassets\\images\\from-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\from3.jpg",
+      "PackagePath": "staticwebassets\\images\\from3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\health\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\health\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\health\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\health\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\medical science\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\medical science\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\portfolio\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\single-portfolio.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\single-portfolio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\portfolio\\slider\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\slider\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\process\\1.png",
+      "PackagePath": "staticwebassets\\images\\process\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\process\\2.png",
+      "PackagePath": "staticwebassets\\images\\process\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\process\\3.png",
+      "PackagePath": "staticwebassets\\images\\process\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\process\\4.png",
+      "PackagePath": "staticwebassets\\images\\process\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\process\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\process\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\process\\bg.png",
+      "PackagePath": "staticwebassets\\images\\process\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\service-single.jpg",
+      "PackagePath": "staticwebassets\\images\\service-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\service\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\service\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\services\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\services\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\services\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\sign.png",
+      "PackagePath": "staticwebassets\\images\\sign.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\single-team.jpg",
+      "PackagePath": "staticwebassets\\images\\single-team.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\skill-img.png",
+      "PackagePath": "staticwebassets\\images\\skill-img.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\tab\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\tab\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\tab\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\tab\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\tab\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\tab\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\tab\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\team\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\team\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\team\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\1.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\2.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\3.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\4.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\5.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\testimonial\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\t1.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\t1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\t2.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\t2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\t3.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\t3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\testimonial\\t4.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\t4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\video-img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\video-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\video-img.jpg",
+      "PackagePath": "staticwebassets\\images\\video-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\images\\ww2.png",
+      "PackagePath": "staticwebassets\\images\\ww2.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\js\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\jquery.countTo.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countTo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\jquery.mCustomScrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\load-more.js",
+      "PackagePath": "staticwebassets\\js\\load-more.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\progressbar.js",
+      "PackagePath": "staticwebassets\\js\\progressbar.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\rev-custom.js",
+      "PackagePath": "staticwebassets\\js\\rev-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\.DS_Store",
+      "PackagePath": "staticwebassets\\rev\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-21.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-51-50x100-dark.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-51-50x100-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-51-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-51-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-51-dark.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-51-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-51.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-6-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-6-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-6.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-61-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-61-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-61.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-7-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-7-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1-7.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\1..jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\1..jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\11.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-51-50x100-dark.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-51-50x100-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-51-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-51-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-51-dark.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-51-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-51.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-6-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-6-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-6.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-61-1.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-61-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-61-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-61-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-61.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-7-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-7-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\2-7.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\2-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-2-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-2-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-2.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-4-50x100-dark.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-4-50x100-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-4-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-4-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-4-dark.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-4-dark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-4.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-5-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-5-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3-5.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\3-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\3.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\31-50x100.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\31-50x100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\31.jpg",
+      "PackagePath": "staticwebassets\\rev\\assets\\31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\4.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\Thumbs.db",
+      "PackagePath": "staticwebassets\\rev\\assets\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\petan-1.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\petan-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\png-1.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\png-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\png-2-1.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\png-2-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\png-3-1.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\png-3-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\transparent.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\assets\\unnamed-file.png",
+      "PackagePath": "staticwebassets\\rev\\assets\\unnamed-file.png"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\css\\rs6.css",
+      "PackagePath": "staticwebassets\\rev\\css\\rs6.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\rev\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\rev\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\pe-icon-7-stroke\\css\\helper.css",
+      "PackagePath": "staticwebassets\\rev\\fonts\\pe-icon-7-stroke\\css\\helper.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\rev\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\rev\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\revicons\\revicons.eot",
+      "PackagePath": "staticwebassets\\rev\\fonts\\revicons\\revicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\revicons\\revicons.svg",
+      "PackagePath": "staticwebassets\\rev\\fonts\\revicons\\revicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\revicons\\revicons.ttf",
+      "PackagePath": "staticwebassets\\rev\\fonts\\revicons\\revicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\fonts\\revicons\\revicons.woff",
+      "PackagePath": "staticwebassets\\rev\\fonts\\revicons\\revicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\js\\rbtools.min.js",
+      "PackagePath": "staticwebassets\\rev\\js\\rbtools.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\CostaTherapeutics.Web\\CostaTherapeutics.Web\\wwwroot\\rev\\js\\rs6.min.js",
+      "PackagePath": "staticwebassets\\rev\\js\\rs6.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CostaTherapeutics.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CostaTherapeutics.Web.props",
+      "PackagePath": "build\\CostaTherapeutics.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CostaTherapeutics.Web.props",
+      "PackagePath": "buildMultiTargeting\\CostaTherapeutics.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CostaTherapeutics.Web.props",
+      "PackagePath": "buildTransitive\\CostaTherapeutics.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

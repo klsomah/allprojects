@@ -1,0 +1,271 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Education Funding Co.</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <link href="../vendors/css/all.css" rel="stylesheet" />
+    <link href="../vendors/css/material.css" rel="stylesheet" />
+    <link href="../vendors/css/reset.css" rel="stylesheet" />
+
+    <link href="../vendors/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../vendors/css/perfect-scrollbar.css" rel="stylesheet" />
+    <link href="../vendors/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="../vendors/css/responsive.dataTables.min.css" rel="stylesheet" />
+    <link href="../vendors/js/fullcalendar/core/main.css" rel='stylesheet' />
+    <link href="../vendors/js/fullcalendar/daygrid/main.css" rel='stylesheet' />
+    <link href="../vendors/js/fullcalendar/timegrid/main.css" rel='stylesheet' />
+    <link href="../vendors/js/fullcalendar/list/main.css" rel='stylesheet' />
+    <link href="../vendors/css/jquery.slider.min.css" rel="stylesheet" />
+    <link href="../css/app.css" rel="stylesheet" />
+
+    <script src="~/vendors/js/jquery-3.4.1.min.js"></script>
+    <script src="~/vendors/js/popper.min.js"></script>
+    <script src="~/vendors/js/bootstrap.min.js"></script>
+    <script src="~/vendors/js/Chart.bundle.min.js"></script>
+
+    <script src="~/vendors/js/perfect-scrollbar.min.js"></script>
+    <script src="~/vendors/js/Chart.min.js"></script>
+    <script src="~/vendors/js/d3.min.js"></script>
+    <script src="~/vendors/js/topojson.min.js"></script>
+    <script src="~/vendors/js/datamaps.world.js"></script>
+
+    <script src="~/vendors/js/jquery.dataTables.min.js"></script>
+    <script src="~/vendors/js/dataTables.responsive.min.js"></script>
+
+    <!-- amChart -->
+    <script src="~/vendors/js/amChart/core.js"></script>
+    <script src="~/vendors/js/amChart/charts.js"></script>
+    <script src="~/vendors/js/amChart/animated.js"></script>
+
+    <script src="~/vendors/js/slider/jquery.slider.min.js"></script>
+
+    <!--Fullcalendar-->
+    <script src="~/vendors/js/fullcalendar/core/main.js"></script>
+    <script src="~/vendors/js/fullcalendar/interaction/main.js"></script>
+    <script src="~/vendors/js/fullcalendar/daygrid/main.js"></script>
+    <script src="~/vendors/js/fullcalendar/timegrid/main.js"></script>
+    <script src="~/vendors/js/fullcalendar/list/main.js"></script>
+
+    <!--rg scripts-->
+    <script src="~/js/chart-data.js"></script>
+    <script src="~/js/render-chart.js"></script>
+    <script src="~/js/fullscreen.js"></script>
+    <script src="~/js/rg-wizard.js"></script>
+    <script src="~/js/rg-accordion.js"></script>
+    <script src="~/js/rg-data-table.js"></script>
+    <script src="~/js/rg-tooltip.js"></script>
+    <script src="~/js/rg-layout.js"></script>
+    <script src="~/js/rg-page-loader.js"></script>
+    <script src="https://js.stripe.com/v2/"></script>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <main>
+        <aside>
+            <br />
+            <div class="brand-bar align-items-center">
+                <span class="logo my-0 my-sm-0"><img src="~/images/logo.png" alt="Regal"></span>
+                <div class="rg-toggle-button align-items-center"><span class="material-icons">menu</span></div>
+            </div>
+            <nav class="main-navigation py-sm-4">
+                @if (User.IsInRole("Administrator") || User.IsInRole("SchoolAdministrator"))
+                {
+                    <ul class="main-nav-collapsible">
+                        <li>
+                            <a asp-page="/Index">
+                                <i class="material-icons main-nav-icon">dashboard</i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                }
+            <ul class="main-nav-collapsible">
+                @if (User.IsInRole("Student"))
+                {
+            <li>
+                <a asp-page="/Contract/Details">
+                    <i class="material-icons main-nav-icon">dashboard</i><span>Home</span>
+                </a>
+            </li>
+
+                            <li>
+                                <a asp-page="/Contract/MakePaymentStripe">
+                                    <i class="material-icons main-nav-icon">local_offer</i><span>Payments</span>
+                                </a>
+                            </li>
+                                            <li>
+                                                <a asp-page="/Contract/Create">
+                                                    <i class="material-icons main-nav-icon">person</i><span>My Contact</span>
+                                                </a>
+                                            </li>
+                                                            <li>
+                                                                <a asp-page="/Contract/SignContract">
+                                                                    <i class="material-icons main-nav-icon">edit</i><span>Signed Contract</span>
+                                                                </a>
+                                                            </li>
+                                                                            <li>
+                                                                                <a asp-page="/Contract/UploadDoc">
+                                                                                    <i class="material-icons main-nav-icon">widgets</i><span>Supporting Documents</span>
+                                                                                </a>
+                                                                            </li>
+                                                                                            <li>
+                                                                                                <a asp-page="/Contract/EQuestionnaire">
+                                                                                                    <i class="material-icons main-nav-icon">extension</i><span>Employement Questionnaire</span>
+                                                                                                </a>
+                                                                                            </li>
+ 
+}
+                @if (User.IsInRole("Administrator"))
+                {
+            <li>
+                <a asp-page="/AcademyProgram/Index">
+                    <i class="material-icons main-nav-icon">insert_drive_file</i><span>Programs</span>
+                </a>
+            </li>
+                            <li>
+                                <a asp-page="/Contracts">
+                                    <i class="material-icons main-nav-icon">supervisor_account</i><span>Contracts</span>
+                                </a>
+                            </li>
+
+
+                                            <li>
+                                                <a asp-page="/Applications">
+                                                    <i class="material-icons main-nav-icon">extension</i><span>Unapproved Applications</span>
+                                                </a>
+                                            </li>
+                                                            <li>
+                                                                <a asp-page="/UnsignedApplication">
+                                                                    <i class="material-icons main-nav-icon">extension</i><span>Pending Applications</span>
+                                                                </a>
+                                                            </li>
+                                                                            <li>
+                                                                                <a asp-page="/Configurations/Index">
+                                                                                    <i class="material-icons main-nav-icon">edit</i><span>Configurations</span>
+                                                                                </a>
+                                                                            </li>
+                        <li>
+                            <a asp-page="/School/Index">
+                                <i class="material-icons main-nav-icon">dashboard</i><span>School Onboarding Approval</span>
+                            </a>
+                        </li>
+
+
+
+                                                                            @*<li>
+                                                                        <a href="@Url.Action("Index", "Kanban")">
+                                                                            <i class="material-icons main-nav-icon">widgets</i><span>Reports</span>
+                                                                        </a>
+                                                                </li>*@}
+
+
+                    @if (User.IsInRole("SchoolAdministrator"))
+                    {
+                        <li>
+                            <a asp-page="/AcademyProgram/Index">
+                                <i class="material-icons main-nav-icon">insert_drive_file</i><span>Programs</span>
+                            </a>
+                        </li>
+
+                   
+                        <li>
+                            <a asp-page="/Applications">
+                                <i class="material-icons main-nav-icon">extension</i><span>Unapproved Applications</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a asp-page="/UnsignedApplication">
+                                <i class="material-icons main-nav-icon">extension</i><span>Pending Applications</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-page="/Contracts">
+                                <i class="material-icons main-nav-icon">supervisor_account</i><span>Contracts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-page="/Configurations/Index">
+                                <i class="material-icons main-nav-icon">edit</i><span>Configurations</span>
+                            </a>
+                        </li>
+                    }
+            </ul>
+
+
+
+
+            </nav>
+        </aside>
+        <section>
+            <header class="align-items-center">
+                <nav class="notification-bar d-none d-sm-inline-block">
+                    <div class="notification-item-list my-sm-0">
+                        <div class="notification-item dropdown">
+                            <span class="material-icons dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">search</span>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-sarch" aria-labelledby="dropdownMenuButton">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                        <span class="material-icons">search</span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="notification-item">
+                            <span class="material-icons dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">settings</span>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <header>
+                                    <h5>User Settings</h5>
+                                </header>
+                                <section>
+                                    <a class="dropdown-item" asp-page="/Contract/Details">
+                                        <i class="material-icons info">account_circle</i>
+                                        <span>Profile</span>
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-page="/Contract/MakePaymentStripe">
+                                        <i class="material-icons success">receipt</i>
+                                        <span>Payment</span>
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout"> <i class="material-icons error">power_settings_new</i> <span>Log Out</span></a>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="notification-item"><span class="material-icons full-screen" onclick="fullscreen()">crop_free</span></div>
+                    </div>
+                </nav>
+                <div class="user-info">
+                    <span class="greetings">Hello</span>
+                    <span class="user-name"> @UserManager.GetUserName(User)</span>
+                    <img src="~/images/users/user-09-large.jpg" class="media-image rounded-corner small ml-2" alt="User">
+                </div>
+                <div class="notification-toggle d-inline-block d-sm-none mr-4">
+                    <span class="material-icons">more_vert</span>
+                </div>
+            </header>
+            <section>
+                @RenderBody()
+            </section>
+        </section>
+    </main>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
