@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7pl/ulQMh+GloScdzMr1VEu5keeW2tqYrvfkKU5EVDraPAlE7d5/3fULA6vKfpW5Kps5QOLmn/4LWnh77/pgog==",
+  "dgSpecHash": "dk+pFP6jFYsI1ZpVXoCxyuFoD0sZvTzgNIpgL2QvIDpT3IJ2MGZnyACocjkUp/chCbzg2xxpFQDu1SX1ODO+9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj",
+  "projectFilePath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ksomah\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ksomah\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

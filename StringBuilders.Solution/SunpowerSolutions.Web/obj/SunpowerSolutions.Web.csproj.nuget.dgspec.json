@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj": {}
+    "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj": {
+    "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj",
         "projectName": "SunpowerSolutions.Web",
-        "projectPath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj",
+        "projectPath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\SunpowerSolutions.Web\\SunpowerSolutions.Web.csproj",
         "packagesPath": "C:\\Users\\ksomah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\SunpowerSolutions.Web\\obj\\",
+        "outputPath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\SunpowerSolutions.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

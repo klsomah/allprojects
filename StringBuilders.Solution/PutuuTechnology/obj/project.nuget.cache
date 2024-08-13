@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pTacRpbJpNaTFBOIJAouRURlFPep5Vv9LhydvMBRytEQe4ScRJXavE5bu2btfXFM55qU7mIUEnH8RQQNwiLO7Q==",
+  "dgSpecHash": "UvIVfKurI0sfZ5GFu5FTaUmiKwb2ItPoEGL6k+SdImIoFqwgS4vGmx3TE4BzHV6j4sWjrgtXSjFulr6r4tSXHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\PutuuTechnology\\StringBuilder.Web.csproj",
+  "projectFilePath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\PutuuTechnology\\StringBuilder.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ksomah\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ksomah\\.nuget\\packages\\sendgrid\\9.29.2\\sendgrid.9.29.2.nupkg.sha512",

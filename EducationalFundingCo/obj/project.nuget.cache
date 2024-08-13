@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bN5AVcikJVvMLGkKOV5rA0EDXvmdcY0Vkwups6SRzoD+zchO89+hwn25h5qODsPcdBATQB9dML2aGjhMBVXaRg==",
+  "dgSpecHash": "g01wb4LxOQoOa/Sff1Nlq5CUGZrm8rZN/njniJ5fnYbkaBEi+Apwsj3x68qDWcjGd3qopc2lidCaIXtsxp1Yvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\EducationalFundingCo.csproj",
+  "projectFilePath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\EducationalFundingCo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ksomah\\.nuget\\packages\\acklann.plaid\\0.0.15-rc\\acklann.plaid.0.0.15-rc.nupkg.sha512",
     "C:\\Users\\ksomah\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",

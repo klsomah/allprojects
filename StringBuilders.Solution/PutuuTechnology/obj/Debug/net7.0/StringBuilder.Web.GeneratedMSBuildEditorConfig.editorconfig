@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StringBuilder.Web
 build_property.RootNamespace = StringBuilder.Web
-build_property.ProjectDir = C:\Users\ksomah\Documents\Projects\Personal\StringBuilders.Solution\PutuuTechnology\
+build_property.ProjectDir = C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ksomah\Documents\Projects\Personal\StringBuilders.Solution\PutuuTechnology
+build_property.MSBuildProjectDirectory = C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/AboutUs.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Contact.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Error.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Index.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Privacy.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Services.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Services.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Technology.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Technology.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9neS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/_ViewImports.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/_ViewStart.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_Layout - Copy.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_Layout - Copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQgLSBDb3B5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-ngfplx1cu2
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_Layout.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-julnqbf4po
 
-[C:/Users/ksomah/Documents/Projects/Personal/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_Layout2.cshtml]
+[C:/Users/ksomah/Documents/Projects/allprojects/StringBuilders.Solution/PutuuTechnology/Pages/Shared/_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-alo7cpq223

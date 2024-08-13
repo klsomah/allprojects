@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EducationalFundingCo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddc0e480e2241a7d7fc560358a619cdce61e57d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("EducationalFundingCo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EducationalFundingCo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

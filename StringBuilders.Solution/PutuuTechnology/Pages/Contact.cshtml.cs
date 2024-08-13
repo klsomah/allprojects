@@ -43,7 +43,7 @@ namespace PutuuTechnology.Pages
 
             if (message1 && message2)
             {
-                ViewData["Message"] = string.Format($"Your message has been send. We will contact you within 24 hours. Innovating Today for a Better Tomorrow. Putuu Technology LLC.");
+                ViewData["Message"] = string.Format($"Your message has been send. We will contact you within 24 hours. Innovating Today for a Better Tomorrow. StringBuilders LLC.");
             }
             else
             {

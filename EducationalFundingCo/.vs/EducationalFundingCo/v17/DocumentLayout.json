@@ -1,41 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\",
+  "WorkspaceRootPath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\pages\\contract\\makepaymentstripe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\contract\\makepaymentstripe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\pages\\academyprogram\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\pages\\contract\\makepaymentstripe.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\contract\\makepaymentstripe.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\pages\\academyprogram\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\academyprogram\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\pages\\academyprogram\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\pages\\academyprogram\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\academyprogram\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\downloads\\educationalfundingco\\educationalfundingco\\pages\\contract\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|c:\\users\\ksomah\\documents\\projects\\allprojects\\educationalfundingco\\pages\\contract\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9AB6F95-EE4F-47FD-BDC3-D43D2670A239}|EducationalFundingCo.csproj|solutionrelative:pages\\contract\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -67,10 +75,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MakePaymentStripe.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\Contract\\MakePaymentStripe.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Contract\\MakePaymentStripe.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\Contract\\MakePaymentStripe.cshtml",
+              "RelativeToolTip": "Pages\\Contract\\MakePaymentStripe.cshtml",
+              "ViewState": "AQIAAA8AAADA/////z8lwCkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T01:53:32.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MakePaymentStripe.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\Contract\\MakePaymentStripe.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Contract\\MakePaymentStripe.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\Contract\\MakePaymentStripe.cshtml.cs",
+              "RelativeToolTip": "Pages\\Contract\\MakePaymentStripe.cshtml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA3wC8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T01:53:08.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAcwEcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,107 +113,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AQIAAJ0AAAAAAAAAAAAcwOoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T11:41:07.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterConfirmation.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T11:39:51.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfirmEmail.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T11:29:40.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T11:41:07.53Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:39:51.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:29:40.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\appsettings.json",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAQAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-24T18:38:42.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Startup.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAABKAAAA",
+              "ViewState": "AQIAABUAAABYMjMzM3MywCYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T18:37:59.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\AcademyProgram\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml.cs",
               "RelativeToolTip": "Pages\\AcademyProgram\\Create.cshtml.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:08:24.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T09:08:24.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\AcademyProgram\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\AcademyProgram\\Create.cshtml",
               "RelativeToolTip": "Pages\\AcademyProgram\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T09:08:21.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T09:08:21.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\Contract\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\Contract\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Contract\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\ksomah\\Downloads\\EducationalFundingCo\\EducationalFundingCo\\Pages\\Contract\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\EducationalFundingCo\\Pages\\Contract\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Contract\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:02:16.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T09:02:16.428Z"
             }
           ]
         }

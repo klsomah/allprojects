@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj": {}
+    "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj": {
+    "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj",
+        "projectUniqueName": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj",
         "projectName": "BorderQuarantineManagement",
-        "projectPath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj",
+        "projectPath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\BorderQuarantineManagement\\BorderQuarantineManagement.csproj",
         "packagesPath": "C:\\Users\\ksomah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ksomah\\Documents\\Projects\\Personal\\StringBuilders.Solution\\BorderQuarantineManagement\\obj\\",
+        "outputPath": "C:\\Users\\ksomah\\Documents\\Projects\\allprojects\\StringBuilders.Solution\\BorderQuarantineManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

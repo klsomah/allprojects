@@ -1,0 +1,10 @@
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\StringBuilder.Web.exe
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\StringBuilder.Web.dll
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\StringBuilder.Web.deps.json
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\StringBuilder.Web.runtimeconfig.json
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\StringBuilder.Web.pdb
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\SendGrid.dll
+C:\Users\ksomah\Documents\Projects\allprojects\StringBuilders.Solution\PutuuTechnology\obj\Release\net7.0\PubTmp\Out\StarkbankEcdsa.dll
